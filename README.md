@@ -8,10 +8,10 @@ Motion-Based-Game-Control is aimed at enhancing the video gaming experience by e
 ## Alpha Release
 
 ## Major Features
-**Gesture Recognition**: Utilizes existing human pose and hand gesture recognition techniques to interpret player movements accurately.
-**Real-Time Processing**: Ensures rapid processing of camera data to minimize delay, maintaining an immersive gaming experience.
-**Input Translation**: Maps recognized gestures to predefined keyboard inputs, enabling intuitive game control without physical devices.
-**Game Integration**: Designed to be compatible with a wide range of games, allowing for a broad application of the technology.
+**Gesture Recognition**: Utilizes existing human pose and hand gesture recognition techniques to interpret player movements accurately. \n
+**Real-Time Processing**: Ensures rapid processing of camera data to minimize delay, maintaining an immersive gaming experience.\n
+**Input Translation**: Maps recognized gestures to predefined keyboard inputs, enabling intuitive game control without physical devices.\n
+**Game Integration**: Designed to be compatible with a wide range of games, allowing for a broad application of the technology.\n
 
 
 ## Stretch Goals
@@ -23,10 +23,10 @@ Motion-Based-Game-Control is aimed at enhancing the video gaming experience by e
 
 
 ## Technology Stack
-OpenCV: For video processing and motion recognition.
-MediaPipe: Utilized for robust body and gesture recognition models.
-PyInput: Converts gesture data into simulated keyboard inputs.
-PyGame/PyQt: For testing integration with games and possibly for developing a user interface.
+**OpenCV**: For video processing and motion recognition.\n
+**MediaPipe**: Utilized for robust body and gesture recognition models.\n
+**PyInput**: Converts gesture data into simulated keyboard inputs.\n
+**PyGame/PyQt**: For testing integration with games and possibly for developing a user interface.\n
 
 
 
