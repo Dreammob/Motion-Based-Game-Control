@@ -8,10 +8,10 @@ Motion-Based-Game-Control is aimed at enhancing the video gaming experience by e
 ## Alpha Release
 
 ## Major Features
-**Gesture Recognition**: Utilizes existing human pose and hand gesture recognition techniques to interpret player movements accurately. \n
-**Real-Time Processing**: Ensures rapid processing of camera data to minimize delay, maintaining an immersive gaming experience.\n
-**Input Translation**: Maps recognized gestures to predefined keyboard inputs, enabling intuitive game control without physical devices.\n
-**Game Integration**: Designed to be compatible with a wide range of games, allowing for a broad application of the technology.\n
+**Gesture Recognition**: Utilizes existing human pose and hand gesture recognition techniques to interpret player movements accurately.  
+**Real-Time Processing**: Ensures rapid processing of camera data to minimize delay, maintaining an immersive gaming experience.  
+**Input Translation**: Maps recognized gestures to predefined keyboard inputs, enabling intuitive game control without physical devices.  
+**Game Integration**: Designed to be compatible with a wide range of games, allowing for a broad application of the technology.  
 
 
 ## Stretch Goals
