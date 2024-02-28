@@ -23,10 +23,10 @@ Motion-Based-Game-Control is aimed at enhancing the video gaming experience by e
 
 
 ## Technology Stack
-**OpenCV**: For video processing and motion recognition.\n
-**MediaPipe**: Utilized for robust body and gesture recognition models.\n
-**PyInput**: Converts gesture data into simulated keyboard inputs.\n
-**PyGame/PyQt**: For testing integration with games and possibly for developing a user interface.\n
+**OpenCV**: For video processing and motion recognition.  
+**MediaPipe**: Utilized for robust body and gesture recognition models.  
+**PyInput**: Converts gesture data into simulated keyboard inputs.  
+**PyGame/PyQt**: For testing integration with games and possibly for developing a user interface.  
 
 
 
