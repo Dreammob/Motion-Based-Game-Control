@@ -1,6 +1,7 @@
 import cv2
 import mediapipe as mp
 import numpy as np
+from util import *
 
 # Initialize MediaPipe Pose
 mp_drawing = mp.solutions.drawing_utils
@@ -10,7 +11,19 @@ pose = mp_pose.Pose()
 # predefined pose classifier
 #pose_classifier = PoseClassifier()
 
+
 cap = cv2.VideoCapture(0)
+
+
+#attack variables
+counter = 0 
+stage = None
+
+#jumping variables
+left_hip_y = None
+right_hip_y = None
+threshold = 100
+
 ## Setup mediapipe instance
 with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
     while cap.isOpened():
@@ -30,9 +43,63 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
         # Extract landmarks
         try:
             landmarks = results.pose_landmarks.landmark
-            print(landmarks)
+            
+            # Get coordinates
+
+            shoulder = [landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER.value].x,landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER.value].y]
+            elbow = [landmarks[mp_pose.PoseLandmark.LEFT_ELBOW.value].x,landmarks[mp_pose.PoseLandmark.LEFT_ELBOW.value].y]
+            wrist = [landmarks[mp_pose.PoseLandmark.LEFT_WRIST.value].x,landmarks[mp_pose.PoseLandmark.LEFT_WRIST.value].y]
+            
+            # Calculate angle
+            angle = calculate_angle(shoulder, elbow, wrist)
+            
+            # Visualize angle
+            cv2.putText(image, str(angle), 
+                            # replace 1280, 720 with camera feed resolution, finds location of elbow in actual feed
+                           tuple(np.multiply(elbow, [1440, 980]).astype(int)), 
+                           # fonts
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2, cv2.LINE_AA
+                                )
+            
+            # action counter logic
+            if angle > 160:
+                stage = "prepare"
+            if angle < 30 and stage =='prepare':
+                stage="attack"
+                counter +=1
+                print(counter)
+
+            current_left_y = landmarks[mp_pose.PoseLandmark.LEFT_HIP.value].y
+            current_right_y = landmarks[mp_pose.PoseLandmark.RIGHT_HIP.value].y
+            if left_hip_y is not None and right_hip_y is not None:
+                if (current_right_y - left_hip_y) >= threshold and (current_right_y - right_hip_y) >= threshold:            
+                    cv2.putText(image, "jumping", 
+                            # replace 1280, 720 with camera feed resolution,
+                                (100,100), 
+                           # fonts
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2, cv2.LINE_AA
+                                )
+            left_hip_y = current_left_y
+            right_hip_y = current_right_y
+
+
         except:
             pass
+
+        # Setup status box
+        cv2.rectangle(image, (0,0), (225,73), (245,117,16), -1)
+        
+        # data
+        cv2.putText(image, 'Count', (15,12), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,0,0), 1, cv2.LINE_AA)
+        cv2.putText(image, str(counter), 
+                    (10,60), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255), 2, cv2.LINE_AA)
+        cv2.putText(image, 'status', (65,12), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,0,0), 1, cv2.LINE_AA)
+        cv2.putText(image, stage, 
+                    (60,60), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255), 2, cv2.LINE_AA)
         
         
         # Render detections
@@ -45,8 +112,4 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
 
     cap.release()
     cv2.destroyAllWindows()
-for lndmrk in mp_pose.PoseLandmark:
-    print(lndmrk)
-landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER.value].visibility
-landmarks[mp_pose.PoseLandmark.LEFT_ELBOW.value]
-landmarks[mp_pose.PoseLandmark.LEFT_WRIST.value]
+
