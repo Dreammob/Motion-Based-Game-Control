@@ -32,4 +32,6 @@ Motion-Based-Game-Control is aimed at enhancing the video gaming experience by e
 
 ## Installation (Build/Run For Users)
 
-
+```
+pip instal mediapipe opencv-python
+```
