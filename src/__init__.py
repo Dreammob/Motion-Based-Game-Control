@@ -24,6 +24,10 @@ left_hip_y = None
 right_hip_y = None
 threshold = 100
 
+def write_action_to_file(action):
+    with open("command_flag.txt", "w") as file:
+        file.write(action)
+
 ## Setup mediapipe instance
 with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
     while cap.isOpened():
@@ -69,6 +73,15 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                 counter +=1
                 print(counter)
 
+            # Instead of printing or just setting stage, write the action directly to the file
+            if stage == "attack":
+                write_action_to_file('01')
+            elif stage == "prepare":
+                write_action_to_file('00')  # Assuming you want to track this stage as well
+            elif stage == "jumping":
+                write_action_to_file('jump')
+            # Add more elif blocks for other stages/actions as necessary
+                
             current_left_y = landmarks[mp_pose.PoseLandmark.LEFT_HIP.value].y
             current_right_y = landmarks[mp_pose.PoseLandmark.RIGHT_HIP.value].y
             if left_hip_y is not None and right_hip_y is not None:
