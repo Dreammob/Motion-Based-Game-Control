@@ -6,6 +6,7 @@ import time
 import warnings    
 warnings.simplefilter('ignore', np.RankWarning)
 from util import *
+from actions import Dodge, Jump
 
 # Initialize MediaPipe Pose
 mp_drawing = mp.solutions.drawing_utils
@@ -20,22 +21,13 @@ cap = cv2.VideoCapture(0)
 
 #attack variables
 attack_counter = 0 
-stage = None
 
 #running variables
 run_stage = "No Move"
 direction = None
 
-# jumping variables/constants
-JUMP_L_R_HIP_PIXEL_DIFF_THRESH = 10
-JUMP_QUAD_REGRESS_A_THRESH = 0
-JUMP_NUM_FRAMES_TO_PROCESS = 60
-
+# jumping variables
 jump_counter = 0
-
-# A naive method to detect jumping using quadratic regression. Maybe make length of queue dependent on time rather than frames?
-jump_hip_times = collections.deque(JUMP_NUM_FRAMES_TO_PROCESS*[0], JUMP_NUM_FRAMES_TO_PROCESS)
-jump_hip_y_values = collections.deque(JUMP_NUM_FRAMES_TO_PROCESS*[(0, 0)], JUMP_NUM_FRAMES_TO_PROCESS)  
 
 ## Setup mediapipe instance
 with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
@@ -62,9 +54,11 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             landmarks = results.pose_landmarks.landmark
             
             # Get coordinates
-            shoulder = [landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER.value].x,landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER.value].y]
-            elbow = [landmarks[mp_pose.PoseLandmark.LEFT_ELBOW.value].x,landmarks[mp_pose.PoseLandmark.LEFT_ELBOW.value].y]
-            wrist = [landmarks[mp_pose.PoseLandmark.LEFT_WRIST.value].x,landmarks[mp_pose.PoseLandmark.LEFT_WRIST.value].y]
+            left_shoulder = [landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER.value].x,landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER.value].y]
+            left_elbow = [landmarks[mp_pose.PoseLandmark.LEFT_ELBOW.value].x,landmarks[mp_pose.PoseLandmark.LEFT_ELBOW.value].y]
+            left_wrist = [landmarks[mp_pose.PoseLandmark.LEFT_WRIST.value].x,landmarks[mp_pose.PoseLandmark.LEFT_WRIST.value].y]
+            right_wrist = [landmarks[mp_pose.PoseLandmark.RIGHT_WRIST.value].x, landmarks[mp_pose.PoseLandmark.RIGHT_WRIST.value].y]
+            right_elbow = [landmarks[mp_pose.PoseLandmark.RIGHT_ELBOW.value].x, landmarks[mp_pose.PoseLandmark.RIGHT_ELBOW.value].y]
             left_hip = [landmarks[mp_pose.PoseLandmark.LEFT_HIP.value].x, landmarks[mp_pose.PoseLandmark.LEFT_HIP.value].y]
             right_hip = [landmarks[mp_pose.PoseLandmark.RIGHT_HIP.value].x, landmarks[mp_pose.PoseLandmark.RIGHT_HIP.value].y]
             left_knee = [landmarks[mp_pose.PoseLandmark.LEFT_KNEE.value].x, landmarks[mp_pose.PoseLandmark.LEFT_KNEE.value].y]
@@ -72,11 +66,15 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             left_ankle = [landmarks[mp_pose.PoseLandmark.LEFT_ANKLE.value].x, landmarks[mp_pose.PoseLandmark.LEFT_ANKLE.value].y]
             right_ankle = [landmarks[mp_pose.PoseLandmark.RIGHT_ANKLE.value].x, landmarks[mp_pose.PoseLandmark.RIGHT_ANKLE.value].y]
 
+            # Initialize action state objects
+            jump_tracker = Jump()
+            dodge_tracker = Dodge()
+
             # Final stages sent to integrator
             actions = []
 
             # Calculate angle for attack
-            angle = calculate_angle(shoulder, elbow, wrist)
+            angle = calculate_angle(left_shoulder, left_elbow, left_wrist)
             
             # Visualize angle for arm
             """cv2.putText(image, str(angle), 
@@ -88,11 +86,15 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                                 """
             
             # action counter logic
-            if angle > 160:
+            if left_wrist[0] < right_wrist[0] and left_wrist[1] < left_elbow[1] and right_wrist[1] < right_elbow[1]:
+                attack_stage = "block"
+            elif l_r_dodge := dodge_tracker.update(new_left_shoulder_x_val=left_shoulder[0], new_timestamp=time.time()):
+                attack_stage = l_r_dodge
+            elif angle > 160:
                 attack_stage = "attack"
-            if angle < 30 and attack_stage =='attack':
+            elif angle < 30 and attack_stage =='attack':
                 attack_stage = "prepare"
-                attack_counter +=1
+                attack_counter += 1
 
             actions.append(attack_stage)
             
@@ -103,13 +105,13 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             # leg counter logic 
             cv2.putText(image, "left" + str(left_leg_angle), 
                             # replace 1280, 720 with camera feed resolution, finds location of elbow in actual feed
-                           tuple(np.multiply(elbow, [1440, 980]).astype(int)), 
+                           tuple(np.multiply(left_elbow, [1440, 980]).astype(int)), 
                            # fonts
                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2, cv2.LINE_AA
                                 )
             cv2.putText(image, "right" + str(right_leg_angle), 
                             # replace 1280, 720 with camera feed resolution, finds location of elbow in actual feed
-                           tuple(np.multiply(elbow, [1280, 720]).astype(int)), 
+                           tuple(np.multiply(left_elbow, [1280, 720]).astype(int)), 
                            # fonts
                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2, cv2.LINE_AA
                                 )
@@ -119,29 +121,11 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                 movement_stage = "walk"
             else:
                 # jump logic
-                jump_hip_times.append(time.time())    
-                jump_hip_y_values.append((left_hip[1], right_hip[1]))
+               if jump := jump_tracker.update(new_left_hip_y=left_hip[1], new_right_hip_y=right_hip[1], new_timestamp=time.time()):
+                   movement_stage = jump
 
-                calc_quad_regress = True
-                for ys in jump_hip_y_values:
-                    if abs(ys[0] - ys[1]) >= JUMP_L_R_HIP_PIXEL_DIFF_THRESH:
-                        calc_quad_regress = False
-                        break
-                
-                if calc_quad_regress:
-                    quad_regress = np.poly1d(np.polyfit(jump_hip_times, [(x[0] + x[1]) / 2 for x in jump_hip_y_values], 2))
-
-                if quad_regress.coeffs[0] <= JUMP_QUAD_REGRESS_A_THRESH:
-                    print("quad a when jump detected: ", quad_regress.coeffs[0])
-                    movement_stage = "jump"
-                    for i in range(len(jump_hip_y_values)):
-                        jump_hip_y_values[i] = (0, 0)
-
-                    jump_counter += 1
-                else:
-                    print("quad a when jump not detected: ", quad_regress.coeffs[0])
-                    movement_stage = "stop"
-
+            actions.append(attack_stage)
+            actions.append(movement_stage)
         except:
             pass
 
