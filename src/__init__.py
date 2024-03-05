@@ -96,8 +96,6 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             elif angle < 30 and attack_stage =='attack':
                 attack_stage = "prepare"
                 attack_counter += 1
-
-            actions.append(attack_stage)
             
             # leg angles
             left_leg_angle = calculate_angle(left_hip, left_knee, left_ankle)
