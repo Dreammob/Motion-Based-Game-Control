@@ -19,14 +19,13 @@ mp_pose = mp.solutions.pose
 cap = cv2.VideoCapture(0)
 
 
-#attack variables
+# attack variables
 attack_counter = 0 
+dodge_counter = 0
+block_counter = 0
 
-#running variables
-run_stage = "No Move"
+# movement variables
 direction = None
-
-# jumping variables
 jump_counter = 0
 
 ## Setup mediapipe instance
@@ -88,8 +87,10 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             # action counter logic
             if left_wrist[0] < right_wrist[0] and left_wrist[1] < left_elbow[1] and right_wrist[1] < right_elbow[1]:
                 attack_stage = "block"
+                block_counter += 1
             elif l_r_dodge := dodge_tracker.update(new_left_shoulder_x_val=left_shoulder[0], new_timestamp=time.time()):
                 attack_stage = l_r_dodge
+                dodge_counter += 1
             elif angle > 160:
                 attack_stage = "attack"
             elif angle < 30 and attack_stage =='attack':
@@ -121,8 +122,11 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                 movement_stage = "walk"
             else:
                 # jump logic
-               if jump := jump_tracker.update(new_left_hip_y=left_hip[1], new_right_hip_y=right_hip[1], new_timestamp=time.time()):
+                if jump := jump_tracker.update(new_left_hip_y=left_hip[1], new_right_hip_y=right_hip[1], new_timestamp=time.time()):
                    movement_stage = jump
+
+                if jump == 'jump':
+                    jump_counter += 1
 
             actions.append(attack_stage)
             actions.append(movement_stage)
@@ -130,7 +134,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             pass
 
         # Setup status box
-        cv2.rectangle(image, (0,0), (400,140), (245,117,16), -1)
+        cv2.rectangle(image, (0,0), (400,200), (245,117,16), -1)
         
         # data
         """ cv2.putText(image, 'Count', (15,12), 
@@ -143,11 +147,14 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
         cv2.putText(image, 'jump counter: ' + str(jump_counter), (5,60), 
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-        cv2.putText(image, 'attack status: ' + attack_stage, (5,90), 
+        cv2.putText(image, 'dodge counter: ' + str(dodge_counter), (5,90), 
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-        cv2.putText(image, 'attack counter: ' + str(attack_counter), (5,120), 
+        cv2.putText(image, 'attack status: ' + attack_stage, (5,120), 
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-        
+        cv2.putText(image, 'attack counter: ' + str(attack_counter), (5,150), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+        cv2.putText(image, 'block counter: ' + str(jump_counter), (5,180), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
         
         # Render detections
         mp_drawing.draw_landmarks(image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)               
