@@ -6,6 +6,8 @@ import time
 import warnings    
 warnings.simplefilter('ignore', np.RankWarning)
 from util import *
+
+from datetime import datetime
 from actions import Dodge, Jump
 
 # Initialize MediaPipe Pose
@@ -27,6 +29,12 @@ block_counter = 0
 # movement variables
 direction = None
 jump_counter = 0
+
+def write_action_to_file(action):
+    with open("command_flag.txt", "a") as file:  # 'a' mode for appending
+        now = datetime.now()
+        current_time = now.strftime("%Y-%m-%d %H:%M:%S")  # Format the datetime
+        file.write(f"{current_time} - {action}\n")  # Add datetime, action, and a newline
 
 ## Setup mediapipe instance
 with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
@@ -84,7 +92,14 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                                 )
                                 """
             
-            # action counter logic
+
+            current_left_y = landmarks[mp_pose.PoseLandmark.LEFT_HIP.value].y
+            current_right_y = landmarks[mp_pose.PoseLandmark.RIGHT_HIP.value].y
+            if left_hip_y is not None and right_hip_y is not None:
+                if (current_right_y - left_hip_y) >= threshold and (current_right_y - right_hip_y) >= threshold:            
+                    cv2.putText(image, "jumping", 
+                            # replace 1280, 720 with camera feed resolution,
+                                (100,100), 
             if left_wrist[0] < right_wrist[0] and left_wrist[1] < left_elbow[1] and right_wrist[1] < right_elbow[1]:
                 attack_stage = "block"
                 block_counter += 1
@@ -125,9 +140,22 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
 
                 if jump == 'jump':
                     jump_counter += 1
+                                
+                        
 
             actions.append(attack_stage)
             actions.append(movement_stage)
+                                
+           
+            # Instead of printing or just setting stage, write the action directly to the file
+            if stage == "attack":
+                write_action_to_file('01')
+            elif stage == "prepare":
+                write_action_to_file('00')  # Assuming you want to track this stage as well
+            elif stage == "jumping":
+                write_action_to_file('jump')
+            # Add more elif blocks for other stages/actions as necessary
+                
         except:
             pass
 
