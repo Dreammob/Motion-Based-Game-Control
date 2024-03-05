@@ -17,4 +17,3 @@ def calculate_angle(a,b,c):
         angle = 360.0 - angle 
     return angle
 
-
