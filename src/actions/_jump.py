@@ -2,7 +2,7 @@
 import collections
 import numpy as np
 from typing import Optional
-from statistics import mean
+from command_strings_config import CommandStringsConfig
 
 JUMP_L_R_HIP_PIXEL_DIFF_THRESH = 10
 JUMP_QUAD_REGRESS_A_THRESH = 2.0e-11
@@ -28,16 +28,16 @@ class Jump:
                 calc_quad_regress = False
                 break
         
-        stage = None
+        state = None
         if calc_quad_regress:
             hip_avgs = [(x[0] + x[1]) / 2 for x in self._jump_hip_y_values]
             quad_regress = np.poly1d(np.polyfit(self._timestamps, hip_avgs, 2))
 
         if quad_regress.coeffs[0] >= JUMP_QUAD_REGRESS_A_THRESH:
-            stage = "jump"
+            state = CommandStringsConfig.jump
 
-        # print(quad_regress.coeffs[0], stage)
+        # print(quad_regress.coeffs[0], state)
         
-        return stage
+        return state
 
  
