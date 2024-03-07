@@ -1,23 +1,12 @@
-from pynput.keyboard import Controller, Key
-import time
+from pynput.mouse import Button, Controller
 
-# Initialize the keyboard controller
-keyboard = Controller()
+mouse = Controller()
 
-# Function to press a key
-def press_key(key):
-    keyboard.press(key)
-    # Do not call release; the key remains pressed
+# Move the mouse
+mouse.position = (100, 100)
 
-# Function to release a key
-def release_key(key):
-    keyboard.release(key)
+# Click the mouse
+mouse.click(Button.left, 1)
 
-# Example usage:
-# To keep the 'a' key pressed
-press_key('a')
-# Remember, 'a' will remain pressed until you call release_key('a')
-
-while True:
-        # time.sleep(1)  # Wait for 1 second before checking the file again
-        print()
+# Scroll
+mouse.scroll(0, 2)  # Scroll vertically
