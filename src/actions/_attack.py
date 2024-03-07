@@ -6,11 +6,13 @@ class Attack:
     def __init__(self, attack_threshold: int):
         self.attack_threshold = attack_threshold
 
-    def update(self, angle, left_elbow, left_wrist, right_elbow, right_wrist) -> Optional[str]:
-
-        if angle > self.attack_threshold:
-            return CommandStringsConfig.attack_norm
-        elif left_wrist[0] < right_wrist[0] and left_wrist[1] < left_elbow[1] and right_wrist[1] < right_elbow[1]:
-            return CommandStringsConfig.attack_skill
+    def update_left(self, left_angle) -> Optional[str]:
+        if left_angle > self.attack_threshold:
+            return CommandStringsConfig.left_attack_norm
+        else:
+            return CommandStringsConfig.prepare
+    def update_right(self, right_angle) -> Optional[str]:
+        if right_angle > self.attack_threshold:
+            return CommandStringsConfig.right_attack_norm
         else:
             return CommandStringsConfig.prepare

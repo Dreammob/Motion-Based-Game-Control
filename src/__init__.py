@@ -111,11 +111,12 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                                 
             # identify and add to actions
             move_state = debug_move_state = move_tracker.update(left_leg_angle, right_leg_angle)
-            attack_state = debug_attack_state = nAttack_tracker.update(attack_angle, left_elbow, left_wrist, right_elbow, right_wrist)
+            left_attack_state = debug_attack_state = nAttack_tracker.update_left(left_attack_angle)
+            right_attack_state = nAttack_tracker.update_right(right_attack_angle)
             turn_state = debug_turn_state = turn_tracker.update(turn_angle)
             actions.append(turn_state)
-            actions.append(left_attack_state + " left")
-            actions.append(right_attack_state + " right")
+            actions.append(left_attack_state)
+            actions.append(right_attack_state)
             actions.append(move_state)
 
             # dodge logic
