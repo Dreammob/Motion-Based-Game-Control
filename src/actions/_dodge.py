@@ -2,34 +2,38 @@
 import collections
 import numpy as np
 from typing import Optional
+from statistics import mean
+from enum import Enum
+from util import FRAME_WIDTH
 
-DODGE_LIN_REGRESS_A_THRESH = 1e-4  # arbitrary: needs testing
-DODGE_NUM_FRAMES_TO_PROCESS = 60
+DODGE_NUM_FRAMES_TO_PROCESS = 30
 
-# A naive method to detect jumping using quadratic regression. Maybe make length of queue dependent on time rather than frames?
+DODGE_LEFT_LIN_REGRESS_A_THRESH = 0.12
+DODGE_RIGHT_LIN_REGRESS_A_THRESH = -0.12
 
+DODGE_LEFT_PIXEL_THRESH = 0.80
+DODGE_RIGHT_PIXEL_THRESH = 0.40
 
 class Dodge:
     def __init__(self):
         self._timestamps = collections.deque(DODGE_NUM_FRAMES_TO_PROCESS*[0], DODGE_NUM_FRAMES_TO_PROCESS)
-        self._left_shoulder_x_values = collections.deque(DODGE_NUM_FRAMES_TO_PROCESS*[0], DODGE_NUM_FRAMES_TO_PROCESS)  
+        self._left_shoulder_x_values = collections.deque(DODGE_NUM_FRAMES_TO_PROCESS*[0], DODGE_NUM_FRAMES_TO_PROCESS) 
+        self._last_dodge_time = None
     
     def update(self, new_left_shoulder_x_val: int, new_timestamp: int) -> Optional[str]:
+        # moving right gives lower pixel value
+        # moving left gives higher pixel value
         self._left_shoulder_x_values.append(new_left_shoulder_x_val)
         self._timestamps.append(new_timestamp)
 
         lin_regress = np.poly1d(np.polyfit(self._timestamps, self._left_shoulder_x_values, 1))
 
-        def zero_array(arr):
-            for i in range(len(arr)):
-                arr[i] = 0
-
-        if lin_regress.coeffs[0] >= DODGE_LIN_REGRESS_A_THRESH:
-            zero_array(self._left_shoulder_x_values)
-            return "dodge_left"
-        elif lin_regress.coeffs[0] <= -DODGE_LIN_REGRESS_A_THRESH:
-            zero_array(self._left_shoulder_x_values)
-            return "dodge_right"
-        else:
-            return None
+        stage = None
+        a = lin_regress.coeffs[0]
+        if a > DODGE_LEFT_LIN_REGRESS_A_THRESH and DODGE_LEFT_PIXEL_THRESH <= new_left_shoulder_x_val <= 1.0:
+            stage = "dodge_left"
+        elif a < DODGE_RIGHT_LIN_REGRESS_A_THRESH and 0.0 <= new_left_shoulder_x_val <= DODGE_RIGHT_PIXEL_THRESH:
+            stage = "dodge_right"
+        
+        return stage
 

@@ -22,7 +22,6 @@ move_tracker = Move(walk_threshold = 165, run_threshold = 145)
 turn_tracker = Turn(left_turn_threshold = 125, right_turn_threshold=95)
 
 
-
 cap = cv2.VideoCapture(0)
 
 
