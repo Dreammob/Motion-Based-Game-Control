@@ -61,16 +61,6 @@ game_controller = vg.VX360Gamepad()
 #     process_commands(commands)
 #     time.sleep(0.04)  # Adjust the sleep time as necessary
 
-flag_to_key = {
-    'left turn': 'a',
-    'attack': 'w',
-    'prepare': 's',
-    'jump': 'space',
-    'dodge': 'shift',
-    'idle': None
-
-}
-
 file_path = "command_flag.txt"
 line_index = 0  # Define line_index globally outside any function
 attack_prep = False
@@ -115,9 +105,12 @@ def read_flags_from_file(file_path):
             time_difference = next_time - curr_time
             # print(time_difference.total_seconds())
 
+            line_index += 1  # Move to the next line for the next call
+
             
-        print(line_index ) # For debugging
-        print(len((lines)))
+        # print(f"reading index {line_index}") # For debugging
+        # print(f"last line index {len((lines))}")
+
     return last_flags_set, current_flags_set  # Return both last and current flags as strings
 
 def handling_action_to_keyboard(last_flags_set, current_flags_set):
@@ -146,46 +139,61 @@ def press_key(action_flag):
     """
     global attack_prep
     match action_flag:
-        # case 'left turn':
+        case 'left turn':
         #     keyboard.press('a')
         #     keypressed.add('a')
         #     print("press a")
+            game_controller.right_joystick_float(x_value_float=-0.5, y_value_float=0.0)
+            game_controller.update()
+
+        case 'right turn':
+            game_controller.right_joystick_float(x_value_float=0.5, y_value_float=0.0)
+            game_controller.update()
 
         case 'attack':
             # keyboard.press('w')
             # keypressed.add('w')
             # print("press w")
+            # mouse.click(Button.left, 1)
+            # print("clicked")
             if attack_prep:
-                # mouse.click(Button.left, 1)
-                # print("clicked")
                 game_controller.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_RIGHT_SHOULDER)
                 game_controller.update()
 
         case 'prepare':
+            attack_prep = True
             # keyboard.press('s')
             # keypressed.add('s')
             # print("press s")
-            attack_prep = True
 
-        # case 'jump':
+        case 'jump':
         #     keyboard.press(Key.space)
         #     keypressed.add(Key.space)
         #     print("press space")
-        # case 'dodge':
-        #     press_key_with_delay(Key.shift, 0.3)        
-        # case 'run':
-        #     keyboard.press(Key.shift)
-        #     keypressed.add(Key.shift)
-        #     print("press shift")
+            game_controller.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
+            game_controller.update()
+
+        case 'dodge':
+            game_controller.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_B)
+            game_controller.update()
+        #     press_key_with_delay(Key.shift, 0.3)     
+         
+        case 'run':
+            game_controller.left_joystick_float(x_value_float=0.0, y_value_float=1.0)
+            game_controller.update()
+            # keyboard.press(Key.shift)
+            # keypressed.add(Key.shift)
+            # print("press shift")
 
 
 def release_key(action_flag):
     match action_flag:
-        # case 'left turn':
+        case 'left turn':
         #     keyboard.release('a')
         #     if 'a' in keypressed:
         #         keypressed.remove('a')
         #     print("release a")
+            game_controller.right_joystick_float(x_value_float=0.0, y_value_float=0.0)
 
         case 'attack':
             # keyboard.release('w')
@@ -195,19 +203,26 @@ def release_key(action_flag):
             game_controller.release_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_RIGHT_SHOULDER)
             game_controller.update()
 
-        # case 'prepare':
+        case 'prepare':
+            attack_prep = False
         #     keyboard.release('s')
         #     if 's' in keypressed:
         #         keypressed.remove('s')
         #     print("release s")
 
-        # case 'jump':
+        case 'jump':
+            game_controller.release_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
+            game_controller.update()
+
         #     keyboard.release(Key.space)
         #     if Key.space in keypressed:
         #         keypressed.remove(Key.space)
         #     print("release space")
-
-        # case 'run':
+        case 'dodge':
+            game_controller.release_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_B)
+            game_controller.update()
+        case 'run':
+            game_controller.left_joystick_float(x_value_float=0.0, y_value_float=0.0)
         #     keyboard.release(Key.shift)
         #     if Key.shift in keypressed:
         #         keypressed.remove(Key.shift)
@@ -236,7 +251,7 @@ def move_mouse_right_by_100_pixels():
     mouse.position = (new_x, current_y)
 
 # Now call the function to move the mouse
-move_mouse_right_by_100_pixels()
+# move_mouse_right_by_100_pixels()
 
 # Main loop
 time.sleep(3)
@@ -253,7 +268,6 @@ while line_index >= 0:
     # print("\n")
     # print(current_flags_set)
 
-    line_index += 1  # Move to the next line for the next call
 
 
 print("Sync stop, cleaning up")
