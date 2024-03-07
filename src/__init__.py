@@ -39,9 +39,12 @@ jump_counter = 0
 def write_action_to_file(actions):
     with open("command_flag.txt", "a") as file:  # 'a' mode for appending
         now = datetime.now()
-        current_time = now.strftime("%Y-%m-%d %H:%M:%S")  # Format the datetime
-        for action in actions:
-            file.write(f"{current_time} - {action}\n")  # Add datetime, action, and a newline
+        # Include milliseconds in the time format (%f is microseconds, so we slice to get milliseconds)
+        current_time = now.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]  # Truncate microseconds to milliseconds
+        formatted_actions = ' - '.join(actions)  # Join actions with ' - ' as separator
+        # Write both the datetime and formatted actions
+        file.write(f"{current_time} || {formatted_actions}\n")
+
 
 ## Setup mediapipe instance
 with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
@@ -156,7 +159,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                     """
 
                                 
-           
+            write_action_to_file(actions)
             """  just pass action to integrator in the end   
             Instead of printing or just setting stage, write the action directly to the file
             if attack_stage == "attack":
