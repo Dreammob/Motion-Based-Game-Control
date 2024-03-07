@@ -1,5 +1,6 @@
 opencv-python
 mediapipe
-pyinput
+pynput
 pygame
 PyQt5
+vgamepad 
