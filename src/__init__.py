@@ -17,18 +17,10 @@ mp_pose = mp.solutions.pose
 
 # Initialize action state objects
 jump_tracker = Jump()
-<<<<<<< HEAD
-dodge_tracker = Dodge()
-nAttack_tracker_right = NAttack(attack_threshold = 160) # angle which when greater counts as attack
-nAttack_tracker_left = NAttack(attack_threshold = 160)
-move_tracker = Move(walk_threshold = 175, run_threshold = 160)
-turn_tracker = Turn(left_turn_threshold = 125, right_turn_threshold=95)
-=======
 dodge_tracker = Dodge(left_pixel_thresh=0.8, right_pixel_thresh=0.4)  # these are defaults in the file 
 nAttack_tracker = Attack(attack_threshold=160) # angle which when greater counts as attack
 move_tracker = Move(walk_threshold=165, run_threshold=145)
 turn_tracker = Turn(left_turn_threshold=125, right_turn_threshold=95)
->>>>>>> 103886cf01abb18205b730422740febae102239e
 
 
 cap = cv2.VideoCapture(0)
@@ -110,19 +102,6 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             # right_turn_angle = calculate_angle(left_ear, nose, right_shoulder)
 
             # Visualize angle if needed
-<<<<<<< HEAD
-            cv2.putText(image, str(left_leg_angle), 
-                            # replace 1280, 720 with camera feed resolution, finds location of elbow in actual feed
-                           (100,500), 
-                           # fonts
-                           cv2.FONT_HERSHEY_SIMPLEX, 5, (255, 255, 255), 2, cv2.LINE_AA
-                                )
-            # identify and add to actions
-            move_state = move_tracker.update(left_leg_angle, right_leg_angle)
-            left_attack_state = nAttack_tracker_left.update(left_attack_angle)
-            right_attack_state = nAttack_tracker_right.update(right_attack_angle)
-            turn_state = turn_tracker.update(turn_angle)
-=======
             # cv2.putText(image, str(left_leg_angle), 
             #                 # replace 1280, 720 with camera feed resolution, finds location of elbow in actual feed
             #                (100,500), 
@@ -134,7 +113,6 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             move_state = debug_move_state = move_tracker.update(left_leg_angle, right_leg_angle)
             attack_state = debug_attack_state = nAttack_tracker.update(attack_angle, left_elbow, left_wrist, right_elbow, right_wrist)
             turn_state = debug_turn_state = turn_tracker.update(turn_angle)
->>>>>>> 103886cf01abb18205b730422740febae102239e
             actions.append(turn_state)
             actions.append(left_attack_state + " left")
             actions.append(right_attack_state + " right")
@@ -159,11 +137,6 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             cv2.rectangle(image, (0,0), (400,200), (245,117,16), -1)
             
             # data
-<<<<<<< HEAD
-            cv2.putText(image, 'movement status: ' + move_state, (5,30), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-            cv2.putText(image, 'attack status: ' + left_attack_state, (5,60), 
-=======
             """ cv2.putText(image, 'Count', (15,12), 
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,0,0), 1, cv2.LINE_AA)
             cv2.putText(image, str(counter), 
@@ -173,28 +146,16 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             cv2.putText(image, 'movement status: ' + debug_move_state, (5,30), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
             cv2.putText(image, 'attack status: ' + debug_attack_state, (5,60), 
->>>>>>> 103886cf01abb18205b730422740febae102239e
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
             cv2.putText(image, 'turn status: ' + debug_turn_state, (5,90), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-<<<<<<< HEAD
-
-            cv2.putText(image, 'jump counter: ' + str(jump_counter), (5,120), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-            cv2.putText(image, 'dodge counter: ' + str(dodge_counter), (5,160), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-            cv2.putText(image, 'block counter: ' + str(jump_counter), (5,180), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-=======
             cv2.putText(image, 'jump counter: ' + str(debug_jump_counter), (5,120), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
             cv2.putText(image, 'dodge counter: ' + str(debug_dodge_counter), (5, 150), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
->>>>>>> 103886cf01abb18205b730422740febae102239e
 
                                 
             write_action_to_file(actions)
-
                 
         except:
             pass
