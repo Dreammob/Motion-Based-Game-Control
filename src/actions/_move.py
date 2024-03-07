@@ -1,4 +1,4 @@
-"""Keeps track of when a user has performed a normal attack."""
+"""Keeps track of when a user has performed moving or running."""
 import time
 from typing import Optional
 

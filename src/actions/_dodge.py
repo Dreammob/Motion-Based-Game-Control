@@ -4,7 +4,7 @@ import numpy as np
 from typing import Optional
 from statistics import mean
 from enum import Enum
-from util import FRAME_WIDTH
+# from util import FRAME_WIDTH
 
 DODGE_NUM_FRAMES_TO_PROCESS = 30
 

@@ -706,3 +706,2476 @@
 2024-03-07 11:36:28.195 || left turn - prepare - idle - dodge
 2024-03-07 11:36:28.303 || left turn - prepare - idle - dodge
 2024-03-07 11:36:28.413 || left turn - prepare - idle - dodge
+2024-03-07 12:19:39.493 || left turn - prepare - idle
+2024-03-07 12:19:39.575 || left turn - prepare - idle - jump
+2024-03-07 12:19:39.643 || left turn - prepare - idle - jump
+2024-03-07 12:19:39.703 || left turn - prepare - idle - jump
+2024-03-07 12:19:39.772 || left turn - prepare - idle
+2024-03-07 12:19:39.840 || left turn - attack - idle
+2024-03-07 12:19:39.913 || left turn - attack - idle
+2024-03-07 12:19:39.979 || left turn - prepare - idle
+2024-03-07 12:19:40.039 || left turn - prepare - idle
+2024-03-07 12:19:40.105 || left turn - prepare - idle
+2024-03-07 12:19:40.172 || left turn - prepare - idle
+2024-03-07 12:19:40.237 || left turn - prepare - idle
+2024-03-07 12:19:40.306 || left turn - prepare - idle
+2024-03-07 12:19:40.372 || left turn - prepare - idle
+2024-03-07 12:19:40.443 || left turn - prepare - idle
+2024-03-07 12:19:40.512 || left turn - prepare - idle
+2024-03-07 12:19:40.575 || left turn - prepare - idle
+2024-03-07 12:19:40.639 || left turn - prepare - idle
+2024-03-07 12:19:40.704 || No turn - prepare - idle
+2024-03-07 12:19:40.771 || No turn - prepare - idle
+2024-03-07 12:19:40.841 || No turn - prepare - idle
+2024-03-07 12:19:40.906 || No turn - prepare - idle
+2024-03-07 12:19:40.967 || No turn - prepare - idle
+2024-03-07 12:19:41.032 || No turn - prepare - idle
+2024-03-07 12:19:41.096 || left turn - prepare - idle
+2024-03-07 12:19:41.164 || left turn - prepare - idle - jump
+2024-03-07 12:19:41.230 || left turn - prepare - idle - jump
+2024-03-07 12:19:41.297 || left turn - prepare - idle - jump
+2024-03-07 12:19:41.366 || left turn - prepare - idle - jump
+2024-03-07 12:19:41.433 || left turn - prepare - idle
+2024-03-07 12:19:41.502 || No turn - prepare - idle
+2024-03-07 12:19:41.570 || No turn - prepare - idle
+2024-03-07 12:19:41.634 || No turn - prepare - idle - jump
+2024-03-07 12:19:41.699 || No turn - prepare - idle - jump
+2024-03-07 12:19:41.765 || No turn - prepare - idle - jump
+2024-03-07 12:19:41.833 || No turn - prepare - idle - jump
+2024-03-07 12:19:41.903 || No turn - prepare - idle - jump
+2024-03-07 12:19:41.967 || No turn - prepare - idle - jump
+2024-03-07 12:19:42.034 || No turn - prepare - idle - jump
+2024-03-07 12:19:42.102 || No turn - prepare - idle - jump
+2024-03-07 12:19:42.170 || left turn - prepare - idle - jump
+2024-03-07 12:19:42.238 || left turn - prepare - idle - jump
+2024-03-07 12:19:42.304 || left turn - prepare - idle
+2024-03-07 12:19:42.373 || left turn - prepare - idle
+2024-03-07 12:19:42.436 || left turn - prepare - idle
+2024-03-07 12:19:42.502 || left turn - prepare - idle
+2024-03-07 12:19:42.568 || left turn - prepare - idle
+2024-03-07 12:19:42.631 || left turn - prepare - idle
+2024-03-07 12:19:42.695 || left turn - prepare - idle
+2024-03-07 12:19:42.766 || No turn - prepare - idle
+2024-03-07 12:19:42.827 || left turn - prepare - idle
+2024-03-07 12:19:42.892 || left turn - prepare - idle
+2024-03-07 12:19:42.959 || left turn - prepare - idle
+2024-03-07 12:44:26.760 || No turn - attack - run
+2024-03-07 12:44:26.840 || No turn - attack - run - jump
+2024-03-07 12:44:26.906 || No turn - attack - run - jump
+2024-03-07 12:44:26.972 || No turn - attack - run - jump
+2024-03-07 12:44:27.043 || No turn - attack - run - jump
+2024-03-07 12:44:27.109 || No turn - attack - run - jump
+2024-03-07 12:44:27.170 || No turn - attack - run - jump
+2024-03-07 12:44:27.238 || No turn - attack - run - jump
+2024-03-07 12:44:27.305 || No turn - prepare - run - jump
+2024-03-07 12:44:27.374 || No turn - attack - run - jump
+2024-03-07 12:44:27.443 || No turn - attack - run - jump
+2024-03-07 12:44:27.508 || No turn - attack - run - jump
+2024-03-07 12:44:27.577 || No turn - attack - run - jump
+2024-03-07 12:44:27.642 || No turn - attack - run - jump
+2024-03-07 12:44:27.713 || No turn - attack - run - jump
+2024-03-07 12:44:27.780 || No turn - attack - idle - jump
+2024-03-07 12:44:27.845 || No turn - attack - idle - jump
+2024-03-07 12:44:27.907 || No turn - attack - idle - jump
+2024-03-07 12:44:27.976 || No turn - attack - idle - jump
+2024-03-07 12:44:28.041 || No turn - attack - idle - jump
+2024-03-07 12:44:28.106 || No turn - attack - idle - jump
+2024-03-07 12:44:28.172 || No turn - attack - idle - jump
+2024-03-07 12:44:28.238 || No turn - attack - idle - jump
+2024-03-07 12:44:28.304 || No turn - attack - idle - jump
+2024-03-07 12:44:28.372 || No turn - attack - idle - jump
+2024-03-07 12:44:28.438 || No turn - attack - idle - jump
+2024-03-07 12:44:28.507 || No turn - attack - idle - jump
+2024-03-07 12:44:28.569 || No turn - attack - idle - jump
+2024-03-07 12:44:28.635 || No turn - attack - idle - jump
+2024-03-07 12:44:28.700 || No turn - attack - idle - jump
+2024-03-07 12:44:28.769 || No turn - attack - idle - jump
+2024-03-07 12:44:28.838 || No turn - attack - walk - jump
+2024-03-07 12:44:28.896 || No turn - attack - walk - jump
+2024-03-07 12:44:28.965 || No turn - prepare - walk
+2024-03-07 12:44:29.033 || No turn - prepare - walk
+2024-03-07 12:44:29.099 || No turn - prepare - walk
+2024-03-07 12:44:29.167 || No turn - prepare - walk
+2024-03-07 12:44:29.234 || No turn - prepare - walk
+2024-03-07 12:44:29.294 || No turn - prepare - walk
+2024-03-07 12:44:29.361 || No turn - attack - walk
+2024-03-07 12:44:29.429 || No turn - attack - walk
+2024-03-07 12:44:29.494 || No turn - attack - walk
+2024-03-07 12:44:29.561 || No turn - attack - walk
+2024-03-07 12:44:29.630 || No turn - attack - walk
+2024-03-07 12:44:29.698 || No turn - attack - walk
+2024-03-07 12:44:29.767 || No turn - attack - walk
+2024-03-07 12:44:29.831 || No turn - attack - walk
+2024-03-07 12:44:29.899 || No turn - attack - idle
+2024-03-07 12:44:29.968 || No turn - attack - idle
+2024-03-07 12:44:30.033 || No turn - attack - idle
+2024-03-07 12:44:30.098 || No turn - attack - idle
+2024-03-07 12:44:30.167 || No turn - attack - idle
+2024-03-07 12:44:30.236 || No turn - attack - idle
+2024-03-07 12:44:30.298 || left turn - attack - idle
+2024-03-07 12:44:30.372 || left turn - attack - run
+2024-03-07 12:44:30.435 || left turn - prepare - run
+2024-03-07 12:44:30.499 || No turn - attack - run
+2024-03-07 12:44:30.563 || No turn - attack - run
+2024-03-07 12:44:30.709 || No turn - prepare - run
+2024-03-07 12:44:30.765 || No turn - prepare - run
+2024-03-07 12:44:30.833 || No turn - prepare - run
+2024-03-07 12:44:30.896 || No turn - prepare - run
+2024-03-07 12:44:30.963 || No turn - prepare - run
+2024-03-07 12:44:31.026 || left turn - prepare - run
+2024-03-07 12:44:31.095 || left turn - prepare - run
+2024-03-07 12:44:31.162 || left turn - prepare - run
+2024-03-07 12:44:31.227 || left turn - prepare - run
+2024-03-07 12:44:31.296 || left turn - prepare - run
+2024-03-07 12:44:31.361 || left turn - prepare - run
+2024-03-07 12:44:31.425 || left turn - prepare - run
+2024-03-07 12:44:31.487 || left turn - prepare - run
+2024-03-07 12:44:31.556 || left turn - prepare - run
+2024-03-07 12:44:31.623 || left turn - prepare - run
+2024-03-07 12:44:31.688 || left turn - prepare - run
+2024-03-07 12:44:31.755 || left turn - prepare - run
+2024-03-07 12:44:31.816 || left turn - prepare - run
+2024-03-07 12:44:31.882 || No turn - prepare - run
+2024-03-07 12:44:31.945 || No turn - prepare - run
+2024-03-07 12:44:32.014 || No turn - prepare - run
+2024-03-07 12:44:32.082 || No turn - prepare - run
+2024-03-07 12:44:32.148 || No turn - prepare - run
+2024-03-07 12:44:32.214 || No turn - prepare - run
+2024-03-07 12:44:32.283 || No turn - prepare - run
+2024-03-07 12:44:32.347 || No turn - prepare - run
+2024-03-07 12:44:32.494 || left turn - prepare - walk
+2024-03-07 12:44:32.547 || left turn - prepare - walk
+2024-03-07 12:44:32.616 || left turn - prepare - walk
+2024-03-07 12:44:32.760 || No turn - attack - walk
+2024-03-07 12:44:32.816 || No turn - attack - walk
+2024-03-07 12:44:32.885 || No turn - attack - walk
+2024-03-07 12:44:32.953 || No turn - attack - walk
+2024-03-07 12:44:33.019 || No turn - attack - walk
+2024-03-07 12:44:33.086 || No turn - attack - walk
+2024-03-07 12:44:33.151 || No turn - attack - walk
+2024-03-07 12:44:33.222 || No turn - attack - walk
+2024-03-07 12:44:33.290 || No turn - attack - walk
+2024-03-07 12:44:33.355 || No turn - attack - walk
+2024-03-07 12:44:33.422 || No turn - attack - walk - jump
+2024-03-07 12:44:33.489 || No turn - attack - walk - jump
+2024-03-07 12:44:33.553 || No turn - attack - idle - jump
+2024-03-07 12:44:33.624 || No turn - attack - idle - jump
+2024-03-07 12:44:33.690 || No turn - attack - idle - jump
+2024-03-07 12:44:33.755 || No turn - attack - idle - jump
+2024-03-07 12:44:33.822 || No turn - attack - idle - jump
+2024-03-07 12:44:33.892 || No turn - attack - idle - jump
+2024-03-07 12:44:33.958 || No turn - attack - idle - jump
+2024-03-07 12:44:34.024 || No turn - attack - idle - jump
+2024-03-07 12:44:34.097 || No turn - attack - idle - jump
+2024-03-07 12:44:34.161 || No turn - attack - idle - jump
+2024-03-07 12:44:34.226 || No turn - attack - idle - jump
+2024-03-07 12:44:34.294 || No turn - attack - idle - jump
+2024-03-07 12:44:34.362 || No turn - attack - idle - jump
+2024-03-07 12:44:34.428 || No turn - attack - idle - jump
+2024-03-07 12:44:34.499 || No turn - attack - idle - jump
+2024-03-07 12:44:34.564 || No turn - attack - idle - jump
+2024-03-07 12:44:34.630 || No turn - attack - idle - jump
+2024-03-07 12:44:34.696 || No turn - attack - idle - jump
+2024-03-07 12:44:34.764 || No turn - attack - idle - jump
+2024-03-07 12:44:34.832 || No turn - attack - idle - jump
+2024-03-07 12:44:34.900 || No turn - attack - idle
+2024-03-07 12:44:34.965 || No turn - attack - idle
+2024-03-07 12:44:35.033 || No turn - attack - idle
+2024-03-07 12:44:35.106 || No turn - attack - idle
+2024-03-07 12:44:35.170 || No turn - attack - idle
+2024-03-07 12:44:35.236 || No turn - attack - idle
+2024-03-07 12:44:35.302 || No turn - attack - idle
+2024-03-07 12:44:35.366 || No turn - attack - idle
+2024-03-07 12:44:35.437 || No turn - attack - idle
+2024-03-07 12:44:35.502 || No turn - attack - idle
+2024-03-07 12:44:35.571 || No turn - attack - idle
+2024-03-07 12:44:35.638 || No turn - attack - idle
+2024-03-07 12:44:35.707 || No turn - attack - idle
+2024-03-07 12:44:35.771 || No turn - attack - idle
+2024-03-07 12:44:35.838 || No turn - attack - idle
+2024-03-07 12:44:35.905 || No turn - attack - idle
+2024-03-07 12:44:35.974 || No turn - attack - idle
+2024-03-07 12:44:36.040 || No turn - attack - idle
+2024-03-07 12:44:36.106 || No turn - attack - idle
+2024-03-07 12:44:36.176 || No turn - attack - idle
+2024-03-07 12:44:36.242 || right turn - attack - idle
+2024-03-07 12:44:36.311 || No turn - attack - idle
+2024-03-07 12:44:36.376 || No turn - attack - run
+2024-03-07 12:44:36.443 || No turn - attack - run
+2024-03-07 12:44:36.516 || right turn - attack - run
+2024-03-07 12:44:36.581 || right turn - attack - run
+2024-03-07 12:44:36.647 || right turn - attack - run
+2024-03-07 12:44:36.713 || right turn - attack - run
+2024-03-07 12:44:36.780 || right turn - attack - run
+2024-03-07 12:44:36.847 || right turn - attack - run
+2024-03-07 12:44:36.915 || right turn - attack - run
+2024-03-07 12:44:36.981 || right turn - attack - run - dodge
+2024-03-07 12:44:37.044 || right turn - attack - run - dodge
+2024-03-07 12:44:37.113 || right turn - attack - run - dodge
+2024-03-07 12:44:37.180 || right turn - attack - run - dodge
+2024-03-07 12:44:37.249 || right turn - attack - run - dodge
+2024-03-07 12:44:37.320 || right turn - attack - run - dodge
+2024-03-07 12:44:37.385 || right turn - attack - walk
+2024-03-07 12:44:37.450 || No turn - attack - walk
+2024-03-07 12:44:37.521 || No turn - attack - walk
+2024-03-07 12:44:37.587 || No turn - attack - walk
+2024-03-07 12:44:37.652 || No turn - attack - walk
+2024-03-07 12:44:37.721 || No turn - attack - walk
+2024-03-07 12:44:37.786 || No turn - attack - walk
+2024-03-07 12:44:37.854 || No turn - attack - walk
+2024-03-07 12:44:37.922 || No turn - attack - walk
+2024-03-07 12:44:37.986 || No turn - attack - walk
+2024-03-07 12:44:38.053 || No turn - attack - walk
+2024-03-07 12:44:38.122 || No turn - attack - walk
+2024-03-07 12:44:38.188 || No turn - attack - walk
+2024-03-07 12:44:38.256 || No turn - attack - walk
+2024-03-07 12:44:38.327 || No turn - attack - walk
+2024-03-07 12:44:38.393 || No turn - attack - idle
+2024-03-07 12:44:38.455 || No turn - attack - idle
+2024-03-07 12:44:38.525 || No turn - attack - walk
+2024-03-07 12:44:38.591 || No turn - attack - walk
+2024-03-07 12:44:38.659 || No turn - attack - walk
+2024-03-07 12:44:38.725 || right turn - attack - walk
+2024-03-07 12:44:38.791 || right turn - attack - walk
+2024-03-07 12:44:38.865 || right turn - attack - walk
+2024-03-07 12:44:38.930 || right turn - attack - walk
+2024-03-07 12:44:38.997 || right turn - attack - walk
+2024-03-07 12:44:39.062 || right turn - attack - walk
+2024-03-07 12:44:39.128 || right turn - attack - walk
+2024-03-07 12:44:39.192 || right turn - attack - walk
+2024-03-07 12:44:39.262 || right turn - attack - walk
+2024-03-07 12:44:39.331 || right turn - attack - walk
+2024-03-07 12:44:39.397 || right turn - attack - walk
+2024-03-07 12:44:39.462 || right turn - attack - walk
+2024-03-07 12:44:39.536 || No turn - attack - walk
+2024-03-07 12:44:39.601 || No turn - attack - idle
+2024-03-07 12:44:39.666 || No turn - attack - idle
+2024-03-07 12:44:39.733 || No turn - attack - idle
+2024-03-07 12:44:39.800 || right turn - attack - idle
+2024-03-07 12:44:39.865 || No turn - attack - idle
+2024-03-07 12:44:39.937 || No turn - attack - idle
+2024-03-07 12:44:40.001 || No turn - attack - idle
+2024-03-07 12:44:40.066 || No turn - attack - idle
+2024-03-07 12:44:40.137 || No turn - attack - walk
+2024-03-07 12:44:40.200 || No turn - attack - walk
+2024-03-07 12:44:40.270 || No turn - attack - walk
+2024-03-07 12:44:40.337 || No turn - prepare - walk
+2024-03-07 12:44:40.407 || No turn - prepare - walk
+2024-03-07 12:44:40.473 || No turn - prepare - walk
+2024-03-07 12:44:40.540 || No turn - prepare - walk
+2024-03-07 12:44:40.606 || No turn - prepare - walk
+2024-03-07 12:44:40.671 || No turn - prepare - walk
+2024-03-07 12:44:40.742 || No turn - prepare - walk
+2024-03-07 12:44:40.808 || No turn - attack - walk
+2024-03-07 12:44:40.877 || No turn - attack - walk
+2024-03-07 12:44:40.944 || No turn - attack - walk
+2024-03-07 12:44:41.010 || left turn - prepare - walk
+2024-03-07 12:44:41.075 || No turn - prepare - walk
+2024-03-07 12:44:41.144 || No turn - prepare - idle
+2024-03-07 12:44:41.210 || No turn - prepare - idle
+2024-03-07 12:44:41.276 || left turn - prepare - idle
+2024-03-07 12:44:41.345 || No turn - prepare - walk
+2024-03-07 12:44:41.409 || left turn - attack - walk
+2024-03-07 12:44:41.478 || No turn - attack - walk
+2024-03-07 12:44:41.546 || No turn - attack - walk
+2024-03-07 12:44:41.610 || No turn - attack - walk
+2024-03-07 12:44:41.677 || No turn - attack - walk
+2024-03-07 12:44:41.745 || No turn - attack - walk
+2024-03-07 12:44:41.815 || No turn - attack - walk
+2024-03-07 12:44:41.881 || left turn - attack - walk
+2024-03-07 12:44:41.947 || left turn - attack - walk
+2024-03-07 12:44:42.016 || left turn - attack - walk
+2024-03-07 12:44:42.081 || left turn - attack - walk
+2024-03-07 12:44:42.148 || left turn - attack - walk
+2024-03-07 12:44:42.215 || left turn - attack - walk
+2024-03-07 12:44:42.285 || left turn - attack - walk
+2024-03-07 12:44:42.350 || left turn - attack - walk
+2024-03-07 12:44:42.421 || left turn - attack - walk
+2024-03-07 12:44:42.487 || left turn - attack - walk
+2024-03-07 12:44:42.553 || No turn - attack - walk
+2024-03-07 12:44:42.620 || No turn - attack - walk
+2024-03-07 12:44:42.686 || No turn - attack - run
+2024-03-07 12:44:42.756 || No turn - prepare - run
+2024-03-07 12:44:42.822 || No turn - prepare - run
+2024-03-07 12:44:42.892 || right turn - prepare - run
+2024-03-07 12:44:42.961 || No turn - prepare - run
+2024-03-07 12:44:43.026 || No turn - attack - run
+2024-03-07 12:44:43.093 || No turn - attack - run
+2024-03-07 12:44:43.158 || No turn - attack - run
+2024-03-07 12:44:43.223 || No turn - attack - run
+2024-03-07 12:44:43.289 || No turn - attack - run
+2024-03-07 12:44:43.359 || No turn - attack - run
+2024-03-07 12:44:43.425 || No turn - attack - run
+2024-03-07 12:44:43.495 || No turn - attack - run
+2024-03-07 12:44:43.563 || No turn - attack - run
+2024-03-07 12:44:43.627 || No turn - attack - run
+2024-03-07 12:44:44.044 || No turn - prepare - run
+2024-03-07 12:44:44.099 || No turn - prepare - run
+2024-03-07 12:44:44.166 || left turn - prepare - run
+2024-03-07 12:44:44.233 || left turn - prepare - run - dodge
+2024-03-07 12:44:44.300 || left turn - prepare - run - dodge
+2024-03-07 12:44:44.373 || left turn - prepare - run - dodge
+2024-03-07 12:44:44.438 || left turn - prepare - run - dodge
+2024-03-07 12:44:44.578 || right turn - prepare - run
+2024-03-07 12:44:44.632 || left turn - prepare - run - dodge
+2024-03-07 12:44:44.701 || left turn - prepare - run - dodge
+2024-03-07 12:44:44.768 || left turn - prepare - run - dodge
+2024-03-07 12:44:44.835 || left turn - prepare - run - dodge
+2024-03-07 12:44:44.901 || left turn - attack - run
+2024-03-07 12:44:44.968 || left turn - prepare - run
+2024-03-07 12:44:45.038 || left turn - prepare - run
+2024-03-07 12:44:45.104 || right turn - prepare - run
+2024-03-07 12:44:45.249 || No turn - attack - run
+2024-03-07 12:44:45.305 || No turn - prepare - run
+2024-03-07 12:44:45.370 || No turn - prepare - run
+2024-03-07 12:44:45.439 || No turn - prepare - run
+2024-03-07 12:44:45.510 || No turn - prepare - run
+2024-03-07 12:44:45.578 || No turn - prepare - run
+2024-03-07 12:44:45.643 || No turn - prepare - run
+2024-03-07 12:44:45.709 || No turn - prepare - run
+2024-03-07 12:44:45.777 || No turn - prepare - run
+2024-03-07 12:44:45.843 || No turn - prepare - run - jump
+2024-03-07 12:44:45.911 || No turn - prepare - run - jump
+2024-03-07 12:44:45.983 || No turn - prepare - run - jump
+2024-03-07 12:44:46.047 || No turn - prepare - run - jump
+2024-03-07 12:44:46.111 || No turn - prepare - walk - jump
+2024-03-07 12:44:46.182 || No turn - prepare - walk - jump
+2024-03-07 12:44:46.248 || No turn - prepare - walk - jump
+2024-03-07 12:44:46.312 || No turn - prepare - walk - jump
+2024-03-07 12:44:46.381 || No turn - prepare - walk - jump
+2024-03-07 12:44:46.446 || No turn - prepare - walk - jump
+2024-03-07 12:44:46.517 || No turn - attack - walk - jump
+2024-03-07 12:44:46.585 || No turn - attack - walk - jump
+2024-03-07 12:44:46.651 || No turn - attack - walk - jump
+2024-03-07 12:44:46.718 || No turn - attack - walk - jump
+2024-03-07 12:44:46.786 || No turn - attack - walk - jump
+2024-03-07 12:44:46.851 || No turn - attack - walk - jump
+2024-03-07 12:44:46.917 || No turn - attack - walk - jump
+2024-03-07 12:44:46.990 || No turn - attack - walk - jump
+2024-03-07 12:44:47.055 || No turn - attack - walk - jump
+2024-03-07 12:44:47.119 || No turn - attack - idle - jump
+2024-03-07 12:44:47.188 || No turn - attack - walk - jump
+2024-03-07 12:44:47.253 || No turn - attack - walk - jump
+2024-03-07 12:44:47.320 || No turn - attack - walk - dodge - jump
+2024-03-07 12:44:47.388 || No turn - attack - walk - dodge - jump
+2024-03-07 12:44:47.454 || No turn - attack - walk - dodge - jump
+2024-03-07 12:44:47.521 || No turn - attack - walk - jump
+2024-03-07 12:44:47.593 || No turn - attack - walk - jump
+2024-03-07 12:44:47.656 || No turn - attack - walk - jump
+2024-03-07 12:44:47.726 || No turn - attack - walk - jump
+2024-03-07 12:44:47.791 || No turn - attack - walk - jump
+2024-03-07 12:44:47.859 || No turn - attack - walk - jump
+2024-03-07 12:44:47.928 || No turn - attack - walk - jump
+2024-03-07 12:44:47.996 || No turn - attack - walk - jump
+2024-03-07 12:44:48.061 || No turn - attack - walk
+2024-03-07 12:44:48.125 || No turn - attack - walk
+2024-03-07 12:44:48.196 || No turn - attack - idle
+2024-03-07 12:44:48.263 || No turn - attack - idle
+2024-03-07 12:44:48.329 || No turn - attack - walk
+2024-03-07 12:44:48.397 || No turn - attack - walk
+2024-03-07 12:44:48.463 || No turn - attack - walk
+2024-03-07 12:44:48.529 || No turn - attack - walk
+2024-03-07 12:44:48.599 || No turn - attack - walk
+2024-03-07 12:44:48.664 || No turn - attack - walk
+2024-03-07 12:44:48.730 || No turn - attack - walk
+2024-03-07 12:44:48.796 || No turn - attack - walk
+2024-03-07 12:44:48.864 || No turn - attack - walk
+2024-03-07 12:44:48.936 || No turn - attack - walk
+2024-03-07 12:44:49.002 || No turn - attack - walk
+2024-03-07 12:44:49.068 || No turn - attack - walk
+2024-03-07 12:44:49.132 || No turn - attack - walk
+2024-03-07 12:44:49.202 || No turn - attack - walk
+2024-03-07 12:44:49.272 || No turn - attack - walk
+2024-03-07 12:44:49.338 || No turn - attack - idle
+2024-03-07 12:44:49.405 || No turn - attack - idle
+2024-03-07 12:44:49.469 || No turn - attack - idle
+2024-03-07 12:44:49.537 || No turn - attack - idle
+2024-03-07 12:44:49.607 || No turn - attack - idle
+2024-03-07 12:44:49.673 || No turn - attack - idle
+2024-03-07 12:44:49.738 || No turn - attack - walk
+2024-03-07 12:44:49.805 || No turn - attack - walk
+2024-03-07 12:44:49.869 || No turn - attack - walk
+2024-03-07 12:44:49.941 || No turn - attack - walk
+2024-03-07 12:44:50.007 || No turn - attack - walk
+2024-03-07 12:44:50.071 || No turn - attack - walk
+2024-03-07 12:44:50.141 || No turn - attack - walk
+2024-03-07 12:44:50.207 || No turn - attack - walk
+2024-03-07 12:44:50.273 || No turn - attack - walk
+2024-03-07 12:44:50.343 || No turn - attack - walk
+2024-03-07 12:44:50.407 || No turn - attack - walk
+2024-03-07 12:44:50.475 || No turn - attack - walk
+2024-03-07 12:44:50.544 || No turn - attack - walk
+2024-03-07 12:44:50.613 || No turn - attack - walk
+2024-03-07 12:44:50.676 || No turn - attack - walk
+2024-03-07 12:44:50.745 || No turn - attack - idle
+2024-03-07 12:44:50.813 || No turn - attack - idle
+2024-03-07 12:44:50.882 || No turn - attack - idle
+2024-03-07 12:44:50.949 || No turn - attack - idle
+2024-03-07 12:44:51.017 || No turn - attack - idle
+2024-03-07 12:44:51.083 || No turn - attack - idle
+2024-03-07 12:44:51.149 || No turn - attack - idle
+2024-03-07 12:44:51.214 || No turn - attack - walk
+2024-03-07 12:44:51.280 || No turn - attack - walk
+2024-03-07 12:44:51.351 || No turn - attack - walk
+2024-03-07 12:44:51.418 || No turn - attack - walk
+2024-03-07 12:44:51.483 || No turn - attack - walk
+2024-03-07 12:44:51.551 || No turn - attack - walk
+2024-03-07 12:44:51.620 || No turn - attack - walk
+2024-03-07 12:44:51.686 || No turn - attack - walk
+2024-03-07 12:44:51.751 || No turn - attack - walk
+2024-03-07 12:44:51.817 || No turn - attack - walk
+2024-03-07 12:44:51.882 || No turn - attack - walk
+2024-03-07 12:44:51.950 || No turn - attack - walk
+2024-03-07 12:44:52.020 || No turn - attack - walk
+2024-03-07 12:44:52.088 || No turn - attack - walk
+2024-03-07 12:44:52.155 || No turn - attack - walk
+2024-03-07 12:44:52.224 || No turn - attack - idle
+2024-03-07 12:44:52.288 || No turn - attack - idle
+2024-03-07 12:44:52.355 || No turn - attack - idle
+2024-03-07 12:44:52.425 || No turn - attack - idle
+2024-03-07 12:44:52.489 || No turn - attack - idle
+2024-03-07 12:44:52.561 || No turn - attack - idle
+2024-03-07 12:44:52.625 || No turn - attack - idle
+2024-03-07 12:44:52.692 || No turn - attack - walk
+2024-03-07 12:44:52.757 || left turn - attack - walk
+2024-03-07 12:44:52.827 || left turn - attack - walk
+2024-03-07 12:44:52.893 || left turn - attack - walk
+2024-03-07 12:44:52.965 || left turn - attack - walk
+2024-03-07 12:44:53.030 || left turn - attack - walk
+2024-03-07 12:44:53.094 || left turn - attack - walk
+2024-03-07 12:44:53.164 || left turn - attack - walk
+2024-03-07 12:44:53.230 || No turn - attack - walk
+2024-03-07 12:44:53.295 || No turn - attack - walk
+2024-03-07 12:44:53.363 || No turn - attack - walk
+2024-03-07 12:44:53.429 || No turn - attack - walk
+2024-03-07 12:44:53.494 || No turn - attack - walk
+2024-03-07 12:44:53.567 || No turn - attack - walk
+2024-03-07 12:44:53.632 || No turn - attack - walk
+2024-03-07 12:44:53.701 || No turn - attack - idle
+2024-03-07 12:44:53.766 || No turn - attack - idle
+2024-03-07 12:44:53.833 || No turn - attack - idle
+2024-03-07 12:44:53.898 || right turn - attack - idle
+2024-03-07 12:44:53.966 || No turn - attack - walk
+2024-03-07 12:44:54.033 || right turn - prepare - walk
+2024-03-07 12:44:54.103 || No turn - prepare - walk
+2024-03-07 12:44:54.169 || No turn - attack - walk
+2024-03-07 12:44:54.237 || No turn - prepare - walk
+2024-03-07 12:44:54.301 || No turn - attack - walk
+2024-03-07 12:44:54.368 || No turn - attack - walk
+2024-03-07 12:44:54.436 || No turn - attack - walk
+2024-03-07 12:44:54.503 || No turn - attack - walk
+2024-03-07 12:44:54.571 || No turn - attack - walk
+2024-03-07 12:44:54.643 || No turn - attack - walk
+2024-03-07 12:44:54.708 || No turn - attack - walk - dodge
+2024-03-07 12:44:54.775 || No turn - attack - walk - dodge
+2024-03-07 12:44:54.840 || No turn - attack - walk - dodge
+2024-03-07 12:44:54.907 || No turn - attack - walk - dodge
+2024-03-07 12:44:54.976 || No turn - attack - idle
+2024-03-07 12:44:55.043 || No turn - attack - idle
+2024-03-07 12:44:55.110 || No turn - attack - idle
+2024-03-07 12:44:55.176 || No turn - attack - idle
+2024-03-07 12:44:55.242 || No turn - attack - idle
+2024-03-07 12:44:55.313 || No turn - attack - idle
+2024-03-07 12:44:55.379 || No turn - attack - idle
+2024-03-07 12:44:55.444 || No turn - attack - idle
+2024-03-07 12:44:55.509 || No turn - attack - idle
+2024-03-07 12:44:55.578 || No turn - attack - idle
+2024-03-07 12:44:55.645 || No turn - attack - idle
+2024-03-07 12:44:55.712 || No turn - attack - idle
+2024-03-07 12:44:55.781 || No turn - attack - idle
+2024-03-07 12:44:55.847 || No turn - attack - idle
+2024-03-07 12:44:55.913 || No turn - attack - idle
+2024-03-07 12:44:55.981 || No turn - attack - idle
+2024-03-07 12:44:56.051 || No turn - attack - idle
+2024-03-07 12:44:56.117 || No turn - attack - idle
+2024-03-07 12:44:56.183 || No turn - attack - idle
+2024-03-07 12:44:56.250 || No turn - attack - idle
+2024-03-07 12:44:56.317 || No turn - attack - idle
+2024-03-07 12:44:56.385 || No turn - attack - idle
+2024-03-07 12:44:56.453 || No turn - attack - idle
+2024-03-07 12:44:56.518 || No turn - attack - idle
+2024-03-07 12:44:56.584 || No turn - attack - idle
+2024-03-07 12:44:56.654 || No turn - attack - idle
+2024-03-07 12:44:56.719 || No turn - attack - idle
+2024-03-07 12:44:56.786 || No turn - attack - idle
+2024-03-07 12:44:56.852 || No turn - attack - idle
+2024-03-07 12:44:56.921 || No turn - attack - idle
+2024-03-07 12:44:56.985 || No turn - attack - idle
+2024-03-07 12:44:57.053 || No turn - attack - idle
+2024-03-07 12:44:57.123 || No turn - attack - idle
+2024-03-07 12:44:57.188 || No turn - attack - idle
+2024-03-07 12:44:57.260 || No turn - attack - idle
+2024-03-07 12:44:57.326 || No turn - attack - idle
+2024-03-07 12:44:57.390 || No turn - attack - idle
+2024-03-07 12:44:57.458 || No turn - attack - idle
+2024-03-07 12:44:57.522 || No turn - attack - idle
+2024-03-07 12:44:57.591 || No turn - attack - idle
+2024-03-07 12:44:57.659 || left turn - attack - idle
+2024-03-07 12:44:57.728 || No turn - attack - idle
+2024-03-07 12:44:57.793 || No turn - attack - idle
+2024-03-07 12:44:57.862 || No turn - attack - idle
+2024-03-07 12:44:57.928 || No turn - attack - idle
+2024-03-07 12:44:57.996 || No turn - attack - idle
+2024-03-07 12:44:58.063 || No turn - attack - idle
+2024-03-07 12:44:58.128 || No turn - attack - idle
+2024-03-07 12:44:58.197 || No turn - prepare - idle
+2024-03-07 12:44:58.262 || No turn - prepare - idle
+2024-03-07 12:44:58.330 || No turn - prepare - idle
+2024-03-07 12:44:58.400 || No turn - prepare - idle
+2024-03-07 12:44:58.465 || No turn - prepare - idle
+2024-03-07 12:44:58.530 || No turn - prepare - idle
+2024-03-07 12:44:58.598 || No turn - prepare - idle
+2024-03-07 12:44:58.665 || No turn - prepare - idle
+2024-03-07 12:44:58.734 || No turn - prepare - idle
+2024-03-07 12:44:58.802 || No turn - prepare - idle
+2024-03-07 12:44:58.871 || No turn - prepare - idle
+2024-03-07 12:44:58.935 || No turn - prepare - idle
+2024-03-07 12:44:59.003 || No turn - prepare - idle
+2024-03-07 12:44:59.072 || No turn - prepare - idle
+2024-03-07 12:44:59.137 || No turn - prepare - idle
+2024-03-07 12:44:59.202 || No turn - prepare - idle
+2024-03-07 12:44:59.272 || No turn - prepare - idle
+2024-03-07 12:44:59.336 || No turn - prepare - idle
+2024-03-07 12:44:59.401 || No turn - prepare - idle
+2024-03-07 12:44:59.472 || No turn - prepare - idle
+2024-03-07 12:44:59.536 || No turn - prepare - idle
+2024-03-07 12:44:59.608 || No turn - prepare - idle
+2024-03-07 12:44:59.672 || No turn - prepare - idle
+2024-03-07 12:44:59.741 || No turn - prepare - idle
+2024-03-07 12:44:59.808 || No turn - prepare - idle
+2024-03-07 12:44:59.874 || No turn - prepare - idle
+2024-03-07 12:44:59.940 || No turn - prepare - idle
+2024-03-07 12:45:00.011 || No turn - prepare - idle
+2024-03-07 12:45:00.079 || No turn - prepare - idle
+2024-03-07 12:45:00.144 || No turn - prepare - idle
+2024-03-07 12:45:00.211 || No turn - prepare - idle
+2024-03-07 12:45:00.280 || left turn - prepare - idle
+2024-03-07 12:45:00.346 || left turn - prepare - idle
+2024-03-07 12:45:00.411 || left turn - prepare - idle
+2024-03-07 12:45:00.479 || left turn - prepare - idle
+2024-03-07 12:45:00.547 || left turn - prepare - idle
+2024-03-07 12:45:00.613 || left turn - attack - idle
+2024-03-07 12:45:00.682 || left turn - attack - idle
+2024-03-07 12:45:00.747 || left turn - attack - idle
+2024-03-07 12:45:00.814 || left turn - attack - idle
+2024-03-07 12:45:00.881 || left turn - attack - idle
+2024-03-07 12:45:00.948 || left turn - attack - idle
+2024-03-07 12:45:01.015 || No turn - attack - idle
+2024-03-07 12:45:01.086 || No turn - attack - idle
+2024-03-07 12:45:01.152 || No turn - attack - idle
+2024-03-07 12:45:01.219 || No turn - prepare - idle
+2024-03-07 12:45:01.288 || No turn - attack - idle
+2024-03-07 12:45:01.352 || No turn - attack - idle
+2024-03-07 12:45:01.419 || No turn - attack - idle
+2024-03-07 12:45:01.488 || No turn - attack - idle
+2024-03-07 12:45:01.553 || No turn - attack - idle
+2024-03-07 12:45:01.619 || No turn - attack - idle
+2024-03-07 12:45:01.689 || No turn - prepare - idle
+2024-03-07 12:45:01.753 || No turn - prepare - idle
+2024-03-07 12:45:01.823 || No turn - prepare - idle
+2024-03-07 12:45:01.891 || No turn - prepare - idle
+2024-03-07 12:45:01.957 || No turn - prepare - idle
+2024-03-07 12:45:02.023 || No turn - prepare - idle
+2024-03-07 12:45:02.094 || No turn - prepare - idle
+2024-03-07 12:45:02.159 || No turn - prepare - idle
+2024-03-07 12:45:02.222 || No turn - prepare - idle
+2024-03-07 12:45:02.295 || No turn - prepare - idle
+2024-03-07 12:45:02.361 || No turn - prepare - idle
+2024-03-07 12:45:02.427 || No turn - prepare - idle
+2024-03-07 12:45:02.496 || left turn - prepare - idle
+2024-03-07 12:45:02.561 || left turn - prepare - idle
+2024-03-07 12:45:02.626 || left turn - prepare - idle
+2024-03-07 12:45:02.695 || left turn - prepare - idle
+2024-03-07 12:45:02.761 || left turn - prepare - idle
+2024-03-07 12:45:02.827 || left turn - prepare - idle
+2024-03-07 12:45:02.894 || left turn - prepare - idle
+2024-03-07 12:45:02.965 || left turn - prepare - idle
+2024-03-07 12:45:03.029 || No turn - prepare - idle
+2024-03-07 12:45:03.101 || No turn - prepare - idle
+2024-03-07 12:45:03.167 || left turn - prepare - idle
+2024-03-07 12:45:03.232 || left turn - prepare - idle
+2024-03-07 12:45:03.303 || left turn - prepare - idle
+2024-03-07 12:45:03.368 || left turn - attack - idle
+2024-03-07 12:45:03.435 || left turn - attack - idle
+2024-03-07 12:45:03.501 || left turn - prepare - idle
+2024-03-07 12:45:03.567 || left turn - prepare - idle
+2024-03-07 12:45:03.634 || No turn - prepare - idle
+2024-03-07 12:45:03.704 || No turn - prepare - idle
+2024-03-07 12:45:03.769 || No turn - prepare - idle
+2024-03-07 12:45:03.837 || No turn - prepare - walk
+2024-03-07 12:45:03.903 || No turn - attack - walk
+2024-03-07 12:45:03.969 || No turn - attack - walk
+2024-03-07 12:45:04.039 || No turn - prepare - walk
+2024-03-07 12:45:04.108 || No turn - prepare - walk
+2024-03-07 12:45:04.173 || right turn - prepare - walk
+2024-03-07 12:45:04.239 || No turn - prepare - walk
+2024-03-07 12:45:04.306 || No turn - prepare - walk
+2024-03-07 12:45:04.372 || No turn - prepare - walk
+2024-03-07 12:45:04.442 || No turn - prepare - walk
+2024-03-07 12:45:04.510 || No turn - prepare - walk
+2024-03-07 12:45:04.575 || No turn - prepare - walk
+2024-03-07 12:45:04.641 || No turn - prepare - walk
+2024-03-07 12:45:04.712 || No turn - prepare - walk
+2024-03-07 12:45:04.776 || No turn - prepare - walk
+2024-03-07 12:45:04.843 || No turn - prepare - idle
+2024-03-07 12:45:04.909 || No turn - prepare - idle
+2024-03-07 12:45:04.973 || No turn - prepare - idle
+2024-03-07 12:45:05.044 || No turn - prepare - idle
+2024-03-07 12:45:05.115 || No turn - prepare - idle
+2024-03-07 12:45:05.181 || No turn - prepare - idle
+2024-03-07 12:45:05.246 || No turn - prepare - idle
+2024-03-07 12:45:05.316 || No turn - prepare - idle
+2024-03-07 12:45:05.381 || No turn - prepare - idle
+2024-03-07 12:45:05.446 || No turn - prepare - idle
+2024-03-07 12:45:05.515 || No turn - prepare - idle
+2024-03-07 12:45:05.579 || No turn - prepare - idle
+2024-03-07 12:45:05.650 || No turn - prepare - idle
+2024-03-07 12:45:05.719 || No turn - prepare - idle
+2024-03-07 12:45:05.785 || right turn - prepare - idle
+2024-03-07 12:45:05.851 || left turn - prepare - idle
+2024-03-07 12:45:05.917 || right turn - prepare - idle
+2024-03-07 12:45:05.983 || right turn - prepare - idle
+2024-03-07 12:45:06.052 || right turn - prepare - idle
+2024-03-07 12:45:06.137 || No turn - prepare - idle
+2024-03-07 12:45:06.183 || No turn - prepare - idle
+2024-03-07 12:45:06.253 || No turn - prepare - idle
+2024-03-07 12:45:06.321 || right turn - prepare - idle
+2024-03-07 12:45:06.385 || right turn - prepare - idle
+2024-03-07 12:45:06.456 || No turn - prepare - idle
+2024-03-07 12:45:06.524 || No turn - prepare - idle
+2024-03-07 12:45:06.590 || No turn - prepare - idle
+2024-03-07 12:45:06.654 || No turn - prepare - idle
+2024-03-07 12:45:06.727 || No turn - attack - idle
+2024-03-07 12:45:06.793 || No turn - attack - idle
+2024-03-07 12:45:06.859 || No turn - attack - idle
+2024-03-07 12:45:06.924 || No turn - attack - idle
+2024-03-07 12:45:06.989 || No turn - attack - idle
+2024-03-07 12:45:07.057 || No turn - attack - idle
+2024-03-07 12:45:07.128 || right turn - attack - idle
+2024-03-07 12:45:07.193 || right turn - attack - idle
+2024-03-07 12:45:07.257 || right turn - attack - idle
+2024-03-07 12:45:07.326 || right turn - attack - idle
+2024-03-07 12:45:07.395 || right turn - attack - idle
+2024-03-07 12:45:07.459 || No turn - attack - idle
+2024-03-07 12:45:07.527 || No turn - attack - idle
+2024-03-07 12:45:07.596 || No turn - attack - idle
+2024-03-07 12:45:07.664 || No turn - attack - idle
+2024-03-07 12:45:07.733 || No turn - attack - idle
+2024-03-07 12:45:07.798 || No turn - attack - idle
+2024-03-07 12:45:07.866 || No turn - attack - idle
+2024-03-07 12:45:07.933 || No turn - attack - idle
+2024-03-07 12:45:07.997 || No turn - attack - idle
+2024-03-07 12:45:08.063 || No turn - attack - idle
+2024-03-07 12:45:08.137 || No turn - attack - idle
+2024-03-07 12:45:08.202 || right turn - attack - idle
+2024-03-07 12:45:08.267 || right turn - attack - idle
+2024-03-07 12:45:08.333 || No turn - prepare - idle
+2024-03-07 12:45:08.400 || No turn - prepare - idle
+2024-03-07 12:45:08.468 || No turn - prepare - idle
+2024-03-07 12:45:08.538 || No turn - prepare - idle
+2024-03-07 12:45:08.601 || No turn - prepare - idle
+2024-03-07 12:45:08.668 || No turn - prepare - idle
+2024-03-07 12:45:08.736 || No turn - prepare - idle
+2024-03-07 12:45:08.802 || No turn - prepare - idle
+2024-03-07 12:45:08.871 || No turn - prepare - idle
+2024-03-07 12:45:08.941 || No turn - prepare - idle
+2024-03-07 12:45:09.007 || No turn - prepare - idle
+2024-03-07 12:45:09.072 || No turn - prepare - idle
+2024-03-07 12:45:09.143 || No turn - prepare - idle
+2024-03-07 12:45:09.209 || No turn - prepare - idle
+2024-03-07 12:45:09.275 || No turn - prepare - idle
+2024-03-07 12:45:09.343 || No turn - prepare - idle
+2024-03-07 12:45:09.407 || No turn - prepare - idle
+2024-03-07 12:45:09.474 || No turn - prepare - idle
+2024-03-07 12:45:09.548 || No turn - prepare - idle
+2024-03-07 12:45:09.613 || No turn - prepare - idle
+2024-03-07 12:45:09.678 || No turn - prepare - idle
+2024-03-07 12:45:09.744 || No turn - prepare - idle
+2024-03-07 12:45:09.807 || No turn - prepare - idle
+2024-03-07 12:45:09.878 || No turn - prepare - idle
+2024-03-07 12:45:09.944 || No turn - prepare - idle
+2024-03-07 12:45:10.012 || No turn - prepare - idle
+2024-03-07 12:45:10.082 || No turn - prepare - idle
+2024-03-07 12:45:10.149 || No turn - prepare - idle
+2024-03-07 12:45:10.213 || No turn - prepare - idle
+2024-03-07 12:45:10.279 || No turn - attack - idle
+2024-03-07 12:45:10.352 || No turn - attack - idle
+2024-03-07 12:45:10.417 || No turn - attack - idle
+2024-03-07 12:45:10.481 || No turn - attack - idle
+2024-03-07 12:45:10.551 || No turn - attack - idle
+2024-03-07 12:45:10.618 || No turn - attack - idle
+2024-03-07 12:45:10.683 || No turn - attack - idle
+2024-03-07 12:45:10.752 || No turn - attack - idle
+2024-03-07 12:45:10.816 || No turn - attack - idle
+2024-03-07 12:45:10.884 || No turn - attack - idle
+2024-03-07 12:45:10.953 || No turn - attack - idle
+2024-03-07 12:45:11.019 || No turn - attack - idle
+2024-03-07 12:45:11.089 || No turn - attack - idle
+2024-03-07 12:45:11.156 || No turn - attack - idle
+2024-03-07 12:45:11.222 || No turn - attack - idle
+2024-03-07 12:45:11.290 || No turn - attack - idle
+2024-03-07 12:45:11.358 || No turn - attack - idle
+2024-03-07 12:45:11.424 || No turn - attack - idle
+2024-03-07 12:45:11.490 || No turn - attack - idle
+2024-03-07 12:45:11.558 || No turn - attack - idle
+2024-03-07 12:45:11.623 || No turn - attack - walk
+2024-03-07 12:45:11.688 || No turn - attack - walk
+2024-03-07 12:45:11.757 || No turn - attack - walk
+2024-03-07 12:45:11.825 || No turn - attack - walk
+2024-03-07 12:45:11.895 || No turn - attack - walk
+2024-03-07 12:45:11.961 || No turn - attack - walk
+2024-03-07 12:45:12.024 || No turn - attack - walk
+2024-03-07 12:45:12.096 || No turn - attack - walk
+2024-03-07 12:45:12.165 || No turn - attack - walk
+2024-03-07 12:45:12.229 || No turn - attack - walk
+2024-03-07 12:45:12.296 || No turn - attack - walk
+2024-03-07 12:45:12.366 || No turn - attack - walk
+2024-03-07 12:45:12.430 || No turn - attack - walk
+2024-03-07 12:45:12.498 || No turn - attack - walk
+2024-03-07 12:45:12.566 || No turn - attack - walk
+2024-03-07 12:45:12.629 || No turn - attack - idle
+2024-03-07 12:45:12.698 || No turn - attack - idle - dodge
+2024-03-07 12:45:12.767 || No turn - attack - idle - dodge
+2024-03-07 12:45:12.831 || No turn - attack - walk - dodge
+2024-03-07 12:45:12.902 || No turn - attack - walk - dodge
+2024-03-07 12:45:12.967 || No turn - attack - walk - dodge
+2024-03-07 12:45:13.032 || No turn - attack - walk - dodge
+2024-03-07 12:45:13.100 || right turn - attack - walk
+2024-03-07 12:45:13.169 || right turn - attack - walk
+2024-03-07 12:45:13.234 || right turn - attack - walk
+2024-03-07 12:45:13.302 || right turn - attack - walk
+2024-03-07 12:45:13.374 || No turn - attack - walk
+2024-03-07 12:45:13.439 || right turn - attack - walk
+2024-03-07 12:45:13.503 || right turn - attack - walk
+2024-03-07 12:45:13.570 || right turn - attack - walk
+2024-03-07 12:45:13.637 || right turn - attack - walk
+2024-03-07 12:45:13.706 || right turn - attack - walk
+2024-03-07 12:45:13.772 || right turn - attack - walk
+2024-03-07 12:45:13.839 || right turn - attack - walk
+2024-03-07 12:45:13.907 || right turn - attack - idle
+2024-03-07 12:45:13.975 || right turn - attack - idle
+2024-03-07 12:45:14.040 || No turn - attack - idle
+2024-03-07 12:45:14.108 || No turn - attack - idle
+2024-03-07 12:45:14.178 || right turn - attack - idle
+2024-03-07 12:45:14.243 || No turn - prepare - idle
+2024-03-07 12:45:14.308 || right turn - prepare - idle
+2024-03-07 12:45:14.379 || No turn - prepare - idle
+2024-03-07 12:45:14.444 || No turn - prepare - run
+2024-03-07 12:45:14.510 || No turn - prepare - run
+2024-03-07 12:45:14.924 || left turn - prepare - run - dodge
+2024-03-07 12:45:15.961 || left turn - prepare - run
+2024-03-07 12:45:16.334 || left turn - prepare - run
+2024-03-07 12:45:16.538 || No turn - prepare - run - dodge
+2024-03-07 12:45:18.280 || No turn - attack - run
+2024-03-07 12:45:19.088 || No turn - prepare - run
+2024-03-07 12:45:19.143 || No turn - prepare - run
+2024-03-07 12:45:19.215 || No turn - attack - run
+2024-03-07 12:45:19.279 || No turn - attack - run
+2024-03-07 12:45:19.344 || No turn - attack - run
+2024-03-07 12:45:19.414 || No turn - attack - run
+2024-03-07 12:45:19.478 || No turn - attack - run
+2024-03-07 12:45:19.546 || No turn - prepare - run
+2024-03-07 12:45:19.612 || No turn - prepare - run
+2024-03-07 12:45:19.683 || No turn - prepare - run
+2024-03-07 12:45:19.746 || No turn - attack - run
+2024-03-07 12:45:19.819 || No turn - attack - walk
+2024-03-07 12:45:19.883 || No turn - attack - walk
+2024-03-07 12:45:19.949 || No turn - prepare - walk
+2024-03-07 12:45:20.017 || No turn - attack - walk
+2024-03-07 12:45:20.083 || No turn - prepare - walk
+2024-03-07 12:45:20.148 || No turn - attack - walk
+2024-03-07 12:45:20.222 || No turn - attack - walk
+2024-03-07 12:45:20.287 || No turn - attack - walk
+2024-03-07 12:45:20.354 || No turn - prepare - walk
+2024-03-07 12:45:20.422 || No turn - prepare - walk - jump
+2024-03-07 12:45:20.488 || No turn - prepare - walk - jump
+2024-03-07 12:45:20.553 || No turn - prepare - walk - jump
+2024-03-07 12:45:20.622 || No turn - prepare - walk - jump
+2024-03-07 12:45:20.688 || No turn - prepare - walk - jump
+2024-03-07 12:45:20.757 || No turn - prepare - walk - jump
+2024-03-07 12:45:20.825 || No turn - prepare - idle - jump
+2024-03-07 12:45:20.889 || left turn - prepare - idle - jump
+2024-03-07 12:45:20.960 || left turn - prepare - idle - jump
+2024-03-07 12:45:21.025 || left turn - prepare - idle - jump
+2024-03-07 12:45:21.089 || left turn - prepare - idle - jump
+2024-03-07 12:45:21.161 || No turn - prepare - idle - jump
+2024-03-07 12:45:21.232 || No turn - prepare - idle - jump
+2024-03-07 12:45:21.298 || No turn - prepare - idle - jump
+2024-03-07 12:45:21.362 || No turn - prepare - idle - jump
+2024-03-07 12:45:21.429 || No turn - prepare - idle - jump
+2024-03-07 12:45:21.496 || No turn - attack - idle - jump
+2024-03-07 12:45:21.563 || No turn - prepare - idle - jump
+2024-03-07 12:45:21.631 || No turn - attack - idle - jump
+2024-03-07 12:45:21.697 || No turn - attack - idle
+2024-03-07 12:45:21.761 || No turn - attack - idle
+2024-03-07 12:45:21.831 || No turn - attack - idle
+2024-03-07 12:45:21.897 || No turn - prepare - idle
+2024-03-07 12:45:21.962 || No turn - attack - walk
+2024-03-07 12:45:22.030 || No turn - attack - walk
+2024-03-07 12:45:22.097 || No turn - prepare - walk
+2024-03-07 12:45:22.169 || No turn - prepare - walk
+2024-03-07 12:45:22.238 || left turn - prepare - walk
+2024-03-07 12:45:22.303 || No turn - prepare - walk
+2024-03-07 12:45:22.366 || left turn - prepare - walk
+2024-03-07 12:45:22.439 || left turn - prepare - walk
+2024-03-07 12:45:22.502 || left turn - prepare - walk
+2024-03-07 12:45:22.572 || left turn - prepare - walk
+2024-03-07 12:45:22.639 || left turn - prepare - walk
+2024-03-07 12:45:22.705 || left turn - prepare - walk
+2024-03-07 12:45:22.771 || left turn - attack - walk
+2024-03-07 12:45:22.840 || left turn - attack - walk
+2024-03-07 12:45:22.907 || left turn - prepare - walk
+2024-03-07 12:45:22.973 || left turn - attack - run
+2024-03-07 12:45:23.042 || left turn - attack - run
+2024-03-07 12:45:23.106 || left turn - attack - run
+2024-03-07 12:45:23.175 || left turn - attack - run
+2024-03-07 12:45:23.241 || No turn - attack - run
+2024-03-07 12:45:23.310 || No turn - attack - run
+2024-03-07 12:45:23.376 || No turn - attack - run
+2024-03-07 12:45:23.445 || No turn - attack - run
+2024-03-07 12:45:23.511 || left turn - attack - run
+2024-03-07 12:45:23.576 || No turn - prepare - run
+2024-03-07 12:45:23.644 || left turn - attack - run
+2024-03-07 12:45:23.707 || left turn - prepare - run
+2024-03-07 12:45:23.774 || No turn - prepare - run
+2024-03-07 12:45:23.843 || No turn - attack - run
+2024-03-07 12:45:23.913 || No turn - attack - run
+2024-03-07 12:45:23.978 || No turn - attack - idle
+2024-03-07 12:45:24.043 || No turn - attack - idle
+2024-03-07 12:45:24.108 || No turn - attack - idle
+2024-03-07 12:45:24.180 || No turn - attack - run
+2024-03-07 12:45:24.251 || No turn - prepare - run
+2024-03-07 12:45:24.316 || No turn - attack - run
+2024-03-07 12:45:24.382 || No turn - attack - run
+2024-03-07 12:45:24.448 || No turn - attack - run
+2024-03-07 12:45:24.514 || left turn - attack - run
+2024-03-07 12:45:24.582 || left turn - attack - run
+2024-03-07 12:45:24.650 || left turn - attack - run
+2024-03-07 12:45:24.715 || left turn - attack - run
+2024-03-07 12:45:24.782 || left turn - attack - run
+2024-03-07 12:45:24.852 || left turn - attack - run
+2024-03-07 12:45:24.916 || No turn - attack - run
+2024-03-07 12:45:24.987 || left turn - attack - run
+2024-03-07 12:45:25.054 || No turn - prepare - run
+2024-03-07 12:45:25.118 || No turn - attack - run
+2024-03-07 12:45:25.189 || No turn - attack - idle
+2024-03-07 12:45:25.258 || No turn - attack - idle
+2024-03-07 12:45:25.324 || No turn - attack - idle
+2024-03-07 12:45:25.388 || left turn - attack - idle
+2024-03-07 12:45:25.457 || left turn - attack - idle
+2024-03-07 12:45:25.523 || left turn - attack - idle
+2024-03-07 12:45:25.589 || left turn - attack - idle
+2024-03-07 12:45:25.658 || left turn - attack - idle
+2024-03-07 12:45:25.723 || No turn - attack - run
+2024-03-07 12:45:25.789 || No turn - attack - run
+2024-03-07 12:45:25.857 || No turn - attack - run
+2024-03-07 12:45:25.924 || No turn - attack - run
+2024-03-07 12:45:25.991 || No turn - attack - run
+2024-03-07 12:45:26.060 || No turn - attack - run
+2024-03-07 12:45:26.127 || No turn - attack - run
+2024-03-07 12:45:26.196 || No turn - attack - run
+2024-03-07 12:45:26.263 || No turn - attack - run
+2024-03-07 12:45:26.328 || No turn - attack - run
+2024-03-07 12:45:26.394 || No turn - attack - run
+2024-03-07 12:45:26.465 || No turn - attack - run
+2024-03-07 12:45:26.532 || No turn - attack - run
+2024-03-07 12:45:26.597 || No turn - attack - run
+2024-03-07 12:45:26.662 || No turn - attack - run
+2024-03-07 12:45:26.729 || No turn - attack - idle
+2024-03-07 12:45:26.801 || No turn - attack - idle
+2024-03-07 12:45:26.868 || No turn - attack - idle
+2024-03-07 12:45:26.931 || No turn - attack - idle
+2024-03-07 12:45:26.999 || No turn - attack - idle
+2024-03-07 12:45:27.065 || No turn - attack - idle
+2024-03-07 12:45:27.133 || No turn - attack - idle
+2024-03-07 12:45:27.202 || No turn - attack - idle
+2024-03-07 12:45:27.271 || No turn - attack - idle - jump
+2024-03-07 12:45:27.335 || No turn - attack - idle
+2024-03-07 12:45:27.404 || No turn - attack - idle
+2024-03-07 12:45:27.472 || No turn - attack - idle
+2024-03-07 12:45:27.693 || right turn - prepare - walk - block
+2024-03-07 12:45:28.149 || No turn - prepare - walk
+2024-03-07 12:45:28.206 || No turn - attack - walk
+2024-03-07 12:45:28.279 || right turn - attack - walk
+2024-03-07 12:45:28.485 || No turn - attack - walk
+2024-03-07 12:45:28.754 || right turn - attack - idle
+2024-03-07 12:45:28.813 || No turn - attack - idle
+2024-03-07 12:45:28.877 || No turn - attack - idle
+2024-03-07 12:45:28.951 || No turn - attack - idle
+2024-03-07 12:45:29.017 || No turn - attack - idle
+2024-03-07 12:45:29.085 || No turn - attack - idle
+2024-03-07 12:45:29.151 || No turn - attack - idle
+2024-03-07 12:45:29.218 || No turn - attack - idle
+2024-03-07 12:45:29.286 || No turn - attack - idle
+2024-03-07 12:45:29.351 || No turn - attack - idle
+2024-03-07 12:45:29.415 || No turn - attack - idle
+2024-03-07 12:45:29.491 || left turn - attack - idle
+2024-03-07 12:45:29.556 || left turn - prepare - idle
+2024-03-07 12:45:29.622 || left turn - prepare - walk
+2024-03-07 12:45:29.687 || No turn - prepare - walk
+2024-03-07 12:45:29.753 || left turn - prepare - walk
+2024-03-07 12:45:29.819 || left turn - prepare - walk
+2024-03-07 12:45:29.890 || left turn - prepare - walk
+2024-03-07 12:45:29.956 || left turn - prepare - walk
+2024-03-07 12:45:30.021 || left turn - prepare - walk
+2024-03-07 12:45:30.086 || left turn - prepare - walk
+2024-03-07 12:45:30.153 || left turn - prepare - walk
+2024-03-07 12:45:30.221 || left turn - prepare - walk
+2024-03-07 12:45:30.292 || No turn - prepare - walk
+2024-03-07 12:45:30.357 || No turn - prepare - walk
+2024-03-07 12:45:30.424 || left turn - prepare - walk
+2024-03-07 12:45:30.494 || left turn - prepare - walk
+2024-03-07 12:45:30.562 || left turn - prepare - walk
+2024-03-07 12:45:30.626 || left turn - prepare - idle
+2024-03-07 12:45:30.696 || left turn - prepare - idle
+2024-03-07 12:45:30.760 || No turn - prepare - idle
+2024-03-07 12:45:30.829 || No turn - attack - idle
+2024-03-07 12:45:30.897 || No turn - attack - idle
+2024-03-07 12:45:30.962 || No turn - attack - idle
+2024-03-07 12:45:31.030 || No turn - attack - idle
+2024-03-07 12:45:31.098 || No turn - attack - idle
+2024-03-07 12:45:31.163 || No turn - attack - idle
+2024-03-07 12:45:31.231 || No turn - attack - idle
+2024-03-07 12:45:31.296 || No turn - attack - idle
+2024-03-07 12:45:31.365 || No turn - attack - idle
+2024-03-07 12:45:31.429 || No turn - attack - idle
+2024-03-07 12:45:31.497 || No turn - attack - idle
+2024-03-07 12:45:31.565 || No turn - attack - walk
+2024-03-07 12:45:31.634 || No turn - attack - walk
+2024-03-07 12:45:31.704 || No turn - attack - walk
+2024-03-07 12:45:31.768 || No turn - attack - walk
+2024-03-07 12:45:31.836 || No turn - attack - walk
+2024-03-07 12:45:31.904 || left turn - attack - walk
+2024-03-07 12:45:31.970 || No turn - attack - walk
+2024-03-07 12:45:32.036 || left turn - attack - walk
+2024-03-07 12:45:32.104 || left turn - attack - walk
+2024-03-07 12:45:32.169 || No turn - attack - walk
+2024-03-07 12:45:32.238 || No turn - attack - walk
+2024-03-07 12:45:32.306 || No turn - attack - walk
+2024-03-07 12:45:32.373 || No turn - attack - walk
+2024-03-07 12:45:32.441 || No turn - attack - walk
+2024-03-07 12:45:32.505 || right turn - attack - walk
+2024-03-07 12:45:32.571 || No turn - attack - idle
+2024-03-07 12:45:32.641 || right turn - attack - idle
+2024-03-07 12:45:32.709 || right turn - attack - idle
+2024-03-07 12:45:32.775 || right turn - attack - idle
+2024-03-07 12:45:32.842 || left turn - attack - idle
+2024-03-07 12:45:32.910 || No turn - attack - idle
+2024-03-07 12:45:32.975 || right turn - attack - idle
+2024-03-07 12:45:33.042 || No turn - attack - idle
+2024-03-07 12:45:33.111 || No turn - attack - idle
+2024-03-07 12:45:33.176 || No turn - attack - idle
+2024-03-07 12:45:33.248 || No turn - attack - idle
+2024-03-07 12:45:33.314 || No turn - attack - idle
+2024-03-07 12:45:33.380 || No turn - attack - idle
+2024-03-07 12:45:33.445 || No turn - attack - idle
+2024-03-07 12:45:33.511 || No turn - attack - idle
+2024-03-07 12:45:33.578 || No turn - attack - idle
+2024-03-07 12:45:33.645 || No turn - attack - idle
+2024-03-07 12:45:33.713 || No turn - attack - idle
+2024-03-07 12:45:33.778 || No turn - attack - idle
+2024-03-07 12:45:33.846 || No turn - attack - idle
+2024-03-07 12:45:33.918 || No turn - attack - idle
+2024-03-07 12:45:33.982 || No turn - attack - idle
+2024-03-07 12:45:34.049 || No turn - attack - idle
+2024-03-07 12:45:34.113 || No turn - attack - idle
+2024-03-07 12:45:34.180 || No turn - attack - idle
+2024-03-07 12:45:34.248 || No turn - attack - idle
+2024-03-07 12:45:34.316 || No turn - attack - idle
+2024-03-07 12:45:34.380 || No turn - attack - idle
+2024-03-07 12:45:34.449 || No turn - attack - idle
+2024-03-07 12:45:34.517 || No turn - attack - idle
+2024-03-07 12:45:34.586 || No turn - attack - idle
+2024-03-07 12:45:34.651 || No turn - attack - walk
+2024-03-07 12:45:34.718 || left turn - attack - walk
+2024-03-07 12:45:34.786 || No turn - attack - walk
+2024-03-07 12:45:34.853 || right turn - attack - walk
+2024-03-07 12:45:34.925 || right turn - attack - walk
+2024-03-07 12:45:34.989 || right turn - attack - walk
+2024-03-07 12:45:35.058 || No turn - attack - walk
+2024-03-07 12:45:35.122 || left turn - attack - walk
+2024-03-07 12:45:35.187 || No turn - attack - walk
+2024-03-07 12:45:35.260 || No turn - attack - walk
+2024-03-07 12:45:35.326 || No turn - attack - walk
+2024-03-07 12:45:35.391 || No turn - attack - walk
+2024-03-07 12:45:35.459 || No turn - attack - walk
+2024-03-07 12:45:35.528 || No turn - attack - walk
+2024-03-07 12:45:35.595 || No turn - attack - walk
+2024-03-07 12:45:35.659 || No turn - attack - idle
+2024-03-07 12:45:35.725 || No turn - attack - idle
+2024-03-07 12:45:35.796 || No turn - attack - idle
+2024-03-07 12:45:35.861 || No turn - attack - idle
+2024-03-07 12:45:35.928 || No turn - attack - idle
+2024-03-07 12:45:35.992 || No turn - attack - idle
+2024-03-07 12:45:36.065 || No turn - attack - idle
+2024-03-07 12:45:36.130 || No turn - attack - idle
+2024-03-07 12:45:36.197 || No turn - attack - idle
+2024-03-07 12:45:36.265 || No turn - attack - idle
+2024-03-07 12:45:36.334 || No turn - attack - idle
+2024-03-07 12:45:36.398 || No turn - attack - idle
+2024-03-07 12:45:36.464 || No turn - attack - idle
+2024-03-07 12:45:36.530 || No turn - attack - idle
+2024-03-07 12:45:36.597 || No turn - attack - idle
+2024-03-07 12:45:36.664 || No turn - attack - idle
+2024-03-07 12:45:36.733 || No turn - attack - idle
+2024-03-07 12:45:36.799 || No turn - attack - idle
+2024-03-07 12:45:36.871 || No turn - attack - idle
+2024-03-07 12:45:36.934 || No turn - attack - idle
+2024-03-07 12:45:37.000 || No turn - attack - idle
+2024-03-07 12:45:37.069 || No turn - attack - idle
+2024-03-07 12:45:37.138 || No turn - attack - idle
+2024-03-07 12:45:37.203 || No turn - attack - idle
+2024-03-07 12:45:37.270 || No turn - attack - idle
+2024-03-07 12:45:37.341 || No turn - attack - idle
+2024-03-07 12:45:37.407 || left turn - attack - idle
+2024-03-07 12:45:37.472 || left turn - attack - idle
+2024-03-07 12:45:37.539 || right turn - attack - idle
+2024-03-07 12:45:37.605 || left turn - attack - idle
+2024-03-07 12:45:37.671 || right turn - attack - idle
+2024-03-07 12:45:37.741 || right turn - attack - idle
+2024-03-07 12:45:37.807 || right turn - attack - idle
+2024-03-07 12:45:37.874 || right turn - attack - walk
+2024-03-07 12:45:37.944 || No turn - attack - walk
+2024-03-07 12:45:38.009 || right turn - attack - walk
+2024-03-07 12:45:38.075 || left turn - attack - walk
+2024-03-07 12:45:38.148 || left turn - attack - walk
+2024-03-07 12:45:38.211 || left turn - attack - walk
+2024-03-07 12:45:38.280 || left turn - attack - walk
+2024-03-07 12:45:38.348 || left turn - attack - walk
+2024-03-07 12:45:38.412 || left turn - attack - walk
+2024-03-07 12:45:38.477 || left turn - attack - walk
+2024-03-07 12:45:38.549 || left turn - attack - walk
+2024-03-07 12:45:38.612 || No turn - attack - walk
+2024-03-07 12:45:38.681 || left turn - attack - walk
+2024-03-07 12:45:38.750 || left turn - attack - walk
+2024-03-07 12:45:38.814 || left turn - attack - walk
+2024-03-07 12:45:38.880 || left turn - attack - idle
+2024-03-07 12:45:38.949 || No turn - attack - idle
+2024-03-07 12:45:39.014 || left turn - attack - walk
+2024-03-07 12:45:39.083 || No turn - attack - walk
+2024-03-07 12:45:39.150 || right turn - attack - walk
+2024-03-07 12:45:39.216 || right turn - attack - walk
+2024-03-07 12:45:39.284 || right turn - attack - walk
+2024-03-07 12:45:39.355 || right turn - attack - walk
+2024-03-07 12:45:39.422 || right turn - attack - walk
+2024-03-07 12:45:39.491 || right turn - attack - walk
+2024-03-07 12:45:39.554 || right turn - attack - walk
+2024-03-07 12:45:39.620 || right turn - attack - walk
+2024-03-07 12:45:39.688 || No turn - attack - walk
+2024-03-07 12:45:39.933 || right turn - prepare - walk
+2024-03-07 12:45:39.987 || No turn - prepare - walk
+2024-03-07 12:45:40.269 || right turn - prepare - run
+2024-03-07 12:45:41.412 || left turn - attack - idle
+2024-03-07 12:45:41.467 || right turn - attack - walk
+2024-03-07 12:45:41.612 || left turn - attack - walk
+2024-03-07 12:45:41.666 || No turn - attack - walk
+2024-03-07 12:45:41.735 || No turn - attack - walk
+2024-03-07 12:45:41.804 || right turn - attack - walk
+2024-03-07 12:45:41.868 || right turn - attack - walk
+2024-03-07 12:45:41.935 || No turn - attack - walk
+2024-03-07 12:45:42.004 || No turn - attack - walk
+2024-03-07 12:45:42.073 || No turn - attack - walk
+2024-03-07 12:45:42.138 || No turn - attack - walk
+2024-03-07 12:45:42.207 || No turn - attack - walk
+2024-03-07 12:45:42.273 || No turn - attack - walk
+2024-03-07 12:45:42.337 || No turn - attack - walk
+2024-03-07 12:45:42.407 || No turn - attack - walk
+2024-03-07 12:45:42.475 || No turn - attack - idle
+2024-03-07 12:45:42.541 || No turn - prepare - idle
+2024-03-07 12:45:42.609 || left turn - prepare - idle
+2024-03-07 12:45:42.674 || left turn - prepare - idle
+2024-03-07 12:45:42.743 || left turn - prepare - idle
+2024-03-07 12:45:42.809 || left turn - prepare - idle
+2024-03-07 12:45:42.877 || left turn - prepare - idle
+2024-03-07 12:45:42.944 || left turn - prepare - idle
+2024-03-07 12:45:43.009 || left turn - prepare - idle
+2024-03-07 12:45:43.079 || left turn - prepare - idle
+2024-03-07 12:45:43.144 || No turn - prepare - idle
+2024-03-07 12:45:43.210 || No turn - prepare - idle
+2024-03-07 12:45:43.281 || No turn - attack - idle
+2024-03-07 12:45:43.349 || No turn - attack - idle
+2024-03-07 12:45:43.416 || No turn - attack - idle
+2024-03-07 12:45:43.483 || No turn - attack - idle
+2024-03-07 12:45:43.550 || No turn - attack - idle
+2024-03-07 12:45:43.615 || No turn - attack - idle
+2024-03-07 12:45:43.680 || No turn - attack - idle
+2024-03-07 12:45:43.747 || No turn - attack - idle
+2024-03-07 12:45:43.816 || No turn - attack - idle
+2024-03-07 12:45:43.881 || No turn - attack - idle
+2024-03-07 12:45:43.952 || No turn - attack - idle
+2024-03-07 12:45:44.019 || No turn - prepare - idle
+2024-03-07 12:45:44.087 || left turn - prepare - idle
+2024-03-07 12:45:44.154 || left turn - prepare - idle
+2024-03-07 12:45:44.220 || left turn - prepare - idle
+2024-03-07 12:45:44.285 || left turn - prepare - idle
+2024-03-07 12:45:44.352 || left turn - prepare - idle
+2024-03-07 12:45:44.422 || left turn - prepare - idle
+2024-03-07 12:45:44.490 || left turn - prepare - idle
+2024-03-07 12:45:44.556 || left turn - prepare - idle
+2024-03-07 12:45:44.622 || left turn - prepare - idle
+2024-03-07 12:45:44.688 || left turn - prepare - idle
+2024-03-07 12:45:44.758 || left turn - prepare - idle
+2024-03-07 12:45:44.823 || No turn - prepare - idle
+2024-03-07 12:45:44.892 || No turn - prepare - idle
+2024-03-07 12:45:44.958 || No turn - attack - idle
+2024-03-07 12:45:45.026 || No turn - attack - idle
+2024-03-07 12:45:45.094 || No turn - attack - idle
+2024-03-07 12:45:45.159 || No turn - attack - idle
+2024-03-07 12:45:45.230 || No turn - attack - idle
+2024-03-07 12:45:45.296 || No turn - attack - idle
+2024-03-07 12:45:45.361 || No turn - attack - idle
+2024-03-07 12:45:45.429 || No turn - attack - idle
+2024-03-07 12:45:45.495 || No turn - attack - idle
+2024-03-07 12:45:45.564 || No turn - attack - idle
+2024-03-07 12:45:45.631 || No turn - attack - idle
+2024-03-07 12:45:45.697 || No turn - attack - idle
+2024-03-07 12:45:45.765 || No turn - attack - idle
+2024-03-07 12:45:45.834 || No turn - attack - idle
+2024-03-07 12:45:45.900 || No turn - attack - idle
+2024-03-07 12:45:45.965 || No turn - attack - idle
+2024-03-07 12:45:46.035 || No turn - attack - idle
+2024-03-07 12:45:46.100 || No turn - attack - idle
+2024-03-07 12:45:46.167 || No turn - attack - idle
+2024-03-07 12:45:46.235 || No turn - attack - idle
+2024-03-07 12:45:46.303 || No turn - attack - idle
+2024-03-07 12:45:46.370 || No turn - attack - idle
+2024-03-07 12:45:46.435 || No turn - attack - idle
+2024-03-07 12:45:46.502 || No turn - attack - idle
+2024-03-07 12:45:46.571 || No turn - attack - idle
+2024-03-07 12:45:46.636 || No turn - attack - idle
+2024-03-07 12:45:46.703 || No turn - attack - idle
+2024-03-07 12:45:46.773 || No turn - attack - idle
+2024-03-07 12:45:46.841 || No turn - attack - idle
+2024-03-07 12:45:46.906 || No turn - attack - idle
+2024-03-07 12:45:46.974 || right turn - attack - idle
+2024-03-07 12:45:47.038 || right turn - attack - idle
+2024-03-07 12:45:47.107 || No turn - attack - idle
+2024-03-07 12:45:47.175 || left turn - attack - idle
+2024-03-07 12:45:47.240 || left turn - attack - idle
+2024-03-07 12:45:47.307 || left turn - attack - idle
+2024-03-07 12:45:47.374 || right turn - attack - idle
+2024-03-07 12:45:47.442 || right turn - attack - idle
+2024-03-07 12:45:47.510 || No turn - attack - idle
+2024-03-07 12:45:47.578 || No turn - attack - idle
+2024-03-07 12:45:47.645 || No turn - attack - idle
+2024-03-07 12:45:47.710 || left turn - attack - walk
+2024-03-07 12:45:47.775 || left turn - attack - walk
+2024-03-07 12:45:47.843 || left turn - attack - walk
+2024-03-07 12:45:47.913 || left turn - attack - walk
+2024-03-07 12:45:47.981 || left turn - attack - walk
+2024-03-07 12:45:48.044 || left turn - attack - walk
+2024-03-07 12:45:48.114 || left turn - attack - walk
+2024-03-07 12:45:48.181 || left turn - attack - walk
+2024-03-07 12:45:48.245 || left turn - attack - walk
+2024-03-07 12:45:48.321 || left turn - attack - walk
+2024-03-07 12:45:48.385 || left turn - attack - walk
+2024-03-07 12:45:48.449 || left turn - attack - walk
+2024-03-07 12:45:48.516 || left turn - attack - walk
+2024-03-07 12:45:48.582 || left turn - attack - walk
+2024-03-07 12:45:48.653 || left turn - attack - walk
+2024-03-07 12:45:48.719 || left turn - attack - idle
+2024-03-07 12:45:48.788 || left turn - attack - idle
+2024-03-07 12:45:48.853 || left turn - attack - idle
+2024-03-07 12:45:48.920 || left turn - attack - idle
+2024-03-07 12:45:48.987 || left turn - attack - idle
+2024-03-07 12:45:49.052 || left turn - attack - idle
+2024-03-07 12:45:49.121 || left turn - attack - idle
+2024-03-07 12:45:49.189 || left turn - attack - idle
+2024-03-07 12:45:49.256 || No turn - attack - walk
+2024-03-07 12:45:49.323 || No turn - attack - walk
+2024-03-07 12:45:49.389 || No turn - attack - walk
+2024-03-07 12:45:49.457 || No turn - attack - walk
+2024-03-07 12:45:49.524 || right turn - attack - walk
+2024-03-07 12:45:49.590 || right turn - attack - walk
+2024-03-07 12:45:49.658 || left turn - attack - walk
+2024-03-07 12:45:49.727 || right turn - attack - walk
+2024-03-07 12:45:49.794 || left turn - attack - walk
+2024-03-07 12:45:49.863 || left turn - attack - walk
+2024-03-07 12:45:49.929 || No turn - attack - walk
+2024-03-07 12:45:49.994 || left turn - attack - walk
+2024-03-07 12:45:50.060 || No turn - attack - walk
+2024-03-07 12:45:50.128 || No turn - attack - walk
+2024-03-07 12:45:50.196 || left turn - attack - walk
+2024-03-07 12:45:50.260 || left turn - attack - idle
+2024-03-07 12:45:50.326 || left turn - attack - idle
+2024-03-07 12:45:50.398 || No turn - attack - idle
+2024-03-07 12:45:50.465 || No turn - attack - idle
+2024-03-07 12:45:50.530 || No turn - attack - idle
+2024-03-07 12:45:50.597 || No turn - attack - idle
+2024-03-07 12:45:50.664 || No turn - attack - idle
+2024-03-07 12:45:50.731 || left turn - attack - walk
+2024-03-07 12:45:50.799 || left turn - attack - walk
+2024-03-07 12:45:50.868 || left turn - attack - walk
+2024-03-07 12:45:50.935 || left turn - attack - walk
+2024-03-07 12:45:51.001 || left turn - attack - walk
+2024-03-07 12:45:51.067 || left turn - attack - walk
+2024-03-07 12:45:51.134 || No turn - attack - walk
+2024-03-07 12:45:51.201 || left turn - attack - walk
+2024-03-07 12:45:51.270 || No turn - attack - walk
+2024-03-07 12:45:51.337 || right turn - attack - walk
+2024-03-07 12:45:51.404 || right turn - attack - walk - jump
+2024-03-07 12:45:51.469 || right turn - attack - walk - jump
+2024-03-07 12:45:51.539 || right turn - attack - walk - jump
+2024-03-07 12:45:51.604 || right turn - attack - walk - jump
+2024-03-07 12:45:51.672 || right turn - attack - walk
+2024-03-07 12:45:51.738 || right turn - attack - idle
+2024-03-07 12:45:51.885 || left turn - prepare - run
+2024-03-07 12:45:51.939 || left turn - prepare - run
+2024-03-07 12:45:52.353 || No turn - prepare - run
+2024-03-07 12:45:53.500 || left turn - attack - run
+2024-03-07 12:45:53.552 || left turn - attack - walk
+2024-03-07 12:45:53.622 || left turn - attack - walk
+2024-03-07 12:45:53.766 || No turn - attack - walk
+2024-03-07 12:45:53.819 || No turn - attack - walk
+2024-03-07 12:45:53.888 || No turn - prepare - walk
+2024-03-07 12:45:53.961 || No turn - prepare - walk
+2024-03-07 12:45:54.024 || No turn - prepare - walk - jump
+2024-03-07 12:45:54.088 || No turn - prepare - walk - jump
+2024-03-07 12:45:54.157 || No turn - attack - walk - jump
+2024-03-07 12:45:54.226 || No turn - prepare - walk - jump
+2024-03-07 12:45:54.290 || No turn - prepare - walk - jump
+2024-03-07 12:45:54.361 || No turn - prepare - walk - jump
+2024-03-07 12:45:54.425 || No turn - attack - walk - jump
+2024-03-07 12:45:54.496 || No turn - attack - walk - jump
+2024-03-07 12:45:54.562 || No turn - attack - idle - jump
+2024-03-07 12:45:54.628 || No turn - attack - idle - jump
+2024-03-07 12:45:54.692 || No turn - attack - idle - jump
+2024-03-07 12:45:54.759 || No turn - attack - idle - jump
+2024-03-07 12:45:54.829 || No turn - attack - idle - jump
+2024-03-07 12:45:54.894 || No turn - attack - idle - jump
+2024-03-07 12:45:54.963 || No turn - prepare - idle - jump
+2024-03-07 12:45:55.025 || No turn - prepare - idle - jump
+2024-03-07 12:45:55.068 || No turn - prepare - idle - jump
+2024-03-07 12:45:55.134 || No turn - attack - idle - jump
+2024-03-07 12:45:55.198 || left turn - prepare - idle - jump
+2024-03-07 12:45:55.266 || No turn - prepare - idle - jump
+2024-03-07 12:45:55.331 || No turn - prepare - idle - jump
+2024-03-07 12:45:55.399 || No turn - prepare - idle - jump
+2024-03-07 12:45:55.468 || No turn - attack - idle - jump
+2024-03-07 12:45:55.532 || No turn - attack - idle - jump
+2024-03-07 12:45:55.596 || No turn - attack - idle - jump
+2024-03-07 12:45:55.637 || No turn - attack - idle - jump
+2024-03-07 12:45:55.706 || No turn - prepare - idle
+2024-03-07 12:45:55.774 || left turn - prepare - idle
+2024-03-07 12:45:55.840 || left turn - attack - idle
+2024-03-07 12:45:55.905 || left turn - prepare - idle
+2024-03-07 12:45:55.971 || No turn - prepare - idle
+2024-03-07 12:45:56.036 || No turn - prepare - idle
+2024-03-07 12:45:56.106 || No turn - attack - idle
+2024-03-07 12:45:56.171 || No turn - prepare - idle
+2024-03-07 12:45:56.240 || No turn - prepare - idle
+2024-03-07 12:45:56.305 || No turn - prepare - idle
+2024-03-07 12:45:56.372 || No turn - attack - idle
+2024-03-07 12:45:56.439 || No turn - attack - idle
+2024-03-07 12:45:56.506 || left turn - attack - idle
+2024-03-07 12:45:56.578 || left turn - attack - idle
+2024-03-07 12:45:56.644 || left turn - attack - idle
+2024-03-07 12:45:56.713 || left turn - attack - idle
+2024-03-07 12:45:56.778 || left turn - attack - idle
+2024-03-07 12:45:56.845 || left turn - attack - idle
+2024-03-07 12:45:56.911 || left turn - prepare - idle
+2024-03-07 12:45:56.977 || left turn - attack - idle
+2024-03-07 12:45:57.048 || left turn - attack - idle
+2024-03-07 12:45:57.116 || left turn - attack - idle
+2024-03-07 12:45:57.182 || left turn - attack - idle
+2024-03-07 12:45:57.248 || left turn - attack - idle
+2024-03-07 12:45:57.312 || left turn - attack - idle
+2024-03-07 12:45:57.379 || left turn - attack - idle
+2024-03-07 12:45:57.445 || left turn - attack - idle
+2024-03-07 12:45:57.516 || left turn - attack - idle
+2024-03-07 12:45:57.580 || left turn - attack - idle
+2024-03-07 12:45:57.651 || left turn - prepare - idle
+2024-03-07 12:45:57.714 || left turn - prepare - idle
+2024-03-07 12:45:57.783 || left turn - prepare - idle
+2024-03-07 12:45:57.851 || left turn - attack - idle
+2024-03-07 12:45:57.921 || left turn - attack - idle
+2024-03-07 12:45:57.987 || left turn - attack - idle
+2024-03-07 12:45:58.057 || left turn - attack - idle
+2024-03-07 12:45:58.120 || left turn - prepare - idle
+2024-03-07 12:45:58.187 || left turn - prepare - idle
+2024-03-07 12:45:58.254 || left turn - attack - idle
+2024-03-07 12:45:58.321 || left turn - attack - idle
+2024-03-07 12:45:58.387 || left turn - attack - idle
+2024-03-07 12:45:58.451 || left turn - attack - idle
+2024-03-07 12:45:58.525 || left turn - attack - idle
+2024-03-07 12:45:58.590 || left turn - attack - idle
+2024-03-07 12:45:58.655 || left turn - attack - idle
+2024-03-07 12:45:58.721 || left turn - attack - idle
+2024-03-07 12:45:58.789 || No turn - attack - idle
+2024-03-07 12:45:58.856 || No turn - attack - idle
+2024-03-07 12:45:58.926 || No turn - attack - idle
+2024-03-07 12:45:58.994 || No turn - attack - idle
+2024-03-07 12:45:59.060 || No turn - attack - idle
+2024-03-07 12:45:59.126 || No turn - attack - idle
+2024-03-07 12:45:59.191 || No turn - attack - idle
+2024-03-07 12:45:59.259 || No turn - attack - idle
+2024-03-07 12:45:59.327 || No turn - prepare - idle
+2024-03-07 12:45:59.393 || No turn - prepare - idle
+2024-03-07 12:45:59.461 || No turn - prepare - idle
+2024-03-07 12:45:59.530 || No turn - prepare - idle
+2024-03-07 12:45:59.595 || No turn - prepare - idle
+2024-03-07 12:45:59.661 || No turn - prepare - idle
+2024-03-07 12:45:59.728 || No turn - prepare - idle
+2024-03-07 12:45:59.798 || left turn - prepare - idle
+2024-03-07 12:45:59.865 || left turn - prepare - idle
+2024-03-07 12:45:59.933 || left turn - prepare - run
+2024-03-07 12:45:59.999 || left turn - attack - run
+2024-03-07 12:46:00.065 || left turn - attack - run
+2024-03-07 12:46:00.133 || left turn - attack - run
+2024-03-07 12:46:00.200 || left turn - attack - run
+2024-03-07 12:46:00.268 || left turn - attack - run
+2024-03-07 12:46:00.333 || left turn - attack - run
+2024-03-07 12:46:00.399 || left turn - attack - run
+2024-03-07 12:46:00.465 || left turn - attack - run
+2024-03-07 12:46:00.535 || left turn - attack - run
+2024-03-07 12:46:00.603 || left turn - attack - run
+2024-03-07 12:46:00.666 || left turn - attack - run
+2024-03-07 12:46:00.734 || left turn - attack - run
+2024-03-07 12:46:00.804 || left turn - attack - run
+2024-03-07 12:46:00.870 || left turn - attack - run
+2024-03-07 12:46:00.936 || left turn - attack - run
+2024-03-07 12:46:01.008 || left turn - attack - run
+2024-03-07 12:46:01.071 || left turn - attack - run
+2024-03-07 12:46:01.138 || left turn - attack - idle
+2024-03-07 12:46:01.206 || left turn - attack - walk
+2024-03-07 12:46:27.701 || No turn - prepare - idle
+2024-03-07 12:46:27.785 || No turn - prepare - idle - jump
+2024-03-07 12:46:27.851 || No turn - prepare - idle - jump
+2024-03-07 12:46:27.917 || No turn - prepare - idle - jump
+2024-03-07 12:46:27.986 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.051 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.118 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.182 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.248 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.318 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.387 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.451 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.514 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.584 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.648 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.716 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.780 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.847 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.911 || No turn - prepare - idle - jump
+2024-03-07 12:46:28.977 || No turn - prepare - idle - jump
+2024-03-07 12:46:29.044 || No turn - prepare - idle - jump
+2024-03-07 12:46:29.113 || No turn - prepare - idle - jump
+2024-03-07 12:46:29.181 || left turn - prepare - idle - jump
+2024-03-07 12:46:29.246 || left turn - prepare - idle - jump
+2024-03-07 12:46:29.313 || left turn - prepare - idle - jump
+2024-03-07 12:46:29.378 || left turn - prepare - idle
+2024-03-07 12:46:29.444 || No turn - prepare - idle
+2024-03-07 12:46:29.513 || No turn - prepare - idle
+2024-03-07 12:46:29.581 || No turn - prepare - idle
+2024-03-07 12:46:29.650 || No turn - prepare - idle
+2024-03-07 12:46:29.714 || No turn - prepare - idle
+2024-03-07 12:46:29.782 || No turn - prepare - idle
+2024-03-07 12:46:29.848 || No turn - prepare - idle
+2024-03-07 12:46:29.914 || No turn - prepare - idle
+2024-03-07 12:46:29.982 || No turn - prepare - idle
+2024-03-07 12:46:30.048 || No turn - prepare - idle
+2024-03-07 12:46:30.114 || No turn - prepare - idle
+2024-03-07 12:46:30.183 || No turn - prepare - idle
+2024-03-07 12:46:30.250 || right turn - prepare - walk
+2024-03-07 12:46:30.318 || No turn - prepare - walk
+2024-03-07 12:46:30.383 || No turn - prepare - walk
+2024-03-07 12:46:30.449 || No turn - prepare - walk
+2024-03-07 12:46:30.514 || No turn - prepare - walk
+2024-03-07 12:46:30.581 || No turn - prepare - walk
+2024-03-07 12:46:30.648 || No turn - prepare - walk
+2024-03-07 12:46:30.714 || No turn - prepare - walk
+2024-03-07 12:46:30.779 || No turn - prepare - walk
+2024-03-07 12:46:30.844 || No turn - prepare - walk
+2024-03-07 12:46:30.910 || No turn - prepare - walk
+2024-03-07 12:46:30.978 || No turn - prepare - walk
+2024-03-07 12:46:31.041 || No turn - prepare - walk
+2024-03-07 12:46:31.107 || No turn - prepare - walk
+2024-03-07 12:46:31.169 || No turn - prepare - walk
+2024-03-07 12:46:31.235 || No turn - prepare - walk
+2024-03-07 12:46:31.301 || No turn - prepare - idle
+2024-03-07 12:46:31.364 || No turn - prepare - idle
+2024-03-07 12:46:31.429 || No turn - prepare - idle
+2024-03-07 12:46:31.493 || No turn - prepare - idle
+2024-03-07 12:46:31.558 || No turn - prepare - idle
+2024-03-07 12:46:31.624 || No turn - prepare - idle
+2024-03-07 12:46:31.690 || No turn - prepare - idle
+2024-03-07 12:46:31.757 || No turn - prepare - idle
+2024-03-07 12:46:31.824 || No turn - prepare - idle
+2024-03-07 12:46:31.889 || No turn - prepare - idle
+2024-03-07 12:46:31.957 || No turn - prepare - walk
+2024-03-07 12:46:32.024 || No turn - prepare - walk
+2024-03-07 12:46:32.091 || No turn - prepare - walk
+2024-03-07 12:46:32.158 || No turn - prepare - walk
+2024-03-07 12:46:32.226 || No turn - prepare - walk
+2024-03-07 12:46:32.291 || No turn - prepare - walk
+2024-03-07 12:46:32.358 || No turn - prepare - walk
+2024-03-07 12:46:32.428 || No turn - prepare - walk
+2024-03-07 12:46:32.495 || No turn - prepare - walk - block
+2024-03-07 12:46:32.565 || No turn - prepare - walk - block
+2024-03-07 12:46:32.631 || No turn - prepare - walk
+2024-03-07 12:46:32.695 || No turn - prepare - walk
+2024-03-07 12:46:32.761 || No turn - prepare - walk
+2024-03-07 12:46:32.830 || right turn - prepare - walk
+2024-03-07 12:46:32.898 || right turn - prepare - walk
+2024-03-07 12:46:32.963 || right turn - prepare - walk
+2024-03-07 12:46:33.033 || No turn - prepare - walk
+2024-03-07 12:46:33.099 || No turn - prepare - idle
+2024-03-07 12:46:33.165 || No turn - prepare - run
+2024-03-07 12:46:33.234 || No turn - prepare - run - dodge
+2024-03-07 12:46:33.299 || No turn - prepare - run - dodge
+2024-03-07 12:46:33.365 || No turn - prepare - run - dodge
+2024-03-07 12:46:33.432 || right turn - prepare - run - dodge
+2024-03-07 12:46:33.499 || right turn - prepare - run - dodge
+2024-03-07 12:46:33.570 || right turn - prepare - run - dodge
+2024-03-07 12:46:33.635 || right turn - prepare - run - dodge
+2024-03-07 12:46:33.701 || No turn - prepare - run - dodge
+2024-03-07 12:46:33.772 || No turn - prepare - run - dodge
+2024-03-07 12:46:33.840 || No turn - prepare - run - dodge
+2024-03-07 12:46:33.903 || No turn - prepare - run - dodge
+2024-03-07 12:46:33.968 || No turn - attack - run - dodge
+2024-03-07 12:46:34.041 || No turn - attack - run - dodge
+2024-03-07 12:46:34.106 || No turn - prepare - run - dodge
+2024-03-07 12:46:34.171 || No turn - prepare - idle
+2024-03-07 12:46:34.242 || No turn - attack - idle - jump
+2024-03-07 12:46:34.306 || No turn - attack - idle - jump
+2024-03-07 12:46:34.374 || left turn - attack - idle - jump
+2024-03-07 12:46:34.444 || No turn - attack - idle
+2024-03-07 12:46:34.508 || No turn - attack - idle
+2024-03-07 12:46:34.574 || No turn - attack - idle
+2024-03-07 12:46:34.641 || No turn - attack - idle
+2024-03-07 12:46:34.711 || No turn - prepare - idle
+2024-03-07 12:46:34.778 || No turn - prepare - idle
+2024-03-07 12:46:34.846 || No turn - prepare - idle
+2024-03-07 12:46:34.910 || No turn - attack - idle
+2024-03-07 12:46:34.978 || No turn - attack - idle
+2024-03-07 12:46:35.043 || No turn - attack - idle
+2024-03-07 12:46:35.114 || No turn - attack - idle
+2024-03-07 12:46:35.179 || No turn - attack - idle
+2024-03-07 12:46:35.245 || No turn - attack - idle
+2024-03-07 12:46:35.313 || No turn - attack - idle
+2024-03-07 12:46:35.379 || No turn - attack - idle
+2024-03-07 12:46:35.451 || No turn - attack - idle
+2024-03-07 12:46:35.517 || No turn - attack - walk
+2024-03-07 12:46:35.582 || No turn - attack - walk
+2024-03-07 12:46:35.651 || No turn - attack - walk
+2024-03-07 12:46:35.716 || No turn - attack - walk
+2024-03-07 12:46:35.780 || No turn - attack - walk
+2024-03-07 12:46:35.851 || No turn - attack - walk
+2024-03-07 12:46:35.916 || No turn - attack - walk
+2024-03-07 12:46:35.984 || right turn - attack - walk
+2024-03-07 12:46:36.049 || right turn - attack - walk
+2024-03-07 12:46:36.119 || right turn - attack - walk
+2024-03-07 12:46:36.186 || right turn - prepare - walk
+2024-03-07 12:46:36.257 || right turn - attack - walk
+2024-03-07 12:46:36.322 || right turn - prepare - walk
+2024-03-07 12:46:36.390 || right turn - prepare - walk
+2024-03-07 12:46:36.464 || right turn - prepare - walk
+2024-03-07 12:46:36.527 || right turn - attack - walk
+2024-03-07 12:46:36.593 || right turn - attack - walk
+2024-03-07 12:46:36.658 || right turn - attack - idle
+2024-03-07 12:46:36.724 || right turn - prepare - idle
+2024-03-07 12:46:36.793 || right turn - attack - idle
+2024-03-07 12:46:36.859 || right turn - attack - idle
+2024-03-07 12:46:36.924 || right turn - attack - idle
+2024-03-07 12:46:36.989 || right turn - attack - idle
+2024-03-07 12:46:37.059 || right turn - attack - idle
+2024-03-07 12:46:37.125 || right turn - attack - idle
+2024-03-07 12:46:37.189 || right turn - attack - idle
+2024-03-07 12:46:37.260 || right turn - attack - idle
+2024-03-07 12:46:37.326 || right turn - attack - walk
+2024-03-07 12:46:37.394 || right turn - attack - walk
+2024-03-07 12:46:37.465 || right turn - attack - walk
+2024-03-07 12:46:37.531 || right turn - attack - walk
+2024-03-07 12:46:37.596 || No turn - attack - walk - jump
+2024-03-07 12:46:37.663 || No turn - attack - walk - jump
+2024-03-07 12:46:37.730 || No turn - attack - walk - jump
+2024-03-07 12:46:37.800 || No turn - prepare - walk - jump
+2024-03-07 12:46:37.866 || No turn - attack - walk - jump
+2024-03-07 12:46:37.931 || No turn - attack - walk - jump
+2024-03-07 12:46:37.996 || No turn - attack - walk - jump
+2024-03-07 12:46:38.067 || No turn - attack - walk - jump
+2024-03-07 12:46:38.132 || No turn - attack - walk - jump
+2024-03-07 12:46:38.197 || No turn - attack - walk - jump
+2024-03-07 12:46:38.271 || No turn - attack - walk - jump
+2024-03-07 12:46:38.336 || right turn - attack - walk - jump
+2024-03-07 12:46:38.401 || No turn - attack - walk - jump
+2024-03-07 12:46:38.471 || right turn - attack - idle - jump
+2024-03-07 12:46:38.535 || No turn - attack - idle
+2024-03-07 12:46:38.602 || No turn - attack - idle
+2024-03-07 12:46:38.670 || No turn - attack - idle
+2024-03-07 12:46:38.735 || No turn - attack - idle
+2024-03-07 12:46:38.804 || No turn - prepare - idle
+2024-03-07 12:46:38.875 || No turn - prepare - idle
+2024-03-07 12:46:38.939 || No turn - prepare - idle
+2024-03-07 12:46:39.008 || No turn - attack - idle
+2024-03-07 12:46:39.075 || No turn - attack - idle
+2024-03-07 12:46:39.140 || No turn - attack - idle
+2024-03-07 12:46:39.207 || No turn - attack - idle
+2024-03-07 12:46:39.277 || No turn - attack - idle
+2024-03-07 12:46:39.343 || No turn - attack - idle
+2024-03-07 12:46:39.410 || No turn - prepare - idle
+2024-03-07 12:46:39.477 || right turn - prepare - idle - jump
+2024-03-07 12:46:39.543 || right turn - attack - idle - jump
+2024-03-07 12:46:39.610 || No turn - attack - idle
+2024-03-07 12:46:39.678 || No turn - attack - idle
+2024-03-07 12:46:39.742 || No turn - prepare - idle
+2024-03-07 12:46:39.811 || No turn - attack - idle
+2024-03-07 12:46:39.883 || right turn - attack - idle
+2024-03-07 12:46:39.949 || right turn - attack - idle
+2024-03-07 12:46:40.015 || right turn - attack - idle
+2024-03-07 12:46:40.083 || right turn - attack - walk
+2024-03-07 12:46:40.148 || right turn - attack - walk
+2024-03-07 12:46:40.216 || right turn - attack - walk
+2024-03-07 12:46:40.284 || right turn - attack - walk
+2024-03-07 12:46:40.350 || No turn - attack - walk
+2024-03-07 12:46:40.414 || right turn - attack - walk
+2024-03-07 12:46:40.485 || No turn - attack - walk
+2024-03-07 12:46:40.548 || No turn - attack - walk
+2024-03-07 12:46:40.617 || No turn - attack - walk
+2024-03-07 12:46:40.684 || No turn - attack - walk
+2024-03-07 12:46:40.751 || No turn - attack - walk
+2024-03-07 12:46:40.820 || No turn - prepare - walk
+2024-03-07 12:46:40.886 || No turn - prepare - walk
+2024-03-07 12:46:40.951 || No turn - prepare - walk
+2024-03-07 12:46:41.020 || No turn - attack - walk
+2024-03-07 12:46:41.087 || No turn - attack - idle
+2024-03-07 12:46:41.154 || No turn - prepare - idle
+2024-03-07 12:46:41.224 || No turn - attack - idle
+2024-03-07 12:46:41.291 || right turn - attack - idle
+2024-03-07 12:46:41.356 || right turn - attack - idle
+2024-03-07 12:46:41.423 || right turn - attack - idle
+2024-03-07 12:46:41.492 || right turn - attack - idle
+2024-03-07 12:46:41.556 || right turn - attack - idle
+2024-03-07 12:46:41.625 || right turn - attack - idle
+2024-03-07 12:46:41.691 || right turn - attack - idle
+2024-03-07 12:46:41.757 || right turn - attack - idle
+2024-03-07 12:46:41.825 || right turn - attack - idle
+2024-03-07 12:46:41.894 || right turn - prepare - idle
+2024-03-07 12:46:41.960 || right turn - prepare - idle - block
+2024-03-07 12:46:42.027 || right turn - attack - idle
+2024-03-07 12:46:42.092 || right turn - prepare - idle - block
+2024-03-07 12:46:42.160 || right turn - prepare - run
+2024-03-07 12:46:42.227 || right turn - prepare - run
+2024-03-07 12:46:42.299 || right turn - attack - run
+2024-03-07 12:46:42.365 || right turn - attack - run
+2024-03-07 12:46:42.431 || No turn - prepare - run - dodge
+2024-03-07 12:46:42.500 || right turn - attack - run - dodge
+2024-03-07 12:46:42.566 || right turn - attack - run - dodge
+2024-03-07 12:46:42.633 || right turn - prepare - run - dodge
+2024-03-07 12:46:42.699 || right turn - attack - run - dodge
+2024-03-07 12:46:42.765 || right turn - prepare - run - block
+2024-03-07 12:46:42.912 || right turn - prepare - run - dodge
+2024-03-07 12:46:42.967 || right turn - prepare - run - dodge
+2024-03-07 12:46:43.036 || right turn - prepare - run - dodge
+2024-03-07 12:46:43.101 || right turn - prepare - run - dodge
+2024-03-07 12:46:43.169 || right turn - prepare - idle - dodge
+2024-03-07 12:46:43.240 || right turn - prepare - run - dodge
+2024-03-07 12:46:43.306 || right turn - prepare - run - dodge
+2024-03-07 12:46:43.371 || right turn - prepare - run - dodge
+2024-03-07 12:46:43.436 || right turn - prepare - run - dodge
+2024-03-07 12:46:43.508 || right turn - prepare - run - dodge
+2024-03-07 12:46:43.572 || right turn - prepare - run - dodge
+2024-03-07 12:46:43.637 || right turn - attack - run - dodge
+2024-03-07 12:46:43.706 || right turn - attack - run - dodge
+2024-03-07 12:46:43.774 || right turn - attack - run - dodge
+2024-03-07 12:46:43.841 || right turn - attack - run - dodge
+2024-03-07 12:46:43.908 || right turn - prepare - run
+2024-03-07 12:46:43.974 || right turn - prepare - run
+2024-03-07 12:46:44.042 || right turn - prepare - run
+2024-03-07 12:46:44.109 || left turn - prepare - run
+2024-03-07 12:46:44.172 || left turn - prepare - run
+2024-03-07 12:46:44.244 || No turn - prepare - idle
+2024-03-07 12:46:44.310 || No turn - prepare - idle
+2024-03-07 12:46:44.375 || left turn - prepare - idle
+2024-03-07 12:46:44.446 || left turn - prepare - idle
+2024-03-07 12:46:44.516 || left turn - prepare - idle
+2024-03-07 12:46:44.581 || left turn - prepare - idle - block
+2024-03-07 12:46:44.647 || left turn - prepare - walk
+2024-03-07 12:46:44.713 || left turn - prepare - walk
+2024-03-07 12:46:44.778 || left turn - prepare - walk
+2024-03-07 12:46:44.847 || No turn - prepare - walk
+2024-03-07 12:46:44.915 || No turn - prepare - walk
+2024-03-07 12:46:44.980 || No turn - prepare - walk
+2024-03-07 12:46:45.047 || No turn - attack - walk
+2024-03-07 12:46:45.114 || No turn - prepare - walk
+2024-03-07 12:46:45.187 || No turn - prepare - walk
+2024-03-07 12:46:45.250 || No turn - prepare - walk
+2024-03-07 12:46:45.318 || No turn - prepare - walk
+2024-03-07 12:46:45.384 || No turn - prepare - walk - dodge
+2024-03-07 12:46:45.449 || No turn - prepare - walk - dodge
+2024-03-07 12:46:45.523 || No turn - prepare - walk - dodge
+2024-03-07 12:46:45.589 || No turn - prepare - walk - dodge
+2024-03-07 12:46:45.653 || No turn - prepare - walk - dodge
+2024-03-07 12:46:45.723 || No turn - prepare - walk - dodge
+2024-03-07 12:46:45.789 || left turn - prepare - walk - dodge
+2024-03-07 12:46:45.853 || left turn - prepare - run - dodge
+2024-03-07 12:46:45.924 || No turn - prepare - run - dodge
+2024-03-07 12:46:45.990 || No turn - prepare - run - dodge
+2024-03-07 12:46:46.055 || No turn - prepare - run
+2024-03-07 12:46:46.124 || No turn - prepare - run
+2024-03-07 12:46:46.190 || No turn - prepare - run
+2024-03-07 12:46:46.256 || No turn - prepare - run
+2024-03-07 12:46:46.324 || No turn - prepare - run
+2024-03-07 12:46:46.388 || No turn - prepare - run
+2024-03-07 12:46:46.457 || No turn - prepare - run
+2024-03-07 12:46:46.528 || No turn - prepare - run - jump
+2024-03-07 12:46:46.592 || No turn - prepare - run - jump
+2024-03-07 12:46:46.661 || No turn - prepare - run - jump
+2024-03-07 12:46:46.727 || No turn - prepare - run - jump
+2024-03-07 12:46:46.790 || No turn - prepare - run - jump
+2024-03-07 12:46:46.861 || right turn - prepare - walk - block - jump
+2024-03-07 12:46:46.933 || right turn - prepare - walk - jump
+2024-03-07 12:46:46.996 || right turn - prepare - walk - jump
+2024-03-07 12:46:47.063 || right turn - prepare - walk - jump
+2024-03-07 12:46:47.132 || right turn - prepare - walk - jump
+2024-03-07 12:46:47.198 || right turn - prepare - walk - jump
+2024-03-07 12:46:47.264 || right turn - prepare - walk - jump
+2024-03-07 12:46:47.333 || right turn - prepare - walk - jump
+2024-03-07 12:46:47.396 || right turn - prepare - walk - jump
+2024-03-07 12:46:47.544 || right turn - attack - walk - dodge - jump
+2024-03-07 12:46:47.597 || right turn - prepare - walk - dodge - jump
+2024-03-07 12:46:47.665 || right turn - attack - walk - dodge
+2024-03-07 12:46:47.735 || right turn - attack - walk - dodge
+2024-03-07 12:46:47.801 || right turn - attack - walk - dodge
+2024-03-07 12:46:47.867 || right turn - attack - idle - dodge
+2024-03-07 12:46:47.938 || right turn - attack - idle - dodge
+2024-03-07 12:46:48.005 || No turn - attack - idle - dodge
+2024-03-07 12:46:48.071 || No turn - attack - walk - dodge
+2024-03-07 12:46:48.139 || No turn - attack - walk - dodge
+2024-03-07 12:46:48.205 || No turn - attack - walk - dodge
+2024-03-07 12:46:48.272 || No turn - attack - walk - dodge
+2024-03-07 12:46:48.341 || No turn - attack - walk - dodge
+2024-03-07 12:46:48.406 || right turn - attack - walk - dodge
+2024-03-07 12:46:48.471 || right turn - attack - walk - dodge
+2024-03-07 12:46:48.539 || right turn - attack - walk - dodge
+2024-03-07 12:46:48.606 || right turn - attack - walk - dodge
+2024-03-07 12:46:48.672 || right turn - attack - walk - dodge
+2024-03-07 12:46:48.743 || right turn - attack - walk - dodge
+2024-03-07 12:46:48.807 || right turn - attack - walk - dodge
+2024-03-07 12:46:48.878 || right turn - attack - walk
+2024-03-07 12:46:48.945 || right turn - attack - walk
+2024-03-07 12:46:49.011 || right turn - attack - walk
+2024-03-07 12:46:49.076 || right turn - attack - idle
+2024-03-07 12:46:49.144 || right turn - prepare - idle
+2024-03-07 12:46:49.210 || No turn - prepare - idle
+2024-03-07 12:46:49.278 || No turn - prepare - idle
+2024-03-07 12:46:49.347 || No turn - prepare - idle
+2024-03-07 12:46:49.413 || No turn - prepare - idle
+2024-03-07 12:46:49.480 || No turn - prepare - idle
+2024-03-07 12:46:49.549 || No turn - prepare - idle
+2024-03-07 12:46:49.616 || No turn - prepare - idle
+2024-03-07 12:46:49.681 || No turn - prepare - idle
+2024-03-07 12:46:49.748 || No turn - prepare - idle
+2024-03-07 12:46:49.813 || right turn - prepare - run
+2024-03-07 12:46:49.880 || right turn - prepare - run
+2024-03-07 12:46:49.953 || right turn - prepare - run
+2024-03-07 12:46:50.019 || right turn - prepare - run
+2024-03-07 12:46:50.084 || right turn - attack - run
+2024-03-07 12:46:50.153 || right turn - prepare - run
+2024-03-07 12:46:50.219 || right turn - attack - run
+2024-03-07 12:46:50.286 || right turn - attack - run
+2024-03-07 12:46:50.354 || right turn - attack - run
+2024-03-07 12:46:50.419 || right turn - attack - run
+2024-03-07 12:46:50.485 || right turn - attack - run
+2024-03-07 12:46:50.552 || right turn - attack - run
+2024-03-07 12:46:50.619 || right turn - attack - run
+2024-03-07 12:46:50.688 || right turn - attack - run
+2024-03-07 12:46:50.758 || right turn - attack - run
+2024-03-07 12:46:50.825 || right turn - attack - idle
+2024-03-07 12:46:50.890 || right turn - attack - idle
+2024-03-07 12:46:50.958 || right turn - prepare - idle
+2024-03-07 12:46:51.024 || right turn - prepare - idle
+2024-03-07 12:46:51.092 || right turn - attack - idle
+2024-03-07 12:46:51.160 || right turn - prepare - idle
+2024-03-07 12:46:51.225 || right turn - prepare - idle
+2024-03-07 12:46:51.290 || right turn - prepare - idle
+2024-03-07 12:46:51.360 || right turn - prepare - run
+2024-03-07 12:46:51.425 || right turn - prepare - run
+2024-03-07 12:46:51.493 || right turn - prepare - run
+2024-03-07 12:46:51.566 || right turn - prepare - run
+2024-03-07 12:46:51.631 || right turn - prepare - run
+2024-03-07 12:46:51.697 || right turn - attack - run
+2024-03-07 12:46:51.762 || right turn - attack - run
+2024-03-07 12:46:51.829 || right turn - prepare - run
+2024-03-07 12:46:51.898 || No turn - prepare - run
+2024-03-07 12:46:51.966 || No turn - prepare - run
+2024-03-07 12:46:52.032 || No turn - prepare - run
+2024-03-07 12:46:52.098 || No turn - prepare - run
+2024-03-07 12:46:52.167 || No turn - attack - run
+2024-03-07 12:46:52.233 || right turn - prepare - run
+2024-03-07 12:46:52.300 || right turn - prepare - run
+2024-03-07 12:46:52.368 || right turn - prepare - idle
+2024-03-07 12:46:52.434 || right turn - prepare - idle
+2024-03-07 12:46:52.499 || right turn - prepare - idle
+2024-03-07 12:46:52.571 || right turn - prepare - walk
+2024-03-07 12:46:52.637 || right turn - attack - walk
+2024-03-07 12:46:52.702 || right turn - attack - walk
+2024-03-07 12:46:52.770 || right turn - attack - walk
+2024-03-07 12:46:52.835 || right turn - attack - walk
+2024-03-07 12:46:52.907 || right turn - attack - walk
+2024-03-07 12:46:52.973 || right turn - attack - walk
+2024-03-07 12:46:53.039 || right turn - attack - walk
+2024-03-07 12:46:53.104 || right turn - attack - walk
+2024-03-07 12:46:53.172 || right turn - attack - walk
+2024-03-07 12:46:53.238 || right turn - attack - walk
+2024-03-07 12:46:53.307 || right turn - prepare - walk
+2024-03-07 12:46:53.376 || right turn - prepare - walk - block
+2024-03-07 12:46:53.442 || right turn - prepare - walk
+2024-03-07 12:46:53.509 || right turn - prepare - walk
+2024-03-07 12:46:53.574 || right turn - prepare - run
+2024-03-07 12:46:53.641 || right turn - prepare - run
+2024-03-07 12:46:53.709 || right turn - prepare - run
+2024-03-07 12:46:53.775 || right turn - prepare - run - block
+2024-03-07 12:46:53.845 || right turn - prepare - run
+2024-03-07 12:46:53.912 || right turn - prepare - run
+2024-03-07 12:46:53.981 || right turn - attack - run
+2024-03-07 12:46:54.045 || right turn - prepare - run
+2024-03-07 12:46:54.113 || right turn - prepare - run
+2024-03-07 12:46:54.181 || right turn - attack - run
+2024-03-07 12:46:54.248 || right turn - attack - run
+2024-03-07 12:46:54.314 || right turn - attack - run
+2024-03-07 12:46:54.380 || right turn - attack - run
+2024-03-07 12:46:54.447 || right turn - attack - run
+2024-03-07 12:46:54.514 || right turn - attack - run
+2024-03-07 12:46:54.580 || right turn - attack - idle
+2024-03-07 12:46:54.646 || right turn - attack - idle
+2024-03-07 12:46:54.717 || right turn - attack - walk
+2024-03-07 12:46:54.787 || right turn - attack - walk
+2024-03-07 12:46:54.851 || right turn - attack - walk
+2024-03-07 12:46:54.916 || right turn - attack - walk
+2024-03-07 12:46:54.987 || right turn - attack - walk
+2024-03-07 12:46:55.052 || right turn - prepare - walk
+2024-03-07 12:46:55.117 || right turn - prepare - walk
+2024-03-07 12:46:55.189 || right turn - prepare - walk
+2024-03-07 12:46:55.255 || right turn - prepare - walk - block
+2024-03-07 12:46:55.320 || right turn - attack - walk
+2024-03-07 12:46:55.389 || right turn - prepare - walk - dodge
+2024-03-07 12:46:55.455 || right turn - attack - walk - dodge
+2024-03-07 12:46:55.522 || right turn - attack - walk - dodge
+2024-03-07 12:46:55.588 || right turn - attack - walk - dodge
+2024-03-07 12:46:55.655 || right turn - attack - walk - dodge
+2024-03-07 12:46:55.725 || right turn - attack - walk - dodge
+2024-03-07 12:46:55.791 || right turn - attack - walk - dodge
+2024-03-07 12:46:55.859 || right turn - attack - walk
+2024-03-07 12:46:55.924 || right turn - attack - walk
+2024-03-07 12:46:55.991 || right turn - attack - walk
+2024-03-07 12:46:56.056 || right turn - attack - walk
+2024-03-07 12:46:56.126 || right turn - attack - run
+2024-03-07 12:46:56.195 || right turn - attack - run
+2024-03-07 12:46:56.260 || right turn - attack - run
+2024-03-07 12:46:56.324 || right turn - attack - run
+2024-03-07 12:46:56.395 || right turn - prepare - run
+2024-03-07 12:46:56.461 || right turn - prepare - run
+2024-03-07 12:46:56.531 || right turn - prepare - run
+2024-03-07 12:46:56.597 || right turn - prepare - run
+2024-03-07 12:46:56.661 || right turn - attack - run
+2024-03-07 12:46:56.729 || right turn - prepare - run
+2024-03-07 12:46:56.797 || right turn - attack - run
+2024-03-07 12:46:56.862 || right turn - attack - run
+2024-03-07 12:46:56.934 || right turn - attack - run
+2024-03-07 12:46:57.001 || right turn - attack - run
+2024-03-07 12:46:57.067 || No turn - attack - run
+2024-03-07 12:46:57.134 || No turn - prepare - idle
+2024-03-07 12:46:57.200 || left turn - attack - walk
+2024-03-07 12:46:57.265 || No turn - prepare - walk
+2024-03-07 12:46:57.335 || right turn - prepare - walk
+2024-03-07 12:46:57.403 || right turn - prepare - walk
+2024-03-07 12:46:57.467 || right turn - prepare - walk
+2024-03-07 12:46:57.535 || right turn - prepare - walk
+2024-03-07 12:46:57.603 || right turn - prepare - walk
+2024-03-07 12:46:57.665 || right turn - prepare - walk
+2024-03-07 12:46:57.739 || right turn - attack - walk
+2024-03-07 12:46:57.805 || right turn - attack - walk
+2024-03-07 12:46:57.869 || right turn - attack - walk
+2024-03-07 12:46:57.939 || right turn - prepare - walk
+2024-03-07 12:46:58.009 || right turn - prepare - walk
+2024-03-07 12:46:58.074 || right turn - prepare - walk
+2024-03-07 12:46:58.141 || right turn - prepare - walk
+2024-03-07 12:46:58.209 || right turn - prepare - idle
+2024-03-07 12:46:58.275 || right turn - prepare - idle
+2024-03-07 12:46:58.343 || right turn - prepare - idle
+2024-03-07 12:46:58.411 || right turn - prepare - idle
+2024-03-07 12:46:58.477 || right turn - prepare - walk
+2024-03-07 12:46:58.544 || right turn - prepare - walk
+2024-03-07 12:46:58.611 || right turn - prepare - walk - block
+2024-03-07 12:46:58.678 || right turn - prepare - walk - block
+2024-03-07 12:46:58.744 || right turn - prepare - walk - block
+2024-03-07 12:46:58.812 || right turn - prepare - walk - block
+2024-03-07 12:46:58.878 || right turn - prepare - walk
+2024-03-07 12:46:58.948 || right turn - prepare - walk - block
+2024-03-07 12:46:59.017 || right turn - prepare - walk - block
+2024-03-07 12:46:59.082 || right turn - prepare - walk
+2024-03-07 12:46:59.149 || right turn - prepare - walk
+2024-03-07 12:46:59.218 || right turn - attack - walk
+2024-03-07 12:46:59.283 || right turn - attack - walk
+2024-03-07 12:46:59.350 || right turn - attack - walk
+2024-03-07 12:46:59.493 || right turn - attack - walk
+2024-03-07 12:46:59.550 || right turn - prepare - idle
+2024-03-07 12:46:59.617 || right turn - attack - walk
+2024-03-07 12:46:59.681 || No turn - attack - walk
+2024-03-07 12:46:59.752 || No turn - attack - walk
+2024-03-07 12:46:59.817 || No turn - attack - walk
+2024-03-07 12:46:59.886 || No turn - attack - walk
+2024-03-07 12:46:59.957 || No turn - attack - walk
+2024-03-07 12:47:00.024 || No turn - attack - walk
+2024-03-07 12:47:00.093 || No turn - attack - walk
+2024-03-07 12:47:00.157 || No turn - attack - walk
+2024-03-07 12:47:00.225 || No turn - attack - walk
+2024-03-07 12:47:00.291 || No turn - attack - walk
+2024-03-07 12:47:00.357 || No turn - attack - walk
+2024-03-07 12:47:00.424 || No turn - attack - walk
+2024-03-07 12:47:00.490 || No turn - attack - walk
+2024-03-07 12:47:00.556 || right turn - attack - walk
+2024-03-07 12:47:00.623 || right turn - prepare - idle
+2024-03-07 12:47:00.690 || right turn - attack - idle
+2024-03-07 12:47:00.761 || right turn - attack - idle
+2024-03-07 12:47:00.826 || No turn - prepare - idle
+2024-03-07 12:47:00.892 || No turn - prepare - idle - jump
+2024-03-07 12:47:00.963 || No turn - prepare - walk - jump
+2024-03-07 12:47:01.031 || No turn - prepare - walk - jump
+2024-03-07 12:47:01.094 || No turn - prepare - walk - jump
+2024-03-07 12:47:01.161 || No turn - prepare - walk - jump
+2024-03-07 12:47:01.230 || No turn - prepare - walk - jump
+2024-03-07 12:47:01.295 || No turn - prepare - walk - jump
+2024-03-07 12:47:01.365 || No turn - attack - walk - jump
+2024-03-07 12:47:01.432 || No turn - attack - walk - jump
+2024-03-07 12:47:01.496 || No turn - prepare - walk - jump
+2024-03-07 12:47:01.562 || No turn - prepare - walk - jump
+2024-03-07 12:47:01.631 || No turn - attack - walk - jump
+2024-03-07 12:47:01.698 || No turn - attack - walk - jump
+2024-03-07 12:47:01.765 || No turn - attack - walk - jump
+2024-03-07 12:47:01.836 || right turn - attack - walk - jump
+2024-03-07 12:47:01.901 || right turn - attack - walk - jump
+2024-03-07 12:47:01.966 || right turn - attack - idle - jump
+2024-03-07 12:47:02.038 || right turn - attack - idle - jump
+2024-03-07 12:47:02.105 || right turn - attack - idle
+2024-03-07 12:47:02.170 || right turn - attack - idle
+2024-03-07 12:47:02.237 || right turn - attack - idle
+2024-03-07 12:47:02.303 || right turn - attack - idle
+2024-03-07 12:47:02.371 || right turn - attack - idle
+2024-03-07 12:47:02.440 || right turn - attack - idle
+2024-03-07 12:47:02.503 || right turn - attack - idle
+2024-03-07 12:47:02.569 || right turn - prepare - idle
+2024-03-07 12:47:02.639 || right turn - attack - idle
+2024-03-07 12:47:02.706 || right turn - attack - walk
+2024-03-07 12:47:02.773 || right turn - attack - walk
+2024-03-07 12:47:02.843 || right turn - attack - walk
+2024-03-07 12:47:02.908 || right turn - attack - walk
+2024-03-07 12:47:02.974 || right turn - attack - walk
+2024-03-07 12:47:03.045 || right turn - attack - walk
+2024-03-07 12:47:03.109 || right turn - attack - walk
+2024-03-07 12:47:03.173 || right turn - attack - walk
+2024-03-07 12:47:03.241 || right turn - attack - walk
+2024-03-07 12:47:03.308 || right turn - attack - walk
+2024-03-07 12:47:03.379 || right turn - attack - walk
+2024-03-07 12:47:03.445 || right turn - attack - walk
+2024-03-07 12:47:03.510 || right turn - attack - walk
+2024-03-07 12:47:03.578 || right turn - prepare - walk
+2024-03-07 12:47:03.646 || right turn - prepare - walk
+2024-03-07 12:47:03.713 || right turn - attack - idle
+2024-03-07 12:47:03.779 || right turn - attack - idle
+2024-03-07 12:47:03.845 || right turn - attack - idle
+2024-03-07 12:47:03.916 || right turn - attack - idle
+2024-03-07 12:47:03.983 || right turn - attack - idle
+2024-03-07 12:47:04.049 || right turn - attack - idle
+2024-03-07 12:47:04.117 || right turn - attack - idle
+2024-03-07 12:47:04.182 || right turn - attack - idle
+2024-03-07 12:47:04.250 || right turn - attack - idle
+2024-03-07 12:47:04.319 || right turn - attack - idle
+2024-03-07 12:47:04.385 || No turn - prepare - idle
+2024-03-07 12:47:04.454 || No turn - prepare - walk
+2024-03-07 12:47:04.521 || No turn - prepare - walk
+2024-03-07 12:47:04.586 || No turn - prepare - walk
+2024-03-07 12:47:04.653 || No turn - prepare - walk
+2024-03-07 12:47:04.718 || No turn - prepare - walk
+2024-03-07 12:47:04.784 || right turn - prepare - walk
+2024-03-07 12:47:04.854 || right turn - prepare - walk
+2024-03-07 12:47:04.919 || right turn - prepare - walk
+2024-03-07 12:47:04.990 || right turn - prepare - walk
+2024-03-07 12:47:05.060 || right turn - prepare - walk
+2024-03-07 12:47:05.126 || No turn - prepare - walk
+2024-03-07 12:47:05.191 || No turn - prepare - walk
+2024-03-07 12:47:05.257 || No turn - prepare - walk
+2024-03-07 12:47:05.322 || No turn - prepare - walk
+2024-03-07 12:47:05.393 || right turn - prepare - walk
+2024-03-07 12:47:05.458 || right turn - prepare - idle
+2024-03-07 12:47:05.522 || No turn - prepare - idle
+2024-03-07 12:47:05.593 || No turn - prepare - idle
+2024-03-07 12:47:05.664 || No turn - prepare - idle
+2024-03-07 12:47:05.728 || No turn - prepare - idle
+2024-03-07 12:47:05.795 || No turn - prepare - idle
+2024-03-07 12:47:05.863 || No turn - prepare - idle
+2024-03-07 12:47:05.928 || No turn - prepare - idle
+2024-03-07 12:47:05.999 || No turn - prepare - idle
+2024-03-07 12:47:06.064 || No turn - prepare - idle
+2024-03-07 12:47:06.128 || No turn - prepare - idle - dodge
+2024-03-07 12:47:06.199 || right turn - prepare - idle - dodge
+2024-03-07 12:47:06.262 || No turn - prepare - idle - dodge
+2024-03-07 12:47:06.328 || No turn - prepare - idle - dodge
+2024-03-07 12:47:06.397 || right turn - prepare - idle - dodge
+2024-03-07 12:47:06.468 || right turn - prepare - idle - dodge
+2024-03-07 12:47:06.535 || No turn - prepare - idle
+2024-03-07 12:47:06.598 || No turn - prepare - idle
+2024-03-07 12:47:06.688 || right turn - prepare - idle
+2024-03-07 12:47:06.735 || right turn - prepare - idle
+2024-03-07 12:47:06.802 || right turn - attack - idle
+2024-03-07 12:47:06.868 || right turn - attack - idle
+2024-03-07 12:47:06.937 || right turn - attack - idle
+2024-03-07 12:47:07.003 || right turn - attack - idle
+2024-03-07 12:47:07.072 || right turn - attack - idle
+2024-03-07 12:47:07.139 || right turn - attack - idle
+2024-03-07 12:47:07.203 || right turn - attack - idle
+2024-03-07 12:47:07.269 || right turn - attack - idle
+2024-03-07 12:47:07.339 || right turn - attack - idle
+2024-03-07 12:47:07.408 || right turn - attack - idle
+2024-03-07 12:47:07.475 || right turn - attack - idle
+2024-03-07 12:47:07.539 || right turn - attack - idle
+2024-03-07 12:47:07.605 || right turn - attack - idle
+2024-03-07 12:47:07.678 || right turn - attack - idle
+2024-03-07 12:47:07.743 || right turn - attack - idle
+2024-03-07 12:47:07.809 || right turn - attack - idle - jump
+2024-03-07 12:47:07.879 || right turn - attack - idle - jump
+2024-03-07 12:47:07.943 || right turn - attack - idle - jump
+2024-03-07 12:47:08.011 || right turn - attack - idle - jump
+2024-03-07 12:47:08.079 || right turn - attack - idle - jump
+2024-03-07 12:47:08.144 || No turn - attack - idle - jump
+2024-03-07 12:47:08.212 || No turn - attack - idle - jump
+2024-03-07 12:47:08.277 || No turn - prepare - idle - jump
+2024-03-07 12:47:08.345 || No turn - prepare - idle - jump
+2024-03-07 12:47:08.411 || No turn - prepare - idle - jump
+2024-03-07 12:47:08.481 || No turn - prepare - idle - jump
+2024-03-07 12:47:08.546 || No turn - prepare - idle - jump
+2024-03-07 12:47:08.614 || No turn - prepare - idle - jump
+2024-03-07 12:47:08.685 || No turn - prepare - idle - jump
+2024-03-07 12:47:08.753 || left turn - prepare - idle
+2024-03-07 12:47:08.818 || left turn - prepare - idle
+2024-03-07 12:47:08.883 || left turn - prepare - idle
+2024-03-07 12:47:08.950 || left turn - prepare - idle
+2024-03-07 12:47:09.019 || left turn - prepare - idle
+2024-03-07 12:47:09.086 || No turn - prepare - idle
+2024-03-07 12:47:09.153 || No turn - prepare - idle
+2024-03-07 12:47:09.216 || No turn - prepare - idle
+2024-03-07 12:47:09.285 || No turn - prepare - idle
+2024-03-07 12:47:09.350 || No turn - prepare - idle
+2024-03-07 12:47:09.420 || left turn - prepare - idle
+2024-03-07 12:47:09.489 || No turn - prepare - idle
+2024-03-07 12:47:09.554 || No turn - prepare - idle
+2024-03-07 12:47:09.621 || No turn - prepare - idle
+2024-03-07 12:47:09.690 || No turn - attack - idle
+2024-03-07 12:47:09.755 || No turn - attack - walk
+2024-03-07 12:47:09.822 || No turn - attack - walk
+2024-03-07 12:47:09.894 || No turn - attack - walk
+2024-03-07 12:47:09.957 || No turn - attack - walk
+2024-03-07 12:47:10.029 || left turn - attack - walk
+2024-03-07 12:47:10.094 || left turn - attack - walk
+2024-03-07 12:47:10.159 || left turn - attack - walk
+2024-03-07 12:47:10.227 || left turn - attack - walk
+2024-03-07 12:47:10.294 || left turn - attack - walk
+2024-03-07 12:47:10.361 || left turn - attack - walk
+2024-03-07 12:47:10.428 || left turn - prepare - walk
+2024-03-07 12:47:10.495 || No turn - prepare - walk
+2024-03-07 12:47:10.559 || No turn - prepare - walk
+2024-03-07 12:47:10.627 || No turn - prepare - walk
+2024-03-07 12:47:10.695 || left turn - attack - walk
+2024-03-07 12:47:10.761 || No turn - attack - idle
+2024-03-07 12:47:10.829 || No turn - prepare - idle
+2024-03-07 12:47:10.895 || No turn - attack - idle
+2024-03-07 12:47:10.967 || No turn - prepare - idle
+2024-03-07 12:47:11.035 || No turn - attack - idle
+2024-03-07 12:47:11.100 || No turn - attack - idle - jump
+2024-03-07 12:47:11.166 || No turn - attack - idle - jump
+2024-03-07 12:47:11.233 || No turn - attack - idle - jump
+2024-03-07 12:47:11.300 || No turn - attack - idle - jump
+2024-03-07 12:47:11.365 || No turn - prepare - idle - jump
+2024-03-07 12:47:11.436 || No turn - attack - idle - jump
+2024-03-07 12:47:11.503 || No turn - attack - idle - jump
+2024-03-07 12:47:11.568 || left turn - attack - idle
+2024-03-07 12:47:11.634 || left turn - attack - idle
+2024-03-07 12:47:11.702 || left turn - attack - idle
+2024-03-07 12:47:11.772 || left turn - attack - idle
+2024-03-07 12:47:11.837 || left turn - attack - idle
+2024-03-07 12:47:11.903 || left turn - attack - idle
+2024-03-07 12:47:11.971 || left turn - attack - idle
+2024-03-07 12:47:12.036 || left turn - attack - walk
+2024-03-07 12:47:12.107 || left turn - attack - walk
+2024-03-07 12:47:12.172 || left turn - prepare - walk
+2024-03-07 14:26:26.383 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:26.498 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:26.559 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:26.625 || left turn - attack left - prepare right - idle
+2024-03-07 14:26:26.691 || left turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:26.759 || left turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:26.829 || left turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:26.891 || left turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:26.959 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:27.022 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:27.089 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:27.157 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:27.224 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:27.291 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:27.360 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:27.426 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:27.492 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:27.559 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:27.629 || No turn - attack left - attack right - idle
+2024-03-07 14:26:27.695 || No turn - attack left - attack right - idle
+2024-03-07 14:26:27.762 || No turn - attack left - attack right - idle
+2024-03-07 14:26:27.829 || No turn - attack left - attack right - idle
+2024-03-07 14:26:27.898 || No turn - attack left - attack right - idle
+2024-03-07 14:26:27.963 || No turn - attack left - attack right - idle
+2024-03-07 14:26:28.031 || No turn - attack left - attack right - idle
+2024-03-07 14:26:28.098 || No turn - attack left - attack right - idle
+2024-03-07 14:26:28.164 || No turn - attack left - attack right - idle
+2024-03-07 14:26:28.232 || No turn - attack left - attack right - idle
+2024-03-07 14:26:28.300 || No turn - attack left - attack right - idle
+2024-03-07 14:26:28.368 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:28.428 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:28.497 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:28.565 || left turn - attack left - attack right - idle
+2024-03-07 14:26:28.630 || left turn - attack left - attack right - idle
+2024-03-07 14:26:28.698 || left turn - attack left - attack right - idle
+2024-03-07 14:26:28.762 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:28.832 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:28.900 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:28.968 || left turn - attack left - attack right - idle
+2024-03-07 14:26:29.034 || left turn - attack left - attack right - idle
+2024-03-07 14:26:29.098 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:29.164 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.233 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.298 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.363 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.427 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.495 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.565 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.633 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.697 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.767 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.832 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.900 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:29.968 || left turn - attack left - attack right - walk
+2024-03-07 14:26:30.038 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:30.098 || left turn - attack left - attack right - walk
+2024-03-07 14:26:30.162 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:30.229 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:30.294 || left turn - attack left - attack right - idle
+2024-03-07 14:26:30.364 || No turn - attack left - attack right - idle
+2024-03-07 14:26:30.430 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:30.494 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:30.564 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:30.628 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:30.696 || No turn - attack left - attack right - idle
+2024-03-07 14:26:30.764 || left turn - attack left - prepare right - idle
+2024-03-07 14:26:30.832 || left turn - attack left - prepare right - idle
+2024-03-07 14:26:30.894 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:30.960 || left turn - attack left - attack right - idle
+2024-03-07 14:26:31.027 || left turn - attack left - attack right - idle
+2024-03-07 14:26:31.093 || left turn - attack left - prepare right - idle
+2024-03-07 14:26:31.160 || No turn - attack left - attack right - idle
+2024-03-07 14:26:31.223 || No turn - attack left - attack right - idle
+2024-03-07 14:26:31.288 || No turn - attack left - attack right - idle
+2024-03-07 14:26:31.357 || left turn - attack left - attack right - idle
+2024-03-07 14:26:31.418 || left turn - attack left - attack right - idle
+2024-03-07 14:26:31.614 || left turn - attack left - attack right - idle
+2024-03-07 14:26:31.684 || left turn - attack left - attack right - idle
+2024-03-07 14:26:31.749 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:31.816 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:31.885 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:31.947 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:32.013 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:32.078 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:32.144 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:32.207 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:32.271 || left turn - prepare left - prepare right - idle
+2024-03-07 14:26:32.339 || No turn - prepare left - prepare right - run
+2024-03-07 14:26:32.413 || left turn - prepare left - attack right - run
+2024-03-07 14:26:32.480 || left turn - prepare left - prepare right - run
+2024-03-07 14:26:32.545 || left turn - prepare left - attack right - run
+2024-03-07 14:26:32.609 || left turn - prepare left - attack right - run
+2024-03-07 14:26:32.676 || left turn - prepare left - attack right - run
+2024-03-07 14:26:32.739 || left turn - prepare left - attack right - run
+2024-03-07 14:26:32.807 || left turn - prepare left - prepare right - run
+2024-03-07 14:26:33.423 || left turn - attack left - attack right - walk
+2024-03-07 14:26:33.762 || right turn - attack left - prepare right - walk - block
+2024-03-07 14:26:33.817 || right turn - attack left - prepare right - walk - dodge
+2024-03-07 14:26:33.967 || right turn - prepare left - prepare right - walk
+2024-03-07 14:26:34.018 || right turn - prepare left - prepare right - walk
+2024-03-07 14:26:34.090 || right turn - prepare left - prepare right - walk
+2024-03-07 14:26:34.155 || right turn - prepare left - prepare right - walk
+2024-03-07 14:26:34.222 || right turn - attack left - prepare right - walk
+2024-03-07 14:26:34.289 || right turn - attack left - prepare right - walk
+2024-03-07 14:26:34.355 || right turn - prepare left - prepare right - walk
+2024-03-07 14:26:34.422 || left turn - prepare left - attack right - walk
+2024-03-07 14:26:34.490 || left turn - attack left - attack right - walk
+2024-03-07 14:26:34.556 || right turn - attack left - attack right - run
+2024-03-07 14:26:34.621 || left turn - prepare left - attack right - run
+2024-03-07 14:26:34.693 || right turn - prepare left - attack right - run
+2024-03-07 14:26:34.761 || right turn - prepare left - attack right - run
+2024-03-07 14:26:34.828 || right turn - prepare left - attack right - run
+2024-03-07 14:26:34.897 || right turn - prepare left - attack right - run
+2024-03-07 14:26:34.963 || right turn - prepare left - attack right - run
+2024-03-07 14:26:35.028 || right turn - prepare left - prepare right - run
+2024-03-07 14:26:35.095 || right turn - prepare left - prepare right - run
+2024-03-07 14:26:35.160 || left turn - prepare left - prepare right - run
+2024-03-07 14:26:35.223 || right turn - prepare left - attack right - run
+2024-03-07 14:26:35.295 || left turn - prepare left - attack right - run
+2024-03-07 14:26:35.360 || left turn - prepare left - attack right - run
+2024-03-07 14:26:35.432 || left turn - prepare left - attack right - run
+2024-03-07 14:26:35.500 || left turn - prepare left - prepare right - run
+2024-03-07 14:26:35.565 || left turn - prepare left - prepare right - walk
+2024-03-07 14:26:35.630 || left turn - attack left - prepare right - walk
+2024-03-07 14:26:35.698 || left turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:35.765 || left turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:35.833 || No turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:35.902 || No turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:35.966 || No turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:36.032 || left turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:36.105 || left turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:36.170 || left turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:36.235 || left turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:36.305 || left turn - attack left - attack right - walk - jump
+2024-03-07 14:26:36.369 || left turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:36.435 || left turn - attack left - prepare right - walk - jump
+2024-03-07 14:26:36.506 || left turn - attack left - attack right - walk - jump
+2024-03-07 14:26:36.571 || No turn - attack left - attack right - idle - jump
+2024-03-07 14:26:36.637 || No turn - attack left - attack right - idle - jump
+2024-03-07 14:26:36.708 || No turn - attack left - attack right - idle - jump
+2024-03-07 14:26:36.774 || No turn - attack left - attack right - walk - jump
+2024-03-07 14:26:36.837 || No turn - attack left - attack right - walk - jump
+2024-03-07 14:26:36.905 || No turn - attack left - attack right - walk - jump
+2024-03-07 14:26:36.969 || No turn - attack left - attack right - walk - jump
+2024-03-07 14:26:37.040 || No turn - attack left - attack right - walk - jump
+2024-03-07 14:26:37.106 || No turn - attack left - attack right - walk - jump
+2024-03-07 14:26:37.174 || right turn - attack left - attack right - walk
+2024-03-07 14:26:37.240 || No turn - attack left - attack right - walk
+2024-03-07 14:26:37.312 || No turn - attack left - attack right - walk
+2024-03-07 14:26:37.375 || No turn - attack left - prepare right - walk
+2024-03-07 14:26:37.443 || No turn - attack left - prepare right - walk
+2024-03-07 14:26:37.511 || No turn - attack left - prepare right - walk
+2024-03-07 14:26:37.579 || No turn - attack left - prepare right - walk
+2024-03-07 14:26:37.644 || No turn - attack left - prepare right - walk
+2024-03-07 14:26:37.714 || No turn - attack left - prepare right - walk
+2024-03-07 14:26:37.779 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:37.845 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:37.917 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:37.982 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:38.047 || No turn - attack left - attack right - idle
+2024-03-07 14:26:38.123 || No turn - attack left - attack right - idle
+2024-03-07 14:26:38.187 || No turn - attack left - attack right - idle
+2024-03-07 14:26:38.252 || No turn - attack left - attack right - idle
+2024-03-07 14:26:38.318 || No turn - attack left - attack right - idle
+2024-03-07 14:26:38.385 || No turn - attack left - attack right - idle
+2024-03-07 14:26:38.451 || No turn - attack left - attack right - idle
+2024-03-07 14:26:38.520 || No turn - attack left - attack right - idle
+2024-03-07 14:26:38.586 || right turn - attack left - attack right - idle
+2024-03-07 14:26:38.651 || right turn - attack left - attack right - idle
+2024-03-07 14:26:38.721 || right turn - attack left - attack right - idle
+2024-03-07 14:26:38.785 || right turn - attack left - attack right - idle
+2024-03-07 14:26:38.851 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:38.921 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:38.986 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:39.055 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:39.124 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:39.190 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:39.255 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:39.327 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:39.393 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:39.460 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:39.529 || No turn - attack left - attack right - idle
+2024-03-07 14:26:39.593 || No turn - attack left - attack right - idle
+2024-03-07 14:26:39.658 || No turn - attack left - attack right - idle
+2024-03-07 14:26:39.726 || No turn - attack left - attack right - idle
+2024-03-07 14:26:39.796 || No turn - attack left - attack right - idle
+2024-03-07 14:26:39.862 || No turn - attack left - attack right - idle
+2024-03-07 14:26:39.927 || No turn - attack left - attack right - idle
+2024-03-07 14:26:39.995 || No turn - attack left - attack right - idle
+2024-03-07 14:26:40.062 || No turn - attack left - attack right - idle
+2024-03-07 14:26:40.132 || No turn - attack left - attack right - idle
+2024-03-07 14:26:40.197 || No turn - attack left - attack right - idle
+2024-03-07 14:26:40.263 || No turn - attack left - attack right - idle
+2024-03-07 14:26:40.332 || No turn - attack left - attack right - idle
+2024-03-07 14:26:40.398 || No turn - attack left - attack right - idle
+2024-03-07 14:26:40.464 || No turn - attack left - attack right - idle
+2024-03-07 14:26:40.535 || No turn - attack left - attack right - idle
+2024-03-07 14:26:40.601 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:40.666 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:40.739 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:40.803 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:40.868 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:40.936 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:41.002 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:41.066 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:41.134 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:41.205 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:41.271 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:41.338 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:41.405 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:41.469 || No turn - attack left - attack right - idle
+2024-03-07 14:26:41.541 || No turn - attack left - attack right - idle
+2024-03-07 14:26:41.607 || No turn - attack left - attack right - idle
+2024-03-07 14:26:41.672 || No turn - attack left - attack right - idle
+2024-03-07 14:26:41.743 || No turn - attack left - attack right - idle
+2024-03-07 14:26:41.808 || No turn - attack left - attack right - idle
+2024-03-07 14:26:41.872 || No turn - attack left - attack right - idle
+2024-03-07 14:26:41.945 || No turn - attack left - attack right - idle
+2024-03-07 14:26:42.010 || No turn - attack left - attack right - idle
+2024-03-07 14:26:42.075 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:42.147 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:42.211 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:42.278 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:42.345 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:42.412 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:42.478 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:42.548 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:42.613 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:42.679 || No turn - attack left - attack right - idle
+2024-03-07 14:26:42.748 || No turn - attack left - attack right - idle
+2024-03-07 14:26:42.813 || right turn - attack left - attack right - idle
+2024-03-07 14:26:42.878 || right turn - attack left - attack right - idle
+2024-03-07 14:26:42.948 || right turn - attack left - attack right - idle
+2024-03-07 14:26:43.016 || right turn - attack left - attack right - idle
+2024-03-07 14:26:43.081 || No turn - attack left - attack right - idle
+2024-03-07 14:26:43.150 || No turn - attack left - attack right - idle
+2024-03-07 14:26:43.216 || No turn - attack left - attack right - idle
+2024-03-07 14:26:43.281 || No turn - attack left - attack right - idle
+2024-03-07 14:26:43.354 || No turn - attack left - attack right - idle
+2024-03-07 14:26:43.421 || No turn - attack left - attack right - idle
+2024-03-07 14:26:43.486 || No turn - attack left - attack right - idle
+2024-03-07 14:26:43.555 || No turn - attack left - attack right - idle
+2024-03-07 14:26:43.621 || left turn - attack left - attack right - idle
+2024-03-07 14:26:43.687 || left turn - attack left - attack right - walk
+2024-03-07 14:26:43.754 || left turn - attack left - attack right - walk
+2024-03-07 14:26:43.823 || left turn - attack left - attack right - walk
+2024-03-07 14:26:43.891 || left turn - attack left - attack right - walk
+2024-03-07 14:26:43.959 || right turn - attack left - prepare right - walk
+2024-03-07 14:26:44.023 || right turn - attack left - prepare right - walk
+2024-03-07 14:26:44.088 || right turn - prepare left - prepare right - walk
+2024-03-07 14:26:44.157 || right turn - prepare left - prepare right - walk
+2024-03-07 14:26:44.225 || right turn - prepare left - prepare right - walk
+2024-03-07 14:26:44.293 || right turn - prepare left - prepare right - walk - dodge
+2024-03-07 14:26:44.360 || right turn - prepare left - prepare right - walk - dodge
+2024-03-07 14:26:44.426 || right turn - prepare left - prepare right - walk - dodge
+2024-03-07 14:26:44.494 || right turn - prepare left - prepare right - walk - dodge
+2024-03-07 14:26:44.561 || No turn - prepare left - attack right - walk - dodge
+2024-03-07 14:26:46.451 || right turn - attack left - prepare right - run
+2024-03-07 14:26:46.506 || left turn - prepare left - prepare right - run
+2024-03-07 14:26:46.577 || right turn - prepare left - attack right - run
+2024-03-07 14:26:46.642 || right turn - prepare left - prepare right - run
+2024-03-07 14:26:46.707 || left turn - attack left - prepare right - run
+2024-03-07 14:26:46.855 || No turn - prepare left - attack right - run
+2024-03-07 14:26:46.910 || No turn - prepare left - attack right - run
+2024-03-07 14:26:46.978 || No turn - prepare left - attack right - run
+2024-03-07 14:26:47.042 || No turn - prepare left - attack right - run
+2024-03-07 14:26:47.109 || No turn - prepare left - prepare right - run
+2024-03-07 14:26:47.179 || No turn - prepare left - prepare right - run
+2024-03-07 14:26:47.253 || No turn - prepare left - prepare right - run
+2024-03-07 14:26:47.320 || left turn - prepare left - prepare right - run
+2024-03-07 14:26:47.384 || left turn - prepare left - prepare right - run
+2024-03-07 14:26:47.448 || No turn - prepare left - prepare right - run
+2024-03-07 14:26:47.513 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:47.584 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:47.648 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:47.715 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:47.784 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:47.850 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:47.917 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:47.986 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:48.050 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:48.118 || No turn - prepare left - prepare right - idle
+2024-03-07 14:26:48.191 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.258 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.322 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.387 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.453 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.521 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.589 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.657 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.722 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.791 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.860 || No turn - prepare left - prepare right - idle - jump
+2024-03-07 14:26:48.926 || No turn - prepare left - attack right - idle - jump
+2024-03-07 14:26:48.994 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.059 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.126 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.195 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.261 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.325 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:49.395 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.469 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.533 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.600 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.663 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.726 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.797 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.863 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.931 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:49.996 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:50.064 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:50.132 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:50.201 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:50.267 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:50.332 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:50.403 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:50.469 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:50.534 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:50.606 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:50.670 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:50.735 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:50.804 || left turn - prepare left - attack right - idle
+2024-03-07 14:26:50.872 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:50.938 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.007 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.072 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.139 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.209 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.274 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.339 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.407 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.472 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.540 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.615 || No turn - attack left - attack right - idle
+2024-03-07 14:26:51.681 || No turn - attack left - attack right - idle
+2024-03-07 14:26:51.747 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.812 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.880 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:51.944 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:52.013 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:52.078 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:52.144 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:52.214 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:52.280 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:52.345 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:52.418 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:52.483 || No turn - attack left - attack right - idle
+2024-03-07 14:26:52.548 || No turn - attack left - attack right - idle
+2024-03-07 14:26:52.616 || No turn - attack left - attack right - idle
+2024-03-07 14:26:52.685 || No turn - attack left - attack right - idle
+2024-03-07 14:26:52.749 || No turn - attack left - attack right - idle
+2024-03-07 14:26:52.819 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:52.886 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:52.950 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:53.019 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:53.084 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:53.153 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:53.224 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:53.288 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:53.353 || No turn - prepare left - attack right - idle
+2024-03-07 14:26:53.420 || No turn - attack left - attack right - idle
+2024-03-07 14:26:53.490 || No turn - attack left - attack right - idle
+2024-03-07 14:26:53.557 || No turn - attack left - attack right - idle
+2024-03-07 14:26:53.625 || No turn - attack left - attack right - idle
+2024-03-07 14:26:53.690 || No turn - attack left - attack right - idle
+2024-03-07 14:26:53.758 || No turn - attack left - attack right - idle
+2024-03-07 14:26:53.823 || No turn - attack left - attack right - idle
+2024-03-07 14:26:53.892 || No turn - attack left - attack right - idle
+2024-03-07 14:26:53.955 || No turn - attack left - attack right - idle
+2024-03-07 14:26:54.024 || No turn - attack left - attack right - idle
+2024-03-07 14:26:54.094 || No turn - attack left - attack right - idle
+2024-03-07 14:26:54.157 || No turn - attack left - attack right - idle
+2024-03-07 14:26:54.227 || No turn - attack left - attack right - idle
+2024-03-07 14:26:54.294 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:54.360 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:54.431 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:54.498 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:54.563 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:54.634 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:54.699 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:54.764 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:54.832 || left turn - attack left - prepare right - idle
+2024-03-07 14:26:54.900 || No turn - attack left - attack right - idle
+2024-03-07 14:26:54.965 || No turn - attack left - attack right - idle
+2024-03-07 14:26:55.036 || No turn - attack left - attack right - idle
+2024-03-07 14:26:55.101 || No turn - attack left - attack right - idle
+2024-03-07 14:26:55.166 || No turn - attack left - attack right - idle
+2024-03-07 14:26:55.239 || right turn - attack left - attack right - idle
+2024-03-07 14:26:55.305 || right turn - attack left - attack right - idle
+2024-03-07 14:26:55.370 || right turn - attack left - prepare right - idle
+2024-03-07 14:26:55.436 || right turn - attack left - prepare right - idle
+2024-03-07 14:26:55.504 || right turn - attack left - prepare right - idle
+2024-03-07 14:26:55.571 || left turn - attack left - prepare right - idle
+2024-03-07 14:26:55.640 || left turn - attack left - prepare right - idle
+2024-03-07 14:26:55.706 || left turn - attack left - prepare right - idle
+2024-03-07 14:26:55.773 || left turn - attack left - prepare right - idle
+2024-03-07 14:26:55.841 || No turn - attack left - prepare right - idle
+2024-03-07 14:26:55.907 || right turn - attack left - prepare right - idle
+2024-03-07 14:26:55.972 || right turn - attack left - attack right - idle
+2024-03-07 14:26:56.043 || right turn - attack left - prepare right - idle
+2024-03-07 14:26:56.106 || right turn - prepare left - prepare right - idle
+2024-03-07 14:26:56.173 || right turn - prepare left - prepare right - idle
+2024-03-07 14:26:56.244 || right turn - prepare left - prepare right - idle
+2024-03-07 14:26:56.308 || right turn - attack left - prepare right - idle
+2024-03-07 14:26:56.376 || No turn - attack left - attack right - idle
+2024-03-07 14:26:56.443 || right turn - attack left - attack right - idle
+2024-03-07 14:26:56.513 || right turn - attack left - attack right - idle
+2024-03-07 14:26:56.578 || No turn - attack left - attack right - idle
+2024-03-07 14:26:56.647 || right turn - attack left - attack right - idle
+2024-03-07 14:26:56.713 || right turn - prepare left - attack right - idle
+2024-03-07 14:26:56.780 || right turn - prepare left - attack right - idle
+2024-03-07 14:26:56.850 || right turn - prepare left - attack right - idle
+2024-03-07 14:26:56.912 || right turn - prepare left - attack right - idle
+2024-03-07 14:26:56.977 || right turn - prepare left - attack right - idle
+2024-03-07 14:26:57.047 || right turn - prepare left - attack right - idle
+2024-03-07 14:26:58.031 || No turn - prepare left - prepare right - walk
+2024-03-07 14:26:58.369 || left turn - prepare left - prepare right - walk
+2024-03-07 14:26:58.424 || right turn - prepare left - prepare right - walk
+2024-03-07 14:26:58.492 || No turn - attack left - prepare right - walk
+2024-03-07 14:26:58.560 || No turn - prepare left - prepare right - walk
+2024-03-07 14:26:58.624 || No turn - prepare left - prepare right - walk
+2024-03-07 14:26:58.691 || right turn - prepare left - prepare right - walk - block
+2024-03-07 14:26:58.761 || right turn - attack left - prepare right - walk - block
+2024-03-07 14:26:58.827 || right turn - attack left - prepare right - walk
+2024-03-07 14:26:59.038 || right turn - prepare left - prepare right - run
+2024-03-07 14:26:59.607 || right turn - prepare left - prepare right - run
+2024-03-07 14:26:59.664 || right turn - prepare left - attack right - run
+2024-03-07 14:26:59.734 || right turn - prepare left - prepare right - run
+2024-03-07 14:26:59.801 || right turn - prepare left - prepare right - run
+2024-03-07 14:26:59.869 || right turn - prepare left - prepare right - run
+2024-03-07 14:26:59.936 || right turn - prepare left - prepare right - run
+2024-03-07 14:27:00.003 || left turn - prepare left - prepare right - run
+2024-03-07 14:27:00.071 || left turn - prepare left - prepare right - walk
+2024-03-07 14:27:00.556 || No turn - attack left - prepare right - walk
+2024-03-07 14:27:00.612 || left turn - attack left - attack right - walk - jump
+2024-03-07 14:27:00.683 || left turn - attack left - attack right - walk - jump
+2024-03-07 14:27:00.751 || No turn - attack left - attack right - walk - jump
+2024-03-07 14:27:00.816 || No turn - prepare left - attack right - walk - jump
+2024-03-07 14:27:00.884 || No turn - prepare left - attack right - walk - jump
+2024-03-07 14:27:00.950 || No turn - prepare left - attack right - walk - jump
+2024-03-07 14:27:01.020 || left turn - prepare left - attack right - walk - jump
+2024-03-07 14:27:01.085 || left turn - prepare left - attack right - idle - jump
+2024-03-07 14:27:01.153 || left turn - prepare left - prepare right - idle - jump
+2024-03-07 14:27:01.217 || left turn - prepare left - attack right - idle - jump
+2024-03-07 14:27:01.285 || left turn - prepare left - attack right - idle - jump
+2024-03-07 14:27:01.354 || left turn - prepare left - prepare right - idle - jump
+2024-03-07 14:27:01.418 || left turn - prepare left - prepare right - idle - jump
+2024-03-07 14:27:01.487 || left turn - prepare left - attack right - walk - jump
+2024-03-07 14:27:01.555 || left turn - prepare left - attack right - walk - jump
+2024-03-07 14:27:01.620 || left turn - attack left - attack right - walk - jump
+2024-03-07 14:27:01.691 || left turn - attack left - attack right - walk - jump
+2024-03-07 14:27:01.757 || left turn - attack left - attack right - walk - jump
+2024-03-07 14:27:01.824 || left turn - attack left - attack right - walk - jump
+2024-03-07 14:27:01.892 || left turn - attack left - attack right - walk - dodge - jump
+2024-03-07 14:27:01.958 || left turn - prepare left - attack right - walk - dodge - jump
+2024-03-07 14:27:02.024 || left turn - prepare left - attack right - walk - dodge - jump
+2024-03-07 14:27:02.096 || left turn - prepare left - prepare right - walk - dodge - jump
+2024-03-07 14:27:02.160 || left turn - prepare left - attack right - walk - dodge - jump
+2024-03-07 14:27:02.225 || No turn - prepare left - attack right - walk - dodge - jump
+2024-03-07 14:27:02.296 || No turn - prepare left - attack right - walk - dodge - jump
+2024-03-07 14:27:02.361 || No turn - prepare left - attack right - walk - dodge
+2024-03-07 14:27:02.427 || No turn - prepare left - attack right - walk
+2024-03-07 14:27:02.495 || No turn - prepare left - attack right - idle
+2024-03-07 14:27:02.559 || No turn - prepare left - attack right - idle
+2024-03-07 14:27:02.625 || No turn - prepare left - attack right - idle
+2024-03-07 14:27:02.697 || No turn - prepare left - attack right - idle
+2024-03-07 14:27:02.761 || No turn - attack left - attack right - idle
+2024-03-07 14:27:02.830 || left turn - attack left - attack right - idle
+2024-03-07 14:27:02.897 || No turn - attack left - attack right - idle
+2024-03-07 14:27:02.963 || left turn - attack left - attack right - idle
+2024-03-07 14:27:03.031 || left turn - attack left - attack right - idle
+2024-03-07 14:27:03.099 || left turn - attack left - attack right - idle
+2024-03-07 14:27:03.165 || left turn - attack left - attack right - idle
+2024-03-07 14:27:03.232 || left turn - attack left - attack right - idle
+2024-03-07 14:27:03.300 || left turn - attack left - attack right - idle
+2024-03-07 14:27:03.370 || left turn - attack left - attack right - idle
+2024-03-07 14:27:03.434 || left turn - prepare left - attack right - idle
+2024-03-07 14:27:03.499 || left turn - attack left - attack right - idle
+2024-03-07 14:27:03.565 || left turn - attack left - attack right - idle
+2024-03-07 14:27:03.631 || left turn - attack left - attack right - idle

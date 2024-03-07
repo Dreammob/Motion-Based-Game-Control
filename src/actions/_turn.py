@@ -1,4 +1,5 @@
-"""tracks the user preforming a turn"""
+"""tracks the user preforming a turn, normal turn angle should be around 110 - 120 ,
+ less turn angle means head is more to the left, more turn angle means head is more to right"""
 from typing import Optional
 
 class Turn:
@@ -12,6 +13,6 @@ class Turn:
             self.state = "right turn"
         elif turn_angle > self.left_turn_threshold:
             self.state = "left turn"
-        elif turn_angle <+ self.left_turn_threshold or self.right_turn_threshold <= turn_angle:
+        elif turn_angle <= self.left_turn_threshold or self.right_turn_threshold <= turn_angle:
             self.state = "No turn"
         return self.state

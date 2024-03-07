@@ -17,8 +17,9 @@ mp_pose = mp.solutions.pose
 # Initialize action state objects
 jump_tracker = Jump()
 dodge_tracker = Dodge()
-nAttack_tracker = NAttack(attack_threshold = 160) # angle which when greater counts as attack
-move_tracker = Move(walk_threshold = 165, run_threshold = 145)
+nAttack_tracker_right = NAttack(attack_threshold = 160) # angle which when greater counts as attack
+nAttack_tracker_left = NAttack(attack_threshold = 160)
+move_tracker = Move(walk_threshold = 175, run_threshold = 160)
 turn_tracker = Turn(left_turn_threshold = 125, right_turn_threshold=95)
 
 
@@ -90,7 +91,8 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             actions = []
 
             # Calculate angles for attack, turn and move
-            attack_angle = calculate_angle(left_shoulder, left_elbow, left_wrist)
+            left_attack_angle = calculate_angle(left_shoulder, left_elbow, left_wrist)
+            right_attack_angle = calculate_angle(right_shoulder, right_elbow, right_wrist)
             left_leg_angle = calculate_angle(left_ankle, left_knee, left_hip)
             right_leg_angle = calculate_angle(right_ankle, right_knee, right_hip)
             turn_angle = calculate_angle(right_ear, nose, left_shoulder)
@@ -103,13 +105,14 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                            # fonts
                            cv2.FONT_HERSHEY_SIMPLEX, 5, (255, 255, 255), 2, cv2.LINE_AA
                                 )
-                                
             # identify and add to actions
             move_state = move_tracker.update(left_leg_angle, right_leg_angle)
-            attack_state = nAttack_tracker.update(attack_angle)
+            left_attack_state = nAttack_tracker_left.update(left_attack_angle)
+            right_attack_state = nAttack_tracker_right.update(right_attack_angle)
             turn_state = turn_tracker.update(turn_angle)
             actions.append(turn_state)
-            actions.append(attack_state)
+            actions.append(left_attack_state + " left")
+            actions.append(right_attack_state + " right")
             actions.append(move_state)
 
           
@@ -136,38 +139,23 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             cv2.rectangle(image, (0,0), (400,200), (245,117,16), -1)
             
             # data
-            """ cv2.putText(image, 'Count', (15,12), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,0,0), 1, cv2.LINE_AA)
-            cv2.putText(image, str(counter), 
-                        (10,60), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255), 2, cv2.LINE_AA)
-            """
             cv2.putText(image, 'movement status: ' + move_state, (5,30), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-            cv2.putText(image, 'attack status: ' + attack_state, (5,60), 
+            cv2.putText(image, 'attack status: ' + left_attack_state, (5,60), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
             cv2.putText(image, 'turn status: ' + turn_state, (5,90), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
 
-            """ cv2.putText(image, 'jump counter: ' + str(jump_counter), (5,120), 
+            cv2.putText(image, 'jump counter: ' + str(jump_counter), (5,120), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-            cv2.putText(image, 'dodge counter: ' + str(dodge_counter), (5,), 
+            cv2.putText(image, 'dodge counter: ' + str(dodge_counter), (5,160), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
             cv2.putText(image, 'block counter: ' + str(jump_counter), (5,180), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-                    """
 
                                 
             write_action_to_file(actions)
-            """  just pass action to integrator in the end   
-            Instead of printing or just setting stage, write the action directly to the file
-            if attack_stage == "attack":
-                write_action_to_file('01')
-            elif stage == "prepare":
-                write_action_to_file('00')  # Assuming you want to track this stage as well
-            elif stage == "jumping":
-                write_action_to_file('jump')
-            # Add more elif blocks for other stages/actions as necessary """
+
                 
         except:
             pass
