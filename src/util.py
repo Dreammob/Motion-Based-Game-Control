@@ -4,6 +4,8 @@ import cv2
 import mediapipe as mp
 import numpy as np
 
+FRAME_WIDTH = 1280
+FRAME_HEIGHT = 720
 
 def calculate_angle(a,b,c):
     # returns the joint angles between points

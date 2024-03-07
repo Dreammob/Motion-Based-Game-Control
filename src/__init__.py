@@ -34,6 +34,10 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
     movement_stage = "none"
     attack_stage = "none"
 
+    # Initialize action state objects
+    jump_tracker = Jump()
+    dodge_tracker = Dodge()
+
     while cap.isOpened():
         ret, frame = cap.read()
         
@@ -64,10 +68,6 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             right_knee = [landmarks[mp_pose.PoseLandmark.RIGHT_KNEE.value].x, landmarks[mp_pose.PoseLandmark.RIGHT_KNEE.value].y]
             left_ankle = [landmarks[mp_pose.PoseLandmark.LEFT_ANKLE.value].x, landmarks[mp_pose.PoseLandmark.LEFT_ANKLE.value].y]
             right_ankle = [landmarks[mp_pose.PoseLandmark.RIGHT_ANKLE.value].x, landmarks[mp_pose.PoseLandmark.RIGHT_ANKLE.value].y]
-
-            # Initialize action state objects
-            jump_tracker = Jump()
-            dodge_tracker = Dodge()
 
             # Final stages sent to integrator
             actions = []

@@ -2,10 +2,11 @@
 import collections
 import numpy as np
 from typing import Optional
+from statistics import mean
 
 JUMP_L_R_HIP_PIXEL_DIFF_THRESH = 10
-JUMP_QUAD_REGRESS_A_THRESH = 0
-JUMP_NUM_FRAMES_TO_PROCESS = 60
+JUMP_QUAD_REGRESS_A_THRESH = 2.0e-11
+JUMP_NUM_FRAMES_TO_PROCESS = 30
 
 # A naive method to detect jumping using quadratic regression. Maybe make length of queue dependent on time rather than frames?
 
@@ -27,13 +28,15 @@ class Jump:
                 calc_quad_regress = False
                 break
         
+        stage = None
         if calc_quad_regress:
-            quad_regress = np.poly1d(np.polyfit(self._timestamps, [(x[0] + x[1]) / 2 for x in self._jump_hip_y_values], 2))
+            hip_avgs = [(x[0] + x[1]) / 2 for x in self._jump_hip_y_values]
+            quad_regress = np.poly1d(np.polyfit(self._timestamps, hip_avgs, 2))
 
-        if quad_regress.coeffs[0] <= JUMP_QUAD_REGRESS_A_THRESH:
-            for i in range(len(self._jump_hip_y_values)):
-                self._jump_hip_y_values[i] = (0, 0)
-            return "jump"
-        else:
-            return "stop"
+        if quad_regress.coeffs[0] >= JUMP_QUAD_REGRESS_A_THRESH:
+            stage = "jump"
+
+        # print(quad_regress.coeffs[0], stage)
+        
+        return stage
 
