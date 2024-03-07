@@ -1,11 +1,13 @@
 from pynput.keyboard import Key, Controller as KeyboardController
 from pynput.mouse import Button, Controller as MouseController
+import vgamepad as vg
 import time
 import threading
 import datetime
 
 keyboard = KeyboardController()
 mouse = MouseController()
+game_controller = vg.VX360Gamepad()
 
 # last_command = None  # To track the last command processed
 
@@ -83,7 +85,7 @@ def read_flags_from_file(file_path):
     with open(file_path, 'r') as file:
         lines = file.readlines()  # Read all lines
         if len(lines) < 2 or line_index >= len(lines)-1:
-            time.sleep(0.3)
+            time.sleep(0.1)
             pass
 
         else:
@@ -113,7 +115,7 @@ def read_flags_from_file(file_path):
             time_difference = next_time - curr_time
             # print(time_difference.total_seconds())
 
-            time.sleep(0.1)
+            
         print(line_index ) # For debugging
         print(len((lines)))
     return last_flags_set, current_flags_set  # Return both last and current flags as strings
@@ -144,10 +146,11 @@ def press_key(action_flag):
     """
     global attack_prep
     match action_flag:
-        case 'left turn':
-            keyboard.press('a')
-            keypressed.add('a')
-            print("press a")
+        # case 'left turn':
+        #     keyboard.press('a')
+        #     keypressed.add('a')
+        #     print("press a")
+
         case 'attack':
             # keyboard.press('w')
             # keypressed.add('w')
@@ -155,7 +158,8 @@ def press_key(action_flag):
             if attack_prep:
                 # mouse.click(Button.left, 1)
                 # print("clicked")
-                move_mouse_right_by_100_pixels()
+                game_controller.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_RIGHT_SHOULDER)
+                game_controller.update()
 
         case 'prepare':
             # keyboard.press('s')
@@ -163,31 +167,33 @@ def press_key(action_flag):
             # print("press s")
             attack_prep = True
 
-        case 'jump':
-            keyboard.press(Key.space)
-            keypressed.add(Key.space)
-            print("press space")
-        case 'dodge':
-            press_key_with_delay(Key.shift, 0.3)        
-        case 'run':
-            keyboard.press(Key.shift)
-            keypressed.add(Key.shift)
-            print("press shift")
+        # case 'jump':
+        #     keyboard.press(Key.space)
+        #     keypressed.add(Key.space)
+        #     print("press space")
+        # case 'dodge':
+        #     press_key_with_delay(Key.shift, 0.3)        
+        # case 'run':
+        #     keyboard.press(Key.shift)
+        #     keypressed.add(Key.shift)
+        #     print("press shift")
 
 
 def release_key(action_flag):
     match action_flag:
-        case 'left turn':
-            keyboard.release('a')
-            if 'a' in keypressed:
-                keypressed.remove('a')
-            print("release a")
+        # case 'left turn':
+        #     keyboard.release('a')
+        #     if 'a' in keypressed:
+        #         keypressed.remove('a')
+        #     print("release a")
 
-        # case 'attack':
-        #     keyboard.release('w')
-        #     if 'w' in keypressed:
-        #         keypressed.remove('w')
-        #     print("release w")
+        case 'attack':
+            # keyboard.release('w')
+            # if 'w' in keypressed:
+            #     keypressed.remove('w')
+            # print("release w")
+            game_controller.release_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_RIGHT_SHOULDER)
+            game_controller.update()
 
         # case 'prepare':
         #     keyboard.release('s')
@@ -195,17 +201,17 @@ def release_key(action_flag):
         #         keypressed.remove('s')
         #     print("release s")
 
-        case 'jump':
-            keyboard.release(Key.space)
-            if Key.space in keypressed:
-                keypressed.remove(Key.space)
-            print("release space")
+        # case 'jump':
+        #     keyboard.release(Key.space)
+        #     if Key.space in keypressed:
+        #         keypressed.remove(Key.space)
+        #     print("release space")
 
-        case 'run':
-            keyboard.release(Key.shift)
-            if Key.shift in keypressed:
-                keypressed.remove(Key.shift)
-            print("release shift")
+        # case 'run':
+        #     keyboard.release(Key.shift)
+        #     if Key.shift in keypressed:
+        #         keypressed.remove(Key.shift)
+        #     print("release shift")
 
 def press_key_with_delay(key, duration):
     """Presses a key for a given duration then releases it."""
@@ -241,10 +247,11 @@ with open(file_path, 'w') as file:
 while line_index >= 0:
     last_flags_set, current_flags_set = read_flags_from_file(file_path)
     handling_action_to_keyboard(last_flags_set, current_flags_set)
+    time.sleep(0.1)
 
-    print(last_flags_set)
-    print("\n")
-    print(current_flags_set)
+    # print(last_flags_set)
+    # print("\n")
+    # print(current_flags_set)
 
     line_index += 1  # Move to the next line for the next call
 

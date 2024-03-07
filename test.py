@@ -1,12 +1,14 @@
-from pynput.mouse import Button, Controller
+import vgamepad as vg
+import time
 
-mouse = Controller()
+gamepad = vg.VX360Gamepad()
 
-# Move the mouse
-mouse.position = (100, 100)
-
-# Click the mouse
-mouse.click(Button.left, 1)
-
-# Scroll
-mouse.scroll(0, 2)  # Scroll vertically
+while True:
+    print("press")
+    gamepad.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
+    gamepad.update()
+    time.sleep(0.5)
+    print("release")
+    gamepad.release_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
+    gamepad.update()
+    time.sleep(0.5)
