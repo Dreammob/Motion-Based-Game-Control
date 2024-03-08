@@ -117,7 +117,6 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             actions.append(turn_state)
             actions.append(left_attack_state)
             actions.append(right_attack_state)
-            actions.append(move_state)
 
             # dodge logic
             if l_r_dodge := dodge_tracker.update(new_left_shoulder_x_val=left_shoulder[0], new_timestamp=time.time()):
@@ -132,6 +131,8 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                 debug_jump_counter += 1
                 
                 actions.append(jump)
+            else:
+                actions.append(move_state)
 
                                 
             # Setup status box
