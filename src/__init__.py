@@ -20,7 +20,7 @@ jump_tracker = Jump()
 dodge_tracker = Dodge(left_pixel_thresh=0.8, right_pixel_thresh=0.4)  # these are defaults in the file 
 nAttack_tracker = Attack(attack_threshold=160) # angle which when greater counts as attack
 move_tracker = Move(walk_threshold=165, run_threshold=145)
-turn_tracker = Turn(left_turn_threshold=130, right_turn_threshold=100)
+turn_tracker = Turn(left_turn_threshold=133, right_turn_threshold=107)
 
 
 cap = cv2.VideoCapture(0)

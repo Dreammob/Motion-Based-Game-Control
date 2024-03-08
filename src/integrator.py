@@ -69,15 +69,15 @@ def handling_action_to_keyboard(last_flags_set, current_flags_set):
 def press_key(action_flag):
     global attack_prep
     
-    # if action_flag == 'left turn':
-    #     keyboard.press('a')
-    #     keypressed.add('a')
-    #     print("press a")
+    if action_flag == 'turn_left':
+        keyboard.press('3')
+        keypressed.add('3')
+        print("press 3")
 
-    # elif action_flag == 'right turn':
-    #     keyboard.press('d')
-    #     keypressed.add('d')
-    #     print("press d")
+    if action_flag == 'turn_right':
+        keyboard.press('4')
+        keypressed.add('4')
+        print("press 4")
 
     if action_flag == 'left_attack_norm':
         if attack_prep:
@@ -111,10 +111,10 @@ def press_key(action_flag):
     if action_flag == 'dodge_left':
         dodge_to_direction('a')
 
-    if action_flag == 'run':
-        keyboard.press(Key.shift)
-        keypressed.add(Key.shift)
-        print("press shift")
+    # if action_flag == 'run':
+    #     keyboard.press(Key.shift)
+    #     keypressed.add(Key.shift)
+    #     print("press shift")
 
 # def press_key(action_flag):
 #     """
@@ -194,17 +194,17 @@ def press_key(action_flag):
 #             print("press shift")
 
 def release_key(action_flag):
-    if action_flag == 'left turn':
-        keyboard.release('a')
-        if 'a' in keypressed:
-            keypressed.remove('a')
-        print("release a")
+    if action_flag == 'turn_left':
+        keyboard.release('3')
+        if '3' in keypressed:
+            keypressed.remove('3')
+        print("release 3")
 
-    if action_flag == 'right turn':
-        keyboard.release('d')
-        if 'd' in keypressed:
-            keypressed.remove('d')
-        print("release d")
+    if action_flag == 'turn_right':
+        keyboard.release('4')
+        if '4' in keypressed:
+            keypressed.remove('4')
+        print("release 4")
 
     if action_flag == 'walk':
         keyboard.release('w')
@@ -233,11 +233,11 @@ def release_key(action_flag):
             keypressed.remove(Key.space)
         print("release space")
 
-    if action_flag == 'run':
-        keyboard.release(Key.shift)
-        if Key.shift in keypressed:
-            keypressed.remove(Key.shift)
-        print("release shift")
+    # if action_flag == 'run':
+    #     keyboard.release(Key.shift)
+    #     if Key.shift in keypressed:
+    #         keypressed.remove(Key.shift)
+    #     print("release shift")
 
 
 # def release_key(action_flag):
