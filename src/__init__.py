@@ -24,6 +24,8 @@ turn_tracker = Turn(left_turn_threshold=133, right_turn_threshold=107)
 
 
 cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture(1)
+
 
 
 # debug variables

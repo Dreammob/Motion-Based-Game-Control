@@ -69,15 +69,15 @@ def handling_action_to_keyboard(last_flags_set, current_flags_set):
 def press_key(action_flag):
     global attack_prep
     
-    if action_flag == 'turn_left':
-        keyboard.press('3')
-        keypressed.add('3')
-        print("press 3")
+    # if action_flag == 'turn_left':
+    #     keyboard.press('3')
+    #     keypressed.add('3')
+    #     print("press 3")
 
-    if action_flag == 'turn_right':
-        keyboard.press('4')
-        keypressed.add('4')
-        print("press 4")
+    # if action_flag == 'turn_right':
+    #     keyboard.press('4')
+    #     keypressed.add('4')
+    #     print("press 4")
 
     if action_flag == 'left_attack_norm':
         if attack_prep:
@@ -111,10 +111,10 @@ def press_key(action_flag):
     if action_flag == 'dodge_left':
         dodge_to_direction('a')
 
-    # if action_flag == 'run':
-    #     keyboard.press(Key.shift)
-    #     keypressed.add(Key.shift)
-    #     print("press shift")
+    if action_flag == 'run':
+        keyboard.press(Key.shift)
+        keypressed.add(Key.shift)
+        print("press shift")
 
 # def press_key(action_flag):
 #     """
@@ -200,7 +200,7 @@ def release_key(action_flag):
             keypressed.remove('3')
         print("release 3")
 
-    if action_flag == 'turn_right':
+    if action_flag == 'turn_left':
         keyboard.release('4')
         if '4' in keypressed:
             keypressed.remove('4')
@@ -302,12 +302,12 @@ def dodge_to_direction(key):
     def press_and_release():
         
         keyboard.press(key)
-        time.sleep(0.1)  # This blocks the thread, not the main program
+        time.sleep(0.2)  # This blocks the thread, not the main program
         keyboard.press(Key.shift)
           # This blocks the thread, not the main program
-        time.sleep(0.1)
+        time.sleep(0.2)
         keyboard.release(Key.shift)
-        time.sleep(0.1)
+        time.sleep(0.2)
         keyboard.release(key)
         print(f"dodged to {key} direction")
 
@@ -328,7 +328,7 @@ with open(file_path, 'w') as file:
 while line_index >= 0:
     last_flags_set, current_flags_set = read_flags_from_file(file_path)
     handling_action_to_keyboard(last_flags_set, current_flags_set)
-    print(line_index)
+    # print(line_index)
 
     # print(last_flags_set)
     # print("\n")
