@@ -20,7 +20,7 @@ jump_tracker = Jump()
 dodge_tracker = Dodge(left_pixel_thresh=0.8, right_pixel_thresh=0.4)  # these are defaults in the file 
 nAttack_tracker = Attack(attack_threshold=160) # angle which when greater counts as attack
 move_tracker = Move(walk_threshold=165, run_threshold=145)
-turn_tracker = Turn(left_turn_threshold=125, right_turn_threshold=95)
+turn_tracker = Turn(left_turn_threshold=130, right_turn_threshold=100)
 
 
 cap = cv2.VideoCapture(0)
@@ -102,12 +102,12 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             # right_turn_angle = calculate_angle(left_ear, nose, right_shoulder)
 
             # Visualize angle if needed
-            # cv2.putText(image, str(left_leg_angle), 
-            #                 # replace 1280, 720 with camera feed resolution, finds location of elbow in actual feed
-            #                (100,500), 
-            #                # fonts
-            #                cv2.FONT_HERSHEY_SIMPLEX, 5, (255, 255, 255), 2, cv2.LINE_AA
-            #                     )
+            cv2.putText(image, str(turn_angle), 
+                            # replace 1280, 720 with camera feed resolution, finds location of elbow in actual feed
+                           (100,500), 
+                           # fonts
+                           cv2.FONT_HERSHEY_SIMPLEX, 5, (255, 255, 255), 2, cv2.LINE_AA
+                                )
                                 
             # identify and add to actions
             move_state = debug_move_state = move_tracker.update(left_leg_angle, right_leg_angle)

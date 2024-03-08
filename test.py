@@ -1,14 +1,30 @@
-import vgamepad as vg
+from pynput.keyboard import Key, Controller as KeyboardController
+from pynput.mouse import Button, Controller as MouseController
 import time
+import threading
+import datetime
 
-gamepad = vg.VX360Gamepad()
+keyboard = KeyboardController()
 
+def dodge_to_direction(key):
+    """Presses a key for a given duration then releases it."""
+    def press_and_release():
+        
+        keyboard.press(key)
+        time.sleep(0.1)  # This blocks the thread, not the main program
+        keyboard.press(Key.shift)
+          # This blocks the thread, not the main program
+        time.sleep(0.1)
+        keyboard.release(Key.shift)
+        time.sleep(0.1)
+        keyboard.release(key)
+        print(f"dodged to {key} direction")
+
+    thread = threading.Thread(target=press_and_release)
+    thread.start()
+
+time.sleep(3)    
 while True:
-    print("press")
-    gamepad.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
-    gamepad.update()
-    time.sleep(0.5)
-    print("release")
-    gamepad.release_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
-    gamepad.update()
-    time.sleep(0.5)
+    print("dodge")
+    dodge_to_direction('a', 0.3)
+    time.sleep(2)
