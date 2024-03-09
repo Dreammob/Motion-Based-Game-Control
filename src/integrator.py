@@ -80,15 +80,15 @@ press the key for input flag, if flag is dodge, call the function to handle it.
 def press_key(action_flag):
     global attack_prep
     
-    # if action_flag == 'turn_left':
-    #     keyboard.press('3')
-    #     keypressed.add('3')
-    #     print("press 3")
+    if action_flag == 'turn_left':
+        keyboard.press('3')
+        keypressed.add('3')
+        print("press 3")
 
-    # if action_flag == 'turn_right':
-    #     keyboard.press('4')
-    #     keypressed.add('4')
-    #     print("press 4")
+    if action_flag == 'turn_right':
+        keyboard.press('4')
+        keypressed.add('4')
+        print("press 4")
 
     if action_flag == 'left_attack_norm':
         if attack_prep:
@@ -137,7 +137,7 @@ def release_key(action_flag):
             keypressed.remove('3')
         print("release 3")
 
-    if action_flag == 'turn_left':
+    if action_flag == 'turn_right':
         keyboard.release('4')
         if '4' in keypressed:
             keypressed.remove('4')
