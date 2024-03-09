@@ -184,12 +184,12 @@ def dodge_to_direction(key):
     def press_and_release():
         
         keyboard.press(key)
-        time.sleep(0.2)  # This blocks the thread, not the main program
+        time.sleep(0.1)  # This blocks the thread, not the main program
         keyboard.press(Key.shift)
           # This blocks the thread, not the main program
-        time.sleep(0.2)
+        time.sleep(0.1)
         keyboard.release(Key.shift)
-        time.sleep(0.2)
+        time.sleep(0.1)
         keyboard.release(key)
         print(f"dodged to {key} direction")
 

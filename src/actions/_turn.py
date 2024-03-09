@@ -26,9 +26,9 @@ class Turn:
         shoulder_pixel_diff = abs(left_shoulder[0] - right_shoulder[0])
 
         if shoulder_pixel_diff < self._turn_threshold and nose[0] < left_shoulder[0] and nose[0] < right_shoulder[0]:
-            turn_state = CommandStringsConfig.turn_left
-        elif shoulder_pixel_diff < self._turn_threshold and nose[0] > left_shoulder[0] and nose[0] > right_shoulder[0]:
             turn_state = CommandStringsConfig.turn_right
+        elif shoulder_pixel_diff < self._turn_threshold and nose[0] > left_shoulder[0] and nose[0] > right_shoulder[0]:
+            turn_state = CommandStringsConfig.turn_left
 
 
         return turn_state
