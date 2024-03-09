@@ -20,7 +20,8 @@ jump_tracker = Jump()
 dodge_tracker = Dodge(left_pixel_thresh=0.8, right_pixel_thresh=0.4)  # these are defaults in the file 
 nAttack_tracker = Attack(attack_threshold=160) # angle which when greater counts as attack
 move_tracker = Move(walk_threshold=165, run_threshold=145)
-turn_tracker = Turn(left_turn_threshold=133, right_turn_threshold=107)
+# turn_tracker = Turn(left_turn_threshold=133, right_turn_threshold=107)
+turn_tracker = Turn(turn_shoulder_pixel_diff_threshold=0.05)
 
 
 cap = cv2.VideoCapture(0)
@@ -89,8 +90,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             nose = [landmarks[mp_pose.PoseLandmark.NOSE.value].x, landmarks[mp_pose.PoseLandmark.NOSE.value].y]
             left_mouth = [landmarks[mp_pose.PoseLandmark.MOUTH_LEFT.value].x, landmarks[mp_pose.PoseLandmark.MOUTH_LEFT.value].y]
             right_mouth = [landmarks[mp_pose.PoseLandmark.MOUTH_RIGHT.value].x, landmarks[mp_pose.PoseLandmark.MOUTH_RIGHT.value].y]
-
-
+            nose = [landmarks[mp_pose.PoseLandmark.NOSE.value].x, landmarks[mp_pose.PoseLandmark.NOSE.value].y]
 
             # Final stages sent to integrator
             actions = []
@@ -100,25 +100,31 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             right_attack_angle = calculate_angle(right_shoulder, right_elbow, right_wrist)
             left_leg_angle = calculate_angle(left_ankle, left_knee, left_hip)
             right_leg_angle = calculate_angle(right_ankle, right_knee, right_hip)
-            turn_angle = calculate_angle(right_ear, nose, left_shoulder)
+            # turn_angle = calculate_angle(right_ear, nose, left_shoulder)
             # right_turn_angle = calculate_angle(left_ear, nose, right_shoulder)
 
             # Visualize angle if needed
-            cv2.putText(image, str(turn_angle), 
-                            # replace 1280, 720 with camera feed resolution, finds location of elbow in actual feed
-                           (100,500), 
-                           # fonts
-                           cv2.FONT_HERSHEY_SIMPLEX, 5, (255, 255, 255), 2, cv2.LINE_AA
-                                )
+            # cv2.putText(image, str(turn_angle), 
+            #                 # replace 1280, 720 with camera feed resolution, finds location of elbow in actual feed
+            #                (100,500), 
+            #                # fonts
+            #                cv2.FONT_HERSHEY_SIMPLEX, 5, (255, 255, 255), 2, cv2.LINE_AA
+            #                     )
                                 
             # identify and add to actions
             move_state = debug_move_state = move_tracker.update(left_leg_angle, right_leg_angle)
             left_attack_state = debug_attack_state = nAttack_tracker.update_left(left_attack_angle)
             right_attack_state = nAttack_tracker.update_right(right_attack_angle)
-            turn_state = debug_turn_state = turn_tracker.update(turn_angle)
-            actions.append(turn_state)
+            # turn_state = debug_turn_state = turn_tracker.update(turn_angle)
             actions.append(left_attack_state)
             actions.append(right_attack_state)
+
+            # turn logic
+            debug_turn_state = ""
+            if turn_state := turn_tracker.update(left_shoulder, right_shoulder, nose):
+                debug_turn_state = turn_state
+
+                actions.append(turn_state)
 
             # dodge logic
             if l_r_dodge := dodge_tracker.update(new_left_shoulder_x_val=left_shoulder[0], new_timestamp=time.time()):
@@ -157,9 +163,9 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
             cv2.putText(image, 'dodge counter: ' + str(debug_dodge_counter), (5, 150), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-
                                 
             write_action_to_file(actions)
+            print(actions)
                 
         except:
             pass

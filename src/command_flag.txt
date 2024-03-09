@@ -1,51 +1,514 @@
-2024-03-09 08:23:56.123 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:56.181 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:56.245 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:56.318 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:56.387 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:56.447 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:56.507 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:56.569 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:56.635 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:56.696 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:56.763 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:56.823 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:56.883 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:56.943 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:57.006 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:57.066 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:57.134 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:57.189 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:57.254 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:57.317 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:57.383 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:57.458 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:57.529 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:57.602 || turn_left - left_attack_norm - prepare - idle
-2024-03-09 08:23:57.668 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:57.739 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:57.810 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:57.891 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:57.964 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.034 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.096 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.161 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.234 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.294 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.362 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.441 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.508 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.573 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.635 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.696 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.755 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.828 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.895 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:58.959 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:59.087 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:59.212 || turn_no - prepare - prepare - idle
-2024-03-09 08:23:59.351 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:59.471 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:59.581 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:59.676 || turn_left - prepare - prepare - idle
-2024-03-09 08:23:59.797 || turn_left - prepare - prepare - idle
+2024-03-08 16:33:49.881 || left_attack_norm - prepare - idle
+2024-03-08 16:33:49.950 || left_attack_norm - prepare - idle
+2024-03-08 16:33:50.018 || prepare - prepare - idle
+2024-03-08 16:33:50.082 || prepare - prepare - idle
+2024-03-08 16:33:50.150 || left_attack_norm - prepare - idle
+2024-03-08 16:33:50.215 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:50.285 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:50.353 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:50.417 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:50.483 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:50.549 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:50.616 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:50.683 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:50.748 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:50.816 || left_attack_norm - prepare - idle
+2024-03-08 16:33:50.882 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:50.948 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.016 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.083 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.148 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.214 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.282 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.349 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.425 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.481 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.548 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.614 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.680 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.749 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.815 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.881 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:51.948 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.014 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.083 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.149 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.217 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.281 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.349 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.416 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.482 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.548 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.614 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.683 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.748 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.815 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.882 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:52.947 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.013 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.081 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.147 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.213 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.281 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.355 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.423 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.486 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.552 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.617 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.680 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.749 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.814 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.880 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:53.947 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.015 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.080 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.146 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.214 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.280 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.347 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.413 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.481 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.545 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.613 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.681 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.748 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.814 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.881 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:54.946 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.013 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.081 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.148 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.214 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.280 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.346 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.421 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.479 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.546 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.615 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.679 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.747 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.813 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.881 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:55.948 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:56.014 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:56.080 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:56.146 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:56.212 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:56.280 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:56.347 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:56.415 || prepare - right_attack_norm - idle
+2024-03-08 16:33:56.480 || prepare - right_attack_norm - idle
+2024-03-08 16:33:56.546 || prepare - right_attack_norm - idle
+2024-03-08 16:33:56.612 || prepare - right_attack_norm - idle
+2024-03-08 16:33:56.679 || prepare - right_attack_norm - idle
+2024-03-08 16:33:56.747 || prepare - right_attack_norm - idle
+2024-03-08 16:33:56.813 || prepare - right_attack_norm - idle
+2024-03-08 16:33:56.879 || prepare - right_attack_norm - idle
+2024-03-08 16:33:56.945 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.013 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.080 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.145 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.212 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.279 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.347 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.419 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.479 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.546 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.612 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.679 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.747 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.812 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.880 || prepare - right_attack_norm - idle
+2024-03-08 16:33:57.945 || prepare - right_attack_norm - idle
+2024-03-08 16:33:58.013 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.080 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.144 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.212 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.278 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.348 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.414 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.478 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.546 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.612 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.679 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.744 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.812 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.880 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:58.944 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:59.012 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:59.079 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:59.145 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:59.211 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:59.279 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:33:59.346 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:33:59.438 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:33:59.544 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:33:59.614 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:33:59.679 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:33:59.745 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:33:59.811 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:33:59.879 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:33:59.945 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:00.011 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:00.085 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:00.145 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:00.212 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:00.278 || prepare - right_attack_norm - walk
+2024-03-08 16:34:00.343 || prepare - right_attack_norm - walk
+2024-03-08 16:34:00.411 || prepare - right_attack_norm - idle
+2024-03-08 16:34:00.478 || prepare - right_attack_norm - idle
+2024-03-08 16:34:00.545 || prepare - right_attack_norm - idle
+2024-03-08 16:34:00.610 || prepare - right_attack_norm - idle
+2024-03-08 16:34:00.678 || prepare - right_attack_norm - idle
+2024-03-08 16:34:00.744 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:00.811 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:00.882 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:00.944 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.012 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.076 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.145 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.211 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.277 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.344 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.425 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.477 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.544 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.610 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:01.677 || left_attack_norm - prepare - idle
+2024-03-08 16:34:01.743 || left_attack_norm - prepare - idle
+2024-03-08 16:34:01.811 || left_attack_norm - prepare - idle
+2024-03-08 16:34:01.877 || left_attack_norm - prepare - idle
+2024-03-08 16:34:01.943 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.010 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.076 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.143 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.209 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.276 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.343 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.410 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.477 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.544 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.612 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.676 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.743 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.810 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.875 || left_attack_norm - prepare - idle
+2024-03-08 16:34:02.942 || left_attack_norm - prepare - idle
+2024-03-08 16:34:03.010 || left_attack_norm - prepare - idle
+2024-03-08 16:34:03.078 || left_attack_norm - prepare - idle
+2024-03-08 16:34:03.143 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:03.209 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:03.276 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:03.344 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:03.426 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:03.476 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:03.544 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:03.609 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:03.676 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:03.743 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:03.809 || prepare - right_attack_norm - idle
+2024-03-08 16:34:03.875 || prepare - right_attack_norm - idle
+2024-03-08 16:34:03.943 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.009 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.077 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.141 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.208 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.275 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.342 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.409 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.476 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.542 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.609 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.675 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.743 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.809 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.876 || prepare - right_attack_norm - idle
+2024-03-08 16:34:04.942 || prepare - right_attack_norm - idle
+2024-03-08 16:34:05.008 || prepare - right_attack_norm - idle
+2024-03-08 16:34:05.076 || prepare - right_attack_norm - idle
+2024-03-08 16:34:05.142 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:05.209 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:05.275 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:05.342 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:05.429 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:05.478 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:05.545 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:05.613 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:05.676 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:05.741 || prepare - right_attack_norm - idle
+2024-03-08 16:34:05.808 || prepare - right_attack_norm - idle
+2024-03-08 16:34:05.875 || prepare - right_attack_norm - idle
+2024-03-08 16:34:05.941 || prepare - right_attack_norm - idle
+2024-03-08 16:34:06.008 || prepare - right_attack_norm - idle
+2024-03-08 16:34:06.075 || prepare - right_attack_norm - idle
+2024-03-08 16:34:06.141 || prepare - right_attack_norm - idle
+2024-03-08 16:34:06.208 || prepare - right_attack_norm - idle
+2024-03-08 16:34:06.276 || prepare - right_attack_norm - idle
+2024-03-08 16:34:06.342 || prepare - right_attack_norm - idle
+2024-03-08 16:34:06.407 || prepare - right_attack_norm - idle
+2024-03-08 16:34:06.475 || prepare - right_attack_norm - idle
+2024-03-08 16:34:06.540 || prepare - right_attack_norm - idle
+2024-03-08 16:34:06.608 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:06.675 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:06.742 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:06.813 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:06.874 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:06.941 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:07.007 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:07.074 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:07.142 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.207 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.276 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.341 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.418 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.474 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.540 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.608 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.674 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.743 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.808 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.874 || prepare - right_attack_norm - idle
+2024-03-08 16:34:07.940 || prepare - right_attack_norm - idle
+2024-03-08 16:34:08.006 || prepare - right_attack_norm - idle
+2024-03-08 16:34:08.075 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.140 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.208 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.273 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.340 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.408 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.475 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.540 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.608 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.673 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.742 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:08.807 || prepare - right_attack_norm - idle
+2024-03-08 16:34:08.875 || prepare - right_attack_norm - idle
+2024-03-08 16:34:08.940 || prepare - right_attack_norm - idle
+2024-03-08 16:34:09.007 || prepare - right_attack_norm - idle
+2024-03-08 16:34:09.073 || prepare - right_attack_norm - idle
+2024-03-08 16:34:09.141 || prepare - right_attack_norm - idle
+2024-03-08 16:34:09.207 || prepare - right_attack_norm - idle
+2024-03-08 16:34:09.274 || prepare - right_attack_norm - idle
+2024-03-08 16:34:09.340 || prepare - right_attack_norm - idle
+2024-03-08 16:34:09.417 || prepare - right_attack_norm - idle
+2024-03-08 16:34:09.475 || prepare - right_attack_norm - idle
+2024-03-08 16:34:09.540 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:09.607 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:09.674 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:09.740 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:09.806 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:09.873 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:09.941 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:10.007 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:10.074 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:10.139 || left_attack_norm - prepare - idle
+2024-03-08 16:34:10.207 || left_attack_norm - prepare - idle
+2024-03-08 16:34:10.273 || left_attack_norm - prepare - idle
+2024-03-08 16:34:10.340 || left_attack_norm - prepare - idle
+2024-03-08 16:34:10.415 || left_attack_norm - prepare - idle
+2024-03-08 16:34:10.474 || left_attack_norm - prepare - idle
+2024-03-08 16:34:10.541 || left_attack_norm - prepare - idle
+2024-03-08 16:34:10.606 || left_attack_norm - prepare - idle
+2024-03-08 16:34:10.674 || left_attack_norm - prepare - idle
+2024-03-08 16:34:10.739 || left_attack_norm - prepare - walk
+2024-03-08 16:34:10.807 || left_attack_norm - prepare - walk
+2024-03-08 16:34:10.873 || left_attack_norm - prepare - walk
+2024-03-08 16:34:10.940 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.008 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.072 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.140 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.207 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.274 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.339 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.416 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.473 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.540 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.606 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.673 || left_attack_norm - prepare - walk
+2024-03-08 16:34:11.739 || left_attack_norm - prepare - run
+2024-03-08 16:34:11.807 || left_attack_norm - prepare - run
+2024-03-08 16:34:11.873 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:11.940 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.007 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.097 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.173 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.238 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.306 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.373 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.439 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.505 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.573 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.639 || left_attack_norm - right_attack_norm - turn_left - run
+2024-03-08 16:34:12.706 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:12.773 || left_attack_norm - right_attack_norm - turn_left - run
+2024-03-08 16:34:12.840 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:12.907 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:12.971 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:13.038 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:13.107 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.172 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.238 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.307 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.378 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.450 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.506 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.572 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.638 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.705 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.772 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.839 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:13.906 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:13.972 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:14.039 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.106 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.171 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.239 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.306 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.372 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.439 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.506 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.571 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.638 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.705 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.773 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.838 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.905 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:14.972 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.038 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.104 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.172 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.239 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.304 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.371 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.444 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.509 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.575 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.642 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.704 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.770 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.839 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.905 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:15.971 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:16.039 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:16.106 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:16.172 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:16.238 || left_attack_norm - right_attack_norm - turn_right - idle
+2024-03-08 16:34:16.305 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:16.374 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:16.436 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:16.504 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:16.571 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:16.638 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:16.704 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:16.770 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:16.838 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:16.906 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:16.971 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:17.037 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:17.105 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:17.171 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:17.238 || left_attack_norm - right_attack_norm - walk
+2024-03-08 16:34:17.304 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:17.370 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:17.442 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:17.504 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:17.570 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:17.638 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:17.705 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:17.770 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:17.836 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:17.903 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:17.973 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:18.037 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:18.104 || left_attack_norm - right_attack_norm - turn_left - walk
+2024-03-08 16:34:18.169 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.239 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.303 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.370 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.438 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.504 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.571 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.637 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.704 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.771 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.836 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.903 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:18.970 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.037 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.104 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.171 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.237 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.302 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.371 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.442 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.502 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.569 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.637 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.704 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.769 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.839 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.903 || left_attack_norm - right_attack_norm - turn_left - idle
+2024-03-08 16:34:19.970 || left_attack_norm - prepare - turn_left - idle
+2024-03-08 16:34:20.037 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.104 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.169 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.237 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.303 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.370 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.557 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.626 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.728 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.819 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.898 || left_attack_norm - prepare - idle
+2024-03-08 16:34:20.996 || left_attack_norm - prepare - idle
+2024-03-08 16:34:21.152 || left_attack_norm - prepare - idle
+2024-03-08 16:34:21.282 || left_attack_norm - prepare - idle
+2024-03-08 16:34:21.417 || left_attack_norm - prepare - idle
+2024-03-08 16:34:21.562 || left_attack_norm - prepare - idle
+2024-03-08 16:34:21.699 || left_attack_norm - prepare - idle
+2024-03-08 16:34:21.836 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:21.964 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:22.098 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:22.231 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:22.374 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:22.495 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:22.632 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:22.761 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:24.494 || left_attack_norm - right_attack_norm - idle
+2024-03-08 16:34:24.619 || prepare - prepare - run
+2024-03-08 16:34:24.752 || prepare - prepare - run
+2024-03-08 16:34:25.381 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:25.483 || left_attack_norm - right_attack_norm - run
+2024-03-08 16:34:25.622 || prepare - prepare - idle
+2024-03-08 16:34:25.807 || prepare - right_attack_norm - idle
+2024-03-08 16:34:25.974 || prepare - right_attack_norm - jump
+2024-03-08 16:34:26.140 || prepare - right_attack_norm - jump
+2024-03-08 16:34:26.298 || prepare - right_attack_norm - jump
+2024-03-08 16:34:26.538 || prepare - right_attack_norm - jump
+2024-03-08 16:34:26.710 || prepare - prepare - jump
+2024-03-08 16:34:26.844 || prepare - prepare - jump
+2024-03-08 16:34:26.967 || prepare - prepare - jump
+2024-03-08 16:34:27.114 || prepare - right_attack_norm - jump
+2024-03-08 16:34:27.266 || prepare - right_attack_norm - jump
+2024-03-08 16:34:28.128 || prepare - right_attack_norm - jump
+2024-03-08 16:34:28.703 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:28.917 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:29.279 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:29.406 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:29.695 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:29.979 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:30.105 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:30.243 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:30.392 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:30.544 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:30.669 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:30.800 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:30.909 || left_attack_norm - right_attack_norm - jump
+2024-03-08 16:34:31.011 || prepare - right_attack_norm - jump
+2024-03-08 16:34:31.164 || prepare - right_attack_norm - jump
+2024-03-08 16:34:31.254 || prepare - right_attack_norm - idle
+2024-03-08 16:34:31.333 || prepare - right_attack_norm - idle
+2024-03-08 16:34:31.523 || prepare - right_attack_norm - idle
+2024-03-08 16:34:31.662 || prepare - right_attack_norm - idle
+2024-03-08 16:34:31.745 || prepare - right_attack_norm - idle
+2024-03-08 16:34:31.804 || prepare - right_attack_norm - idle
