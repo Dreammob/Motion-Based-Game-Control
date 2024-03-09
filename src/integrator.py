@@ -1,5 +1,4 @@
 from pynput.keyboard import Key, Controller as KeyboardController
-from pynput.mouse import Button, Controller as MouseController
 import time
 import threading
 import datetime
@@ -11,18 +10,22 @@ line_index = 0  # Define line_index globally outside any function
 attack_prep = False
 keypressed = set()
 
-def read_flags_from_file(file_path):
-    global line_index  # Declare 'line_index' as global to modify it
-    current_flags_set = set()  # Initialize the current flags string
-    last_flags_set = set()  # Initialize the last flags string
 
-   
+def read_flags_from_file(file_path):
+    global line_index 
+    current_flags_set = set()
+    last_flags_set = set()
+
     with open(file_path, 'r') as file:
-        lines = file.readlines()  # Read all lines
+
+        lines = file.readlines()
+
+        # If excess the end of file, wait 0.05 for write into file.
         if len(lines) < 2 or line_index >= len(lines)-1:
             time.sleep(0.05)
             pass
-
+        
+        # Else read this line and move to next line.
         else:
             last_line = lines[line_index - 1].strip().split(' || ')[1] 
             
@@ -41,20 +44,25 @@ def read_flags_from_file(file_path):
                 for flag in current_flags:
                     current_flags_set.add(flag)
 
+            line_index += 1
             # current_time = lines[line_index].strip().split(' || ')[0]
             # next_time_str = lines[line_index + 1].strip().split(' || ')[0]
             # next_time = datetime.datetime.strptime(next_time_str, '%Y-%m-%d %H:%M:%S.%f')
 
             # time_difference = next_time - curr_time
             # print(time_difference.total_seconds())
-
-            line_index += 1  # Move to the next line for the next call
+           
 
         # print(f"reading index {line_index}") # For debugging
         # print(f"last line index {len((lines))}")
 
     return last_flags_set, current_flags_set
 
+'''
+Handle what action need to be done with flags of last frame and current frame as input
+compare two lines flags, if one action was in last frame but not this, release the 
+corresponding key, then if one action is in current frame but not this, press the key.
+'''
 def handling_action_to_keyboard(last_flags_set, current_flags_set):
 
     global keypressed
@@ -66,6 +74,9 @@ def handling_action_to_keyboard(last_flags_set, current_flags_set):
         if flag not in current_flags_set and line_index != 0:
             release_key(flag)
 
+''' 
+press the key for input flag, if flag is dodge, call the function to handle it.
+'''
 def press_key(action_flag):
     global attack_prep
     
@@ -111,88 +122,14 @@ def press_key(action_flag):
     if action_flag == 'dodge_left':
         dodge_to_direction('a')
 
-    if action_flag == 'run':
-        keyboard.press(Key.shift)
-        keypressed.add(Key.shift)
-        print("press shift")
+    # if action_flag == 'run':
+    #     keyboard.press(Key.shift)
+    #     keypressed.add(Key.shift)
+    #     print("press shift")
 
-# def press_key(action_flag):
-#     """
-#     Simulates pressing and releasing keyboard keys based on the input flags
-#     using the pynput library.
-    
-#     Parameters:
-#     flags (list): A list of flags to be processed.
-#     """
-#     global attack_prep
-
-#     match action_flag:
-#         # Now change to left and right move since we are using locked viewpoint
-#         case 'left turn':
-#             keyboard.press('a')
-#             keypressed.add('a')
-#             print("press a")
-#             # game_controller.right_joystick_float(x_value_float=-0.5, y_value_float=0.0)
-#             # game_controller.update()
-
-#         # Now change to left and right move since we are using locked viewpoint
-#         case 'right turn':
-#             keyboard.press('d')
-#             keypressed.add('d')
-#             print("press d")
-#             # game_controller.right_joystick_float(x_value_float=0.5, y_value_float=0.0)
-#             # game_controller.update()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-
-#         case 'left_attack_norm':
-#             # keyboard.press('w')
-#             # keypressed.add('w')
-#             # print("press w")
-#             # mouse.click(Button.left, 1)
-#             # print("clicked")
-#             if attack_prep:
-#                 keyboard.press('1')
-#                 keypressed.add('1')
-#                 print("press 1")
-#                 # game_controller.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_RIGHT_SHOULDER)
-#                 # game_controller.update()
-
-#         case 'right_attack_norm':
-#             # keyboard.press('w')
-#             # keypressed.add('w')
-#             # print("press w")
-#             # mouse.click(Button.left, 1)
-#             # print("clicked")
-#             if attack_prep:
-#                 keyboard.press('2')
-#                 keypressed.add('2')
-#                 print("press 2")
-#                 # game_controller.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_RIGHT_SHOULDER)
-#                 # game_controller.update()
-#         case 'prepare':
-#             attack_prep = True
-#             # keyboard.press('s')
-#             # keypressed.add('s')
-#             # print("press s")
-
-#         case 'jump':
-#             keyboard.press(Key.space)
-#             keypressed.add(Key.space)
-#             print("press space")
-#             # game_controller.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
-#             # game_controller.update()
-
-#         case 'dodge':
-#             # game_controller.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_B)
-#             # game_controller.update()
-#             press_key_with_delay(Key.shift, 0.3)     
-         
-#         case 'run':
-#             # game_controller.left_joystick_float(x_value_float=0.0, y_value_float=1.0)
-#             # game_controller.update()
-#             keyboard.press(Key.shift)
-#             keypressed.add(Key.shift)
-#             print("press shift")
-
+'''
+Release the key for the input flag.
+'''
 def release_key(action_flag):
     if action_flag == 'turn_left':
         keyboard.release('3')
@@ -239,64 +176,9 @@ def release_key(action_flag):
     #         keypressed.remove(Key.shift)
     #     print("release shift")
 
-
-# def release_key(action_flag):
-#     match action_flag:
-
-#         case 'left turn':
-#             keyboard.release('a')
-#             if 'a' in keypressed:
-#                 keypressed.remove('a')
-#             print("release a")
-#             # game_controller.right_joystick_float(x_value_float=0.0, y_value_float=0.0)
-
-#         case 'right turn':
-#             keyboard.release('d')
-#             if 'a' in keypressed:
-#                 keypressed.remove('d')
-#             print("release d")
-
-#         case 'left_attack_norm':
-#             keyboard.release('1')
-#             if 'w' in keypressed:
-#                 keypressed.remove('1')
-#             print("release 1")
-#             # game_controller.release_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_RIGHT_SHOULDER)
-#             # game_controller.update()
-
-#         case 'right_attack_norm':
-#             keyboard.release('2')
-#             if 'w' in keypressed:
-#                 keypressed.remove('2')
-#             print("release 2")
-
-#         case 'prepare':
-#             attack_prep = False
-#         #     keyboard.release('s')
-#         #     if 's' in keypressed:
-#         #         keypressed.remove('s')
-#         #     print("release s")
-
-#         case 'jump':
-#             # game_controller.release_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
-#             # game_controller.update()
-
-#             keyboard.release(Key.space)
-#             if Key.space in keypressed:
-#                 keypressed.remove(Key.space)
-#             print("release space")
-
-#         # case 'dodge':
-#         #     game_controller.release_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_B)
-#         #     game_controller.update()
-            
-#         case 'run':
-#             # game_controller.left_joystick_float(x_value_float=0.0, y_value_float=0.0)
-#             keyboard.release(Key.shift)
-#             if Key.shift in keypressed:
-#                 keypressed.remove(Key.shift)
-#             print("release shift")
-
+'''
+Helper function for handling dodge to certain input direction.
+'''
 def dodge_to_direction(key):
     """Presses a key for a given duration then releases it."""
     def press_and_release():
@@ -314,22 +196,28 @@ def dodge_to_direction(key):
     thread = threading.Thread(target=press_and_release)
     thread.start()
 
-
+'''
+Helper function for cleaning up written flag file for sync with camera input
+'''
 def clear_file_contents(filename):
     with open(filename, 'w') as file:
         pass  # Opening in 'w' mode and closing it clears the file
 
-# Main loop
+
+'''
+Integrator start, wait 3 secs for switch screen focus to Elden Ring.
+'''
 time.sleep(3)
 
-with open(file_path, 'w') as file:
-    pass  # No need to write anything, opening in 'w' mode truncates the file
+clear_file_contents(file_path)
 
+'''
+Main loop
+'''
 while line_index >= 0:
     last_flags_set, current_flags_set = read_flags_from_file(file_path)
     handling_action_to_keyboard(last_flags_set, current_flags_set)
     # print(line_index)
-
     # print(last_flags_set)
     # print("\n")
     # print(current_flags_set)
