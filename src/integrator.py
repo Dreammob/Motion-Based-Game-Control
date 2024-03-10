@@ -90,7 +90,7 @@ def press_key(action_flag):
         keypressed.add('4')
         print("press 4")
 
-    if action_flag == 'left_attack_norm':
+    if action_flag == 'attack_norm_left':
         if attack_prep:
             keyboard.press('1')
             keypressed.add('1')
@@ -102,7 +102,7 @@ def press_key(action_flag):
             keypressed.add('w')
             print("press w")
 
-    if action_flag == 'right_attack_norm':
+    if action_flag == 'attack_norm_right':
         if attack_prep:
             keyboard.press('2')
             keypressed.add('2')
@@ -149,13 +149,13 @@ def release_key(action_flag):
             keypressed.remove('w')
         print("release w")
 
-    if action_flag == 'left_attack_norm':
+    if action_flag == 'attack_norm_left':
         keyboard.release('1')
         if '1' in keypressed:
             keypressed.remove('1')
         print("release 1")
 
-    if action_flag == 'right_attack_norm':
+    if action_flag == 'attack_norm_right':
         keyboard.release('2')
         if '2' in keypressed:
             keypressed.remove('2')

@@ -1,4 +1,4 @@
-"""Keeps track of when a user has performed a dodge maneuver."""
+"""Keeps track of when a user has performed a dodge maneuver: moving to the left or right of the screen quickly."""
 import collections
 import numpy as np
 from typing import Optional

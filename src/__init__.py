@@ -18,7 +18,7 @@ mp_pose = mp.solutions.pose
 # Initialize action state objects
 jump_tracker = Jump()
 dodge_tracker = Dodge(left_pixel_thresh=0.7, right_pixel_thresh=0.5)  # these are defaults in the file 
-nAttack_tracker = Attack(attack_threshold=90) # angle which when greater counts as attack
+attack_tracker = Attack(attack_threshold=90) # angle which when greater counts as attack
 move_tracker = Move(walk_threshold=165, run_threshold=145)
 # turn_tracker = Turn(left_turn_threshold=133, right_turn_threshold=107)
 turn_tracker = Turn(turn_shoulder_pixel_diff_threshold=0.15)
@@ -34,7 +34,7 @@ debug_attack_counter = 0
 debug_dodge_counter = 0
 debug_jump_counter = 0
 
-debug_attack_state = ""
+debug_attack_states = ""
 debug_move_state = ""
 debug_turn_state = ""
 
@@ -113,11 +113,8 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                                 
             # identify and add to actions
             move_state = debug_move_state = move_tracker.update(left_leg_angle, right_leg_angle)
-            left_attack_state = debug_attack_state = nAttack_tracker.update_left(left_attack_angle)
-            right_attack_state = nAttack_tracker.update_right(right_attack_angle)
-            # turn_state = debug_turn_state = turn_tracker.update(turn_angle)
-            actions.append(left_attack_state)
-            actions.append(right_attack_state)
+            attack_states = debug_attack_states = attack_tracker.update(left_attack_angle, right_attack_angle, left_wrist, right_wrist, left_elbow, right_elbow)
+            actions += attack_states
 
             # turn logic
             debug_turn_state = ""
@@ -128,7 +125,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
 
             # dodge logic
             if l_r_dodge := dodge_tracker.update(new_left_shoulder_x_val=left_shoulder[0], new_timestamp=time.time()):
-                debug_attack_state = l_r_dodge
+                debug_attack_states = l_r_dodge
                 debug_dodge_counter += 1
 
                 actions.append(l_r_dodge)
@@ -144,7 +141,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
 
                                 
             # Setup status box
-            cv2.rectangle(image, (0,0), (400,200), (245,117,16), -1)
+            cv2.rectangle(image, (0,0), (450,180), (245,117,16), -1)
             
             # data
             """ cv2.putText(image, 'Count', (15,12), 
@@ -155,8 +152,16 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             """
             cv2.putText(image, 'movement status: ' + debug_move_state, (5,30), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-            cv2.putText(image, 'attack status: ' + debug_attack_state, (5,60), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+            if len(debug_attack_states) == 1:
+                cv2.putText(image, 'attack status: '+ debug_attack_states[0], (5,60), 
+                            cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+            else:
+                cv2.putText(image, 'attack status: ', (5,60), 
+                            cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+                cv2.putText(image, debug_attack_states[0], (250,50), 
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 1, cv2.LINE_AA)
+                cv2.putText(image, debug_attack_states[1], (250,70), 
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 1, cv2.LINE_AA)
             cv2.putText(image, 'turn status: ' + debug_turn_state, (5,90), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
             cv2.putText(image, 'jump counter: ' + str(debug_jump_counter), (5,120), 

@@ -3,8 +3,8 @@ from dataclasses import dataclass
 @dataclass
 class CommandStringsConfig:
     # attacks
-    left_attack_norm = "left_attack_norm"
-    right_attack_norm = "right_attack_norm"
+    attack_norm_left = "attack_norm_left"
+    attack_norm_right = "attack_norm_right"
     attack_skill = "attack_skill"
     prepare = "prepare"
 
