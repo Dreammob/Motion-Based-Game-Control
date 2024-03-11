@@ -19,9 +19,9 @@ mp_pose = mp.solutions.pose
 jump_tracker = Jump()
 dodge_tracker = Dodge(left_pixel_thresh=0.7, right_pixel_thresh=0.5)  # these are defaults in the file 
 attack_tracker = Attack(attack_threshold=90) # angle which when greater counts as attack
-move_tracker = Move(walk_threshold=165, run_threshold=145)
+move_tracker = Move(walk_threshold=170, run_threshold=0)
 # turn_tracker = Turn(left_turn_threshold=133, right_turn_threshold=107)
-turn_tracker = Turn(turn_shoulder_pixel_diff_threshold=0.15)
+turn_tracker = Turn(turn_shoulder_pixel_diff_threshold=0.3)
 
 
 cap = cv2.VideoCapture(0)
@@ -141,7 +141,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
 
                                 
             # Setup status box
-            cv2.rectangle(image, (0,0), (450,180), (245,117,16), -1)
+            # cv2.rectangle(image, (0,0), (450,180), (245,117,16), -1)
             
             # data
             """ cv2.putText(image, 'Count', (15,12), 
@@ -150,27 +150,27 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                         (10,60), 
                         cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255), 2, cv2.LINE_AA)
             """
-            cv2.putText(image, 'movement status: ' + debug_move_state, (5,30), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-            if len(debug_attack_states) == 1:
-                cv2.putText(image, 'attack status: '+ debug_attack_states[0], (5,60), 
-                            cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-            else:
-                cv2.putText(image, 'attack status: ', (5,60), 
-                            cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-                cv2.putText(image, debug_attack_states[0], (250,50), 
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 1, cv2.LINE_AA)
-                cv2.putText(image, debug_attack_states[1], (250,70), 
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 1, cv2.LINE_AA)
-            cv2.putText(image, 'turn status: ' + debug_turn_state, (5,90), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-            cv2.putText(image, 'jump counter: ' + str(debug_jump_counter), (5,120), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
-            cv2.putText(image, 'dodge counter: ' + str(debug_dodge_counter), (5, 150), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+            # cv2.putText(image, 'movement status: ' + debug_move_state, (5,30), 
+            #             cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+            # if len(debug_attack_states) == 1:
+            #     cv2.putText(image, 'attack status: '+ debug_attack_states[0], (5,60), 
+            #                 cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+            # else:
+            #     cv2.putText(image, 'attack status: ', (5,60), 
+            #                 cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+            #     cv2.putText(image, debug_attack_states[0], (250,50), 
+            #                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 1, cv2.LINE_AA)
+            #     cv2.putText(image, debug_attack_states[1], (250,70), 
+            #                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 1, cv2.LINE_AA)
+            # cv2.putText(image, 'turn status: ' + debug_turn_state, (5,90), 
+            #             cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+            # cv2.putText(image, 'jump counter: ' + str(debug_jump_counter), (5,120), 
+            #             cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+            # cv2.putText(image, 'dodge counter: ' + str(debug_dodge_counter), (5, 150), 
+            #             cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
                                 
             write_action_to_file(actions)
-            print(actions)
+            # print(actions)
                 
         except:
             pass

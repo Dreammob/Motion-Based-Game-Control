@@ -50,11 +50,11 @@ def read_flags_from_file(file_path):
             # next_time = datetime.datetime.strptime(next_time_str, '%Y-%m-%d %H:%M:%S.%f')
 
             # time_difference = next_time - curr_time
-            # print(time_difference.total_seconds())
+            # # print(time_difference.total_seconds())
            
 
-        # print(f"reading index {line_index}") # For debugging
-        # print(f"last line index {len((lines))}")
+        # # print(f"reading index {line_index}") # For debugging
+        # # print(f"last line index {len((lines))}")
 
     return last_flags_set, current_flags_set
 
@@ -81,32 +81,35 @@ def press_key(action_flag):
     global attack_prep
     
     if action_flag == 'turn_left':
-        keyboard.press('3')
-        keypressed.add('3')
-        print("press 3")
+        keyboard.press('a')
+        keypressed.add('a')
+        # print("press 3")
 
     if action_flag == 'turn_right':
-        keyboard.press('4')
-        keypressed.add('4')
-        print("press 4")
+        keyboard.press('d')
+        keypressed.add('d')
+        # # print("press 4")
 
     if action_flag == 'attack_norm_left':
         if attack_prep:
             keyboard.press('1')
             keypressed.add('1')
-            print("press 1")
+            # print("press 1")
+    
+    if action_flag == 'attack_skill':
+        keyboard.press('5')
 
     if action_flag == 'walk':
         if attack_prep:
             keyboard.press('w')
             keypressed.add('w')
-            print("press w")
+            # print("press w")
 
     if action_flag == 'attack_norm_right':
         if attack_prep:
             keyboard.press('2')
             keypressed.add('2')
-            print("press 2")
+            # print("press 2")
 
     if action_flag == 'prepare':
         attack_prep = True
@@ -114,7 +117,7 @@ def press_key(action_flag):
     if action_flag == 'jump':
         keyboard.press(Key.space)
         keypressed.add(Key.space)
-        print("press space")
+        # print("press space")
 
     if action_flag == 'dodge_right':
         dodge_to_direction('d')
@@ -125,41 +128,44 @@ def press_key(action_flag):
     # if action_flag == 'run':
     #     keyboard.press(Key.shift)
     #     keypressed.add(Key.shift)
-    #     print("press shift")
+    #     # print("press shift")
 
 '''
 Release the key for the input flag.
 '''
 def release_key(action_flag):
     if action_flag == 'turn_left':
-        keyboard.release('3')
+        keyboard.release('a')
         if '3' in keypressed:
-            keypressed.remove('3')
-        print("release 3")
+            keypressed.remove('a')
+        # print("release 3")
 
     if action_flag == 'turn_right':
-        keyboard.release('4')
+        keyboard.release('d')
         if '4' in keypressed:
-            keypressed.remove('4')
-        print("release 4")
+            keypressed.remove('d')
+        # print("release 4")
 
     if action_flag == 'walk':
         keyboard.release('w')
         if 'w' in keypressed:
             keypressed.remove('w')
-        print("release w")
+        # print("release w")
 
     if action_flag == 'attack_norm_left':
         keyboard.release('1')
         if '1' in keypressed:
             keypressed.remove('1')
-        print("release 1")
+        # print("release 1")
 
     if action_flag == 'attack_norm_right':
         keyboard.release('2')
         if '2' in keypressed:
             keypressed.remove('2')
-        print("release 2")
+        # print("release 2")
+
+    if action_flag == 'attack_skill':
+        keyboard.release('5')
 
     if action_flag == 'prepare':
         attack_prep = False
@@ -168,13 +174,13 @@ def release_key(action_flag):
         keyboard.release(Key.space)
         if Key.space in keypressed:
             keypressed.remove(Key.space)
-        print("release space")
+        # print("release space")
 
     # if action_flag == 'run':
     #     keyboard.release(Key.shift)
     #     if Key.shift in keypressed:
     #         keypressed.remove(Key.shift)
-    #     print("release shift")
+    #     # print("release shift")
 
 '''
 Helper function for handling dodge to certain input direction.
@@ -191,7 +197,7 @@ def dodge_to_direction(key):
         keyboard.release(Key.shift)
         time.sleep(0.1)
         keyboard.release(key)
-        print(f"dodged to {key} direction")
+        # print(f"dodged to {key} direction")
 
     thread = threading.Thread(target=press_and_release)
     thread.start()
@@ -217,18 +223,18 @@ Main loop
 while line_index >= 0:
     last_flags_set, current_flags_set = read_flags_from_file(file_path)
     handling_action_to_keyboard(last_flags_set, current_flags_set)
-    # print(line_index)
-    # print(last_flags_set)
-    # print("\n")
-    # print(current_flags_set)
+    # # print(line_index)
+    # # print(last_flags_set)
+    # # print("\n")
+    # # print(current_flags_set)
 
 
 
-print("Sync stop, cleaning up")
+# print("Sync stop, cleaning up")
 
 for key in keypressed:
 
-    print(f"Released {key}")
+    # print(f"Released {key}")
     # press_key(key)
     keyboard.release(key)
     # time.sleep(0.1)  # Wait for 1 second before checking the file again
