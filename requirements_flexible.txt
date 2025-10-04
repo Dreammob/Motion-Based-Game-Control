@@ -1,0 +1,6 @@
+opencv-python
+mediapipe
+pynput
+pygame
+PyQt5
+vgamepad
